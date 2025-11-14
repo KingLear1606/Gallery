@@ -7,7 +7,7 @@ author: Breeze
 footer_logo: 
   use: self
   self:
-    link: 'https://lfkdsk.github.io/'
+    # link: 'https://lfkdsk.github.io/'
     src: 'https://github.com/lfkdsk/picx-images-hosting/raw/master/20230817/tripper2white.2pbuwaqvndu0.webp'
 
 url: https://KingLear1606.github.io/Gallery
@@ -15,7 +15,7 @@ root: /Gallery
 
 photography_page:
   slogan: true
-  slogan_descr: 'The moments when I pressed the shutter, the moments are forever.'
+  slogan_descr: '影像随心'
 
 google_analytics: 
   use: gtag
