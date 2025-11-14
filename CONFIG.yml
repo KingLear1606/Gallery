@@ -7,7 +7,7 @@ author: Breeze
 footer_logo: 
   use: self
   self:
-    link: 'https://lfkdsk.github.io/'
+    link: 'https://github.com/KingLear1606'
     src: 'https://github.com/lfkdsk/picx-images-hosting/raw/master/20230817/tripper2white.2pbuwaqvndu0.webp'
 
 url: https://Breeze.github.io/Gallery
@@ -25,7 +25,7 @@ google_analytics:
 
 nav:
   归档: 
-    link: https://KingLear1606.github.io
+    link: https://github.com/KingLear1606
     icon: inbox
 
 thumbnail_url: https://cdn.jsdelivr.net/gh/KingLear1606/Gallery@thumbnail/
