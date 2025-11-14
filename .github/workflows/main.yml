@@ -4,60 +4,71 @@ on:
   push:
     branches: [master]
   workflow_dispatch:
-  # schedule:
-  #   - cron: '0 12 * * *'
 
 env:
-  GIT_USER: KingLear1606 # change to yourself
-  GIT_EMAIL: 2217047095@qq.com # change to yourself
+  GIT_USER: KingLear1606
+  GIT_EMAIL: 2217047095@qq.com
   THEME_REPO: KingLear1606/hexo-theme-type
   THEME_BRANCH: main
   TEMPLATE_REPO: KingLear1606/album_template
   TEMPLATE_BRANCH: main
-  THUMBNAIL_BRANCH: thumbnail
 
 jobs:
   build:
     runs-on: ubuntu-latest
     environment: secrets
+
     steps:
     - name: Checkout template repo
       uses: actions/checkout@v3
       with:
         repository: ${{ env.TEMPLATE_REPO }}
-        ref: ${{ env.TEMPLATE_BRANCH }}        
+        ref: ${{ env.TEMPLATE_BRANCH }}
+
     - name: Checkout gallery repo
       uses: actions/checkout@v3
       with:
-        path: gallery    
+        path: gallery
+
     - name: Checkout thumbnail repo
       uses: actions/checkout@v3
       continue-on-error: true
       with:
         ref: thumbnail
-        path: thumbnail_public        
+        path: thumbnail_public
+
     - name: Checkout theme repo
       uses: actions/checkout@v3
       with:
         repository: ${{ env.THEME_REPO }}
-        ref: ${{ env.THEME_BRANCH }}        
+        ref: ${{ env.THEME_BRANCH }}
         path: themes/hexo-theme-type
+
+    # 重要：必须设置 Node 版本，否则默认 Node 会导致 Hexo 构建失败
+    - uses: actions/setup-node@v4
+      with:
+        node-version: 20
+        cache: npm
+
     - uses: actions/setup-python@v4
       with:
-        python-version: '3.10' 
+        python-version: '3.10'
+
     - run: pip install -r requirements.txt
+
     - name: Generate Doc
       run: |
-        echo $BASE_URL
+        echo "BASE_URL: $BASE_URL"
         python build.py
         cat new_config.yml
+
     - name: Install Dependencies & Build
       run: |
-        npm install
         npm ci
         npm install hexo-cli -g
         hexo g --config new_config.yml
-        ls ./public        
+        ls ./public
+
     - name: Deploy Thumbnail
       uses: peaceiris/actions-gh-pages@v3
       with:
@@ -66,12 +77,14 @@ jobs:
         github_token: ${{ secrets.GH_PAGES_DEPLOY }}
         user_name: ${{ env.GIT_USER }}
         user_email: ${{ env.GIT_EMAIL }}
-        commit_msg: ${{ github.event.head_commit.message }}          
+        commit_msg: ${{ github.event.head_commit.message }}
+
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
         publish_dir: ./public
+        publish_branch: gh-pages
         github_token: ${{ secrets.GH_PAGES_DEPLOY }}
         user_name: ${{ env.GIT_USER }}
         user_email: ${{ env.GIT_EMAIL }}
-        commit_msg: ${{ github.event.head_commit.message }}  
+        commit_msg: ${{ github.event.head_commit.message }}
