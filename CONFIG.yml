@@ -21,11 +21,35 @@ google_analytics:
   ga_id: 
   ga_api: 
   gtag_id: XXXXX
-
+  
+follow_challenge:
+  feedId: ""
+  userId: ""
+  
 nav:
   归档: 
     link: https://github.com/KingLear1606/Gallery
     icon: inbox
 
+  地图:
+    link: /gallery/location
+    icon: local-two
+
+  随机:
+    link: /gallery/random
+    icon: pic
+  # 查询:
+  #   link: /gallery/query
+  #   icon: history-query
+  状态监控:
+    link: /gallery/status
+    icon: list-view
+  时间线:
+    link: /gallery/grid-all
+    icon: grid-nine
+
 thumbnail_url: https://cdn.jsdelivr.net/gh/KingLear1606/Gallery@thumbnail/
 base_url: https://cdn.jsdelivr.net/gh/KingLear1606/Gallery@master
+
+backup_base_url: https://raw.githubusercontent.com/KingLear1606/Gallery/master
+backup_thumbnail_url: https://raw.githubusercontent.com/KingLear1606/Gallery/thumbnail/
