@@ -722,12 +722,29 @@
   style: default
   cover: QuanZhou_luoyangqiao/DSC_1140.ifnxipidsz4.webp
 
-泉州 · 街道漫步:
+泉州 · 街道:
   url: QuanZhou_jiedao
   date: "2025-09-26"
   style: default
   cover: QuanZhou_jiedao/DSC_9574.13mkarbw9mw0.webp
 
+上海 · 外滩:  
+  url: ShangHai_waitan  
+  date: "2024-08-20"  
+  style: default  
+  cover: ShangHai_waitan/DSC_0140.1idvit46tme8.webp
+
+上海 · 静安寺:  
+  url: ShangHai_jingansi  
+  date: "2024-08-20"  
+  style: default  
+  cover: ShangHai_jingansi/DSC_0187.4rkgtry5vqc0.webp
+
+上海 · 武康路:  
+  url: ShangHai_wukanglu  
+  date: "2024-08-20"  
+  style: default  
+  cover: ShangHai_wukanglu/DSC_0200.2goikfw540ys.webp
 
 
 
