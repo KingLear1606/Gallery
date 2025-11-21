@@ -183,77 +183,117 @@
   date: "2025-07-30"
   style: default
   cover: JingCheng_huangchengxiangfu/DSC_8770.6022zga4sgw0.webp
+  location:
+    - 35.519933
+    - 112.588924
 
 晋城 · 海会寺:
   url: JingCheng_haihuisi
   date: "2025-07-30"
   style: default
   cover: JingCheng_haihuisi/DSC_8941.1sie0m9aioyo.webp
+  location:
+    - 35.506980
+    - 112.573309
 
 晋城 · 铁佛寺:
   url: JingCheng_tiefosi
   date: "2025-07-29"
   style: default
   cover: JingCheng_tiefosi/DSC_8522-已增强-降噪.es47fckbteg.webp
+  location:
+    - 35.771510
+    - 112.981205
 
 晋城 · 定林寺:
   url: JingCheng_dinglinsi
   date: "2025-07-29"
   style: default
   cover: JingCheng_dinglinsi/DSC_8591.64sx1o8w3po0.webp
+  location:
+    - 35.786722
+    - 112.987342
 
 晋城 · 七佛山石窟:
   url: JingCheng_qifoshanshiku
   date: "2025-07-29"
   style: default
   cover: JingCheng_qifoshanshiku/DSC_8599.4uv0nfih1hm0.webp
+  location:
+    - 35.785780
+    - 112.989289
 
 晋城 · 三嵕庙:
   url: JingCheng_sanzongmiao
   date: "2025-07-29"
   style: default
   cover: JingCheng_sanzongmiao/DSC_8634.18gqvp29bb5s.webp
+  location:
+    - 35.747583
+    - 112.992619
 
 晋城 · 崇明寺:
   url: JingCheng_chongmingsi
   date: "2025-07-29"
   style: default
   cover: JingCheng_chongmingsi/DSC_8691-已增强-降噪.6bmomly87ss0.webp
+  location:
+    - 35.720451
+    - 113.021555
 
 晋城 · 西李门二仙庙:
   url: JingCheng_xilimenerxianmiao
   date: "2025-07-29"
   style: default
   cover: JingCheng_xilimenerxianmiao/DSC_8728.5zmmgs8kcbs0.webp
+  location:
+    - 35.708551
+    - 112.990534
 
 晋城 · 开化寺:
   url: JingCheng_kaihuasi
   date: "2025-07-29"
   style: default
   cover: JingCheng_kaihuasi/DSC_8745-已增强-降噪.35uoha5schw0.webp
+  location:
+    - 35.876629
+    - 113.050115
+
 晋城 · 玉皇庙:
   url: JingCheng_yuhuangmiao
   date: "2025-07-28"
   style: default
   cover: JingCheng_yuhuangmiao/DSC_8270-已增强-降噪.78b8aq3qh780.webp
+  location:
+    - 35.552027
+    - 112.949627
 
 晋城 · 关帝庙:
   url: JingCheng_guandimiao
   date: "2025-07-28"
   style: default
   cover: JingCheng_guandimiao/DSC_8407.2ljz8arbxrc0.webp
+  location:
+    - 35.548577
+    - 112.955329
 
 晋城 · 小南村二仙庙:
   url: JingCheng_erxianmiao
   date: "2025-07-28"
   style: default
   cover: JingCheng_erxianmiao/DSC_8432-已增强-降噪.39tne217bo40.webp
+  location:
+    - 35.505480
+    - 112.979241
 
 晋城 · 青莲寺:
   url: JingCheng_qingliansi
   date: "2025-07-28"
   style: default
   cover: JingCheng_qingliansi/DSC_8495.5fr6n908x4k0.webp
+  location:
+    - 35.463458
+    - 113.002395
 
 长治 · 法兴寺:
   url: ChangZhi_faxingsi
