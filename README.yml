@@ -561,186 +561,279 @@
   date: "2024-09-30"
   style: default
   cover: BeiJing_yuanmingyuan/DSC_3347.1816teyxt5z4.webp
+  location:
+    - 40.012509
+    - 116.310059
 
 北京 · 慈寿寺塔:
   url: BeiJing_cishousita
   date: "2024-09-30"
   style: default
   cover: BeiJing_cishousita/DSC_3423.75i7fj3nblk0.webp
+  location:
+    - 39.934301
+    - 116.301724
 
 北京 · 故宫:
   url: BeiJing_gugong
   date: "2024-09-29"
   style: default
   cover: BeiJing_gugong/DSC_2973.1ejtuhu8z868.webp
+  location:
+    - 39.924091
+    - 116.403414
 
 北京 · 景山:
   url: BeiJing_jingshan
   date: "2024-09-29"
   style: default
   cover: BeiJing_jingshan/DSC_3207-已增强-降噪.31gn89u498i0.webp
+  location:
+    - 39.932270
+    - 116.402818
 
 北京 · 北海公园:
   url: BeiJing_beihaigongyuan
   date: "2024-09-29"
   style: default
   cover: BeiJing_beihaigongyuan/DSC_3246-已增强-降噪.1l8h3qub8134.webp
+  location:
+    - 39.934571
+    - 116.395154
 
 北京 · 明十三陵:
   url: BeiJing_mingshisanling
   date: "2024-09-28"
   style: default
   cover: BeiJing_mingshisanling/DSC_2925.2348do791pwg.webp
+  location:
+    - 40.284960
+    - 116.247071
 
 北京 · 法源寺:
   url: BeiJing_fayuansi
   date: "2024-09-26"
   style: default
   cover: BeiJing_fayuansi/DSC_2704.47fkpqnkr8e0.webp
+  location:
+    - 39.891428
+    - 116.376405
 
 北京 · 天坛:
   url: BeiJing_tiantan
   date: "2024-09-26"
   style: default
   cover: BeiJing_tiantan/DSC_2780.6kg17jfmy740.webp
+  location:
+    - 39.888243
+    - 116.417246
 
 北京 · 天安门:
   url: BeiJing_tiananmen
   date: "2024-09-25"
   style: default
   cover: BeiJing_tiananmen/DSC_2555.4rc72l30fkw0.webp
+  location:
+    - 39.915119
+    - 116.403963
 
 北京 · 太庙:
   url: BeiJing_taimiao
   date: "2024-09-25"
   style: default
   cover: BeiJing_taimiao/DSC_2618.3ryuyh8c1p40.webp
+  location:
+    - 39.917784
+    - 116.406236
 
 北京 · 前门大街:
   url: BeiJing_qianmendajie
   date: "2024-09-25"
   style: default
   cover: BeiJing_qianmendajie/DSC_2697-已增强-降噪.36dolvt0dz20.webp
+  location:
+    - 39.901276
+    - 116.406003
 
 北京 · 长城:
   url: BeiJing_Changcheng
   date: "2024-09-24"
   style: default
   cover: BeiJing_Changcheng/DSC_1715-已增强-降噪.6kkk9kikng00.webp
+  location:
+    - 40.362639
+    - 116.024067
 
 北京 · 清华大学:
   url: BeiJing_qinghua
   date: "2024-09-24"
   style: default
   cover: BeiJing_qinghua/DSC_1756.6kqyo6e6bc40.webp
+  location:
+    - 40.008944
+    - 116.333585
 
 大同 · 华严寺:
   url: DaTong_huayansi
   date: "2024-08-23"
   style: default
   cover: DaTong_huayansi/DSC_1223.4yv63im73os0.webp
+  location:
+    - 40.098747
+    - 113.301458
 
 大同 · 关帝庙:
   url: DaTong_guandimiao
   date: "2024-08-23"
   style: default
   cover: DaTong_guandimiao/DSC_1279-已增强-降噪.2qeumi47moo0.webp
+  location:
+    - 40.096012
+    - 113.313100
 
 大同 · 北魏明堂:
   url: DaTong_beiweimingtang
   date: "2024-08-23"
   style: default
   cover: DaTong_beiweimingtang/DSC_1285.um0yc8huyxs.webp
+  location:
+    - 40.071273
+    - 113.317040
 
 大同 · 法华寺:
   url: DaTong_fahuasi
   date: "2024-08-23"
   style: default
   cover: DaTong_fahuasi/DSC_1401.397htyalzoo0.webp
+  location:
+    - 40.100556
+    - 113.316982
 
 大同 · 御河生态园:
   url: DaTong_yuheshengtaiyuan
   date: "2024-08-23"
   style: default
   cover: DaTong_yuheshengtaiyuan/DSC_1427.1n2g20ewvw3k.webp
+  location:
+    - 40.083982
+    - 113.334922
 
 大同 · 悬空寺:
   url: DaTong_xuankongsi
   date: "2024-08-22"
   style: default
   cover: DaTong_xuankongsi/DSC_0798.1choonnpca4g.webp
+  location:
+    - 39.668863
+    - 113.720793
 
 大同 · 永安禅寺:
   url: DaTong_yonganchansi
   date: "2024-08-22"
   style: default
   cover: DaTong_yonganchansi/DSC_0854.5l0tquumig80.webp
+  location:
+    - 39.707901
+    - 113.698918
 
 大同 · 圆觉寺:
   url: DaTong_yuanjuesi
   date: "2024-08-22"
   style: default
   cover: DaTong_yuanjuesi/DSC_0865.3aszxt98kyg0.webp
+  location:
+    - 39.706242
+    - 113.698843
 
 朔州 · 净土寺:
   url: ShuoZhou_jingtusi
   date: "2024-08-22"
   style: default
   cover: ShuoZhou_jingtusi/DSC_0909.3t3fdjaol8a0.webp
+  location:
+    - 39.573370
+    - 113.201200
 
 朔州 · 应县木塔:
   url: ShuoZhou_yingxianmuta
   date: "2024-08-22"
   style: default
   cover: ShuoZhou_yingxianmuta/DSC_0958.1rzz5o735rts.webp
+  location:
+    - 39.575346
+    - 113.196115
 
 大同 · 云冈石窟:
   url: DaTong_yungangshiku
   date: "2024-08-21"
   style: default
   cover: DaTong_yungangshiku/DSC_0306.6x6vj3yixfk0.webp
+  location:
+    - 40.118064
+    - 113.144434
 
 大同 · 万人坑:
   url: DaTong_wanrenkeng
   date: "2024-08-21"
   style: default
   cover: DaTong_wanrenkeng/DSC_0435.15pe9v03525c.webp
+  location:
+    - 40.032288
+    - 113.146992
 
 大同 · 雕塑博物馆:
   url: DaTong_diaosubowuguan
   date: "2024-08-21"
   style: default
   cover: DaTong_diaosubowuguan/DSC_0492.38qk5578iow0.webp
+  location:
+    - 40.108639
+    - 113.308757
 
 大同 · 九龙壁:
   url: DaTong_jiulongbi
   date: "2024-08-21"
   style: default
   cover: DaTong_jiulongbi/DSC_0505.63xiaafdj740.webp
+  location:
+    - 40.099163
+    - 113.310558
 
 大同 · 北魏文化园:
   url: DaTong_beiweiwenhuayuan
   date: "2024-08-21"
   style: default
   cover: DaTong_beiweiwenhuayuan/DSC_0596.6l64k0ov9f40.webp
+  location:
+    - 40.090054
+    - 113.317476
 
 大同 · 文庙:
   url: DaTong_wenmiao
   date: "2024-08-21"
   style: default
   cover: DaTong_wenmiao/DSC_0619.79p5gnxubgk0.webp
+  location:
+    - 40.094642
+    - 113.312864
 
 大同 · 善化寺:
   url: DaTong_shanhuasi
   date: "2024-08-21"
   style: default
   cover: DaTong_shanhuasi/DSC_0670-已增强-降噪.1c3b5ox0ktuo.webp
+  location:
+    - 40.093184
+    - 113.306631
 
 大同 · 城墙:
   url: DaTong_chengqiang
   date: "2024-08-21"
   style: default
   cover: DaTong_chengqiang/DSC_0777.76reg81xvyk0.webp
+  location:
+    - 40.099207
+    - 113.297825
 
 上海 · 外滩:
   url: ShangHai_waitan
