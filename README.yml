@@ -471,60 +471,90 @@
   date: "2025-01-31"
   style: default
   cover: FoShan_qianguqing/DSC_4976.4w8xtdb6cfq0.webp
+  location:
+    - 22.948486
+    - 112.961979
 
 南京 · 南唐二陵:
   url: NanJing_nantangerling
   date: "2024-10-28"
   style: default
   cover: NanJing_nantangerling/DSC_3845.4gxfxen6yfm0.webp
+  location:
+    - 31.893638
+    - 118.745185
 
 南京 · 牛首山:
   url: NanJing_niushoushan
   date: "2024-10-28"
   style: default
   cover: NanJing_niushoushan/DSC_3874.1hdjiyicrruo.webp
+  location:
+    - 31.911181
+    - 118.750261
 
 南京 · 大报恩寺:
   url: NanJing_dabaoensi
   date: "2024-10-28"
   style: default
   cover: NanJing_dabaoensi/DSC_3964.2p1wwnr77xs0.webp
+  location:
+    - 32.015440
+    - 118.789441
 
 南京 · 秦淮河:
   url: NanJing_qinhuaihe
   date: "2024-10-28"
   style: default
   cover: NanJing_qinhuaihe/DSC_4094.6s4ptteoegg0.webp
+  location:
+    - 32.027226
+    - 118.795297
 
 南京 · 老门东:
   url: NanJing_laomendong
   date: "2024-10-28"
   style: default
   cover: NanJing_laomendong/DSC_4129.1aupenrlzaxs.webp
+  location:
+    - 32.017927
+    - 118.794081
 
 南京 · 中山陵:
   url: NanJing_zhongshanling
   date: "2024-10-27"
   style: default
   cover: NanJing_zhongshanling/DSC_3528.4nqip2shple0.webp
+  location:
+    - 32.060731
+    - 118.861646
 
 南京 · 音乐台:
   url: NanJing_yinyuetai
   date: "2024-10-27"
   style: default
   cover: NanJing_yinyuetai/DSC_3565.vwp56ak2k3k.webp
+  location:
+    - 32.060620
+    - 118.861723
 
-南京 · 灵谷寺:
+南京 · 灵谷:
   url: NanJing_linggu
   date: "2024-10-27"
   style: default
   cover: NanJing_linggu/DSC_3595.5cpzkhg6ub40.webp
+  location:
+    - 32.061269
+    - 118.873167
 
 南京 · 玄武湖:
   url: NanJing_xuanwuhu
   date: "2024-10-27"
   style: default
   cover: NanJing_xuanwuhu/DSC_3824.1kgphwwpf63k.webp
+  location:
+    - 32.076613
+    - 118.805436
 
 北京 · 圆明园:
   url: BeiJing_yuanmingyuan
