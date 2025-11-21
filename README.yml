@@ -3,30 +3,45 @@
   date: "2025-09-30"
   style: default
   cover: XiaMen_nanputuo/DSC_2613.3agwjnzb2zc.webp
+  location:
+    - 24.447637
+    - 118.103167
 
 厦门 · 中山路:
   url: XiaMen_zhongshanlu
   date: "2025-09-30"
   style: default
   cover: XiaMen_zhongshanlu/DSC_2540.14nvqp3esxeo.webp
+  location:
+    - 24.462253
+    - 118.091569
 
 厦门 · 山海步道:
   url: XiaMen_shanhaibudao
   date: "2025-09-29"
   style: default
   cover: XiaMen_shanhaibudao/DSC_1648.65511mbni7o0.webp
+  location:
+    - 24.429326
+    - 118.143356
 
 厦门 · 海滩:
   url: XiaMen_haitan
   date: "2025-09-29"
   style: default
   cover: XiaMen_haitan/DSC_1859.itjqfkerwow.webp
+  location:
+    - 24.430625
+    - 118.130479
 
 厦门 · 鼓浪屿:
   url: XiaMen_gulangyu
   date: "2025-09-29"
   style: default
   cover: XiaMen_gulangyu/DSC_2360.1doppxvdt60w.webp
+  location:
+    - 24.450968
+    - 118.073467
 
 厦门 · 朝天宫:
   url: XiaMen_chaotiangong
@@ -34,92 +49,134 @@
   style: default
   cover: XiaMen_chaotiangong/DSC_1332-已增强-降噪.3m41qv06v700.webp
   location:
-    - 24.4929  
-    - 118.0933  
+    - 24.529813
+    - 118.115756
 
 泉州 · 蔡襄祠:
   url: QuanZhou_caixiangci
   date: "2025-09-28"
   style: default
   cover: QuanZhou_caixiangci/DSC_0758.70ib995qw780.webp
+  location:
+    - 24.953015
+    - 118.682760
 
 泉州 · 洛阳桥:
   url: QuanZhou_luoyangqiao
   date: "2025-09-28"
   style: default
   cover: QuanZhou_luoyangqiao/DSC_1140.ifnxipidsz4.webp
+  location:
+    - 24.956630
+    - 118.686069
 
 泉州 · 清源山:
   url: QuanZhou_qingyuanshan
   date: "2025-09-28"
   style: default
   cover: QuanZhou_qingyuanshan/DSC_0694.3l6o3apdl760.webp
+  location:
+    - 24.951322
+    - 118.618299
 
 泉州 · 清净寺:
   url: QuanZhou_qingjingsi
   date: "2025-09-27"
   style: default
   cover: QuanZhou_qingjingsi/DSC_0385-已增强-降噪.5np4gsyaayk0.webp
+  location:
+    - 24.908679
+    - 118.598000
 
 泉州 · 府文庙:
   url: QuanZhou_fuwenmiao
   date: "2025-09-27"
   style: default
   cover: QuanZhou_fuwenmiao/DSC_9890.1hfif58y710g.webp
+  location:
+    - 24.911392
+    - 118.596505
 
 泉州 · 天后宫:
   url: QuanZhou_tianhougong
   date: "2025-09-27"
   style: default
   cover: QuanZhou_tianhougong/DSC_9943.2tdomnfk9w60.webp
+  location:
+    - 24.901257
+    - 118.595259
 
 泉州 · 李贽故居:
   url: QuanZhou_lizhiguju
   date: "2025-09-27"
   style: default
   cover: QuanZhou_lizhiguju/DSC_0041.dskkgbxzes0.webp
+  location:
+    - 24.899798
+    - 118.594682
 
 泉州 · 真武庙:
   url: QuanZhou_zhenwumiao
   date: "2025-09-27"
   style: default
   cover: QuanZhou_zhenwumiao/DSC_0072.3d1fynkhzb00.webp
+  location:
+    - 24.885485
+    - 118.628376
 
 泉州 · 蟳埔村:
   url: QuanZhou_xunpucun
   date: "2025-09-27"
   style: default
   cover: QuanZhou_xunpucun/DSC_0163.4apmtct02zs0.webp
+  location:
+    - 24.862438
+    - 118.660258
 
 泉州 · 灵山圣墓:
   url: QuanZhou_lingshanshengmu
   date: "2025-09-27"
   style: default
   cover: QuanZhou_lingshanshengmu/DSC_0258.3x5jpt6fph40.webp
+  location:
+    - 24.912967
+    - 118.626528
 
 泉州 · 关岳庙:
   url: QuanZhou_guanyuemiao
   date: "2025-09-27"
   style: default
   cover: QuanZhou_guanyuemiao/DSC_0455-已增强-降噪.co3p0ebl1og.webp
+  location:
+    - 24.907733
+    - 118.599330
 
 泉州 · 开元寺:
   url: QuanZhou_kaiyuansi
   date: "2025-09-26"
   style: default
   cover: QuanZhou_kaiyuansi/DSC_9138.11v5ic66c81s.webp
+  location:
+    - 24.920330
+    - 118.592041
 
 泉州 · 承天寺:
   url: QuanZhou_chengtiansi
   date: "2025-09-26"
   style: default
   cover: QuanZhou_chengtiansi/DSC_9476.3tuzw5ja78y0.webp
+  location:
+    - 24.914373
+    - 118.601370
 
 泉州 · 街道:
   url: QuanZhou_jiedao
   date: "2025-09-26"
   style: default
   cover: QuanZhou_jiedao/DSC_9574.13mkarbw9mw0.webp
+  location:
+    - 24.918222
+    - 118.597426
 
 晋城 · 皇城相府:
   url: JingCheng_huangchengxiangfu
