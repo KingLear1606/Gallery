@@ -300,115 +300,171 @@
   date: "2025-07-27"
   style: default
   cover: ChangZhi_faxingsi/DSC_7977-已增强-降噪.5w4vvnb5umo0.webp
+  location:
+    - 35.990824
+    - 112.919274
 
 长治 · 崇庆寺:
   url: ChangZhi_chongqingsi
   date: "2025-07-27"
   style: default
   cover: ChangZhi_chongqingsi/DSC_8124-已增强-降噪.3axbwmln3ji0.webp
+  location:
+    - 35.986096
+    - 112.972493
 
 长治 · 观音堂:
   url: ChangZhi_guanyintang
   date: "2025-07-26"
   style: default
   cover: ChangZhi_guanyintang/DSC_8214-已增强-降噪.6li8jz0xc6k0.webp
+  location:
+    - 36.233698
+    - 113.089976
 
 长治 · 城隍庙:
   url: ChangZhi_chenghuangmiao
   date: "2025-07-26"
   style: default
   cover: ChangZhi_chenghuangmiao/DSC_7874.4ba443me0y60.webp
+  location:
+    - 36.188794
+    - 113.122688
 
 长治 · 上党门:
   url: ChangZhi_shangdangmen
   date: "2025-07-26"
   style: default
   cover: ChangZhi_shangdangmen/DSC_7941.2psp2eiqpag0.webp
+  location:
+    - 36.193066
+    - 113.113488
 
 邯郸 · 丛台公园:
   url: HanDan_congtaigongyuan
   date: "2025-05-04"
   style: default
   cover: HanDan_congtaigongyuan/DSC_7148.78z246r5p3k0.webp
+  location:
+    - 36.622064
+    - 114.497317
 
 邯郸 · 烈士陵园:
   url: HanDan_lieshilingyuan
   date: "2025-05-04"
   style: default
   cover: HanDan_lieshilingyuan/DSC_7257.84nhhjzmz50.webp
+  location:
+    - 36.605473
+    - 114.493187
 
 邯郸 · 南响堂山石窟:
   url: HanDan_nanxiangtangshanshiku
   date: "2025-05-03"
   style: default
   cover: HanDan_nanxiangtangshanshiku/DSC_6842.2zmkqegkbnw0.webp
+  location:
+    - 36.432570
+    - 114.203501
 
 邯郸 · 玉皇阁:
   url: HanDan_yuhuangge
   date: "2025-05-03"
   style: default
   cover: HanDan_yuhuangge/DSC_6903.5zxuk8yqed00.webp
+  location:
+    - 36.431149
+    - 114.207523
 
-邯郸 · 北响堂山石窟:  
-  url: HanDan_beixiangtangshanshiku  
-  date: "2025-05-2"  
-  style: default  
-  cover: HanDan_beixiangtangshanshiku/DSC_6556.d9v2o9dcbhc.webp  
-  
+邯郸 · 北响堂山石窟:
+  url: HanDan_beixiangtangshanshiku
+  date: "2025-05-02"
+  style: default
+  cover: HanDan_beixiangtangshanshiku/DSC_6556.d9v2o9dcbhc.webp
+  location:
+    - 36.538858
+    - 114.166140
+
 安阳 · 灵泉寺石窟:
   url: AnYang_lingquansi
   date: "2025-05-02"
   style: default
   cover: AnYang_lingquansi/DSC_6201.46gmcf5zo2q0.webp
+  location:
+    - 36.049233
+    - 114.089174
 
 安阳 · 修定寺塔:
   url: AnYang_xiudingsi
   date: "2025-05-02"
   style: default
   cover: AnYang_xiudingsi/DSC_6266.1rl0d1n1xns0.webp
+  location:
+    - 36.201366
+    - 114.010697
 
 安阳 · 高陵:
   url: AnYang_gaoling
   date: "2025-05-02"
   style: default
   cover: AnYang_gaoling/DSC_6314.mkn2gk6j7og.webp
+  location:
+    - 36.248404
+    - 114.274360
 
 安阳 · 袁林:
   url: AnYang_yuanlin
   date: "2025-05-01"
   style: default
   cover: AnYang_yuanlin/DSC_6072.2ztv1hozee60.webp
+  location:
+    - 36.130219
+    - 114.361060
 
 安阳 · 羑里城:
   url: AnYang_youlicheng
   date: "2025-05-01"
   style: default
   cover: AnYang_youlicheng/DSC_6118.3xvcfgd9l8k0.webp
+  location:
+    - 35.961266
+    - 114.361767
 
 安阳 · 岳飞庙:
   url: AnYang_yuefeimiao
   date: "2025-05-01"
   style: default
   cover: AnYang_yuefeimiao/DSC_6178.2ykddyzsm5a0.webp
+  location:
+    - 35.926438
+    - 114.361561
 
 安阳 · 文峰塔:
   url: AnYang_wenfengta
   date: "2025-04-30"
   style: default
   cover: AnYang_wenfengta/DSC_5739.5gore1at81s0.webp
+  location:
+    - 36.104471
+    - 114.355889
 
 安阳 · 殷墟:
   url: AnYang_yingxu
   date: "2025-04-30"
   style: default
   cover: AnYang_yingxu/DSC_5857.20cl50dmf0sg.webp
+  location:
+    - 36.127778
+    - 114.331353
 
 安阳 · 北大街:
   url: AnYang_beidajie
   date: "2025-04-30"
   style: default
   cover: AnYang_beidajie/DSC_6011-已增强-降噪.2cx11yyonge8.webp
-
+  location:
+    - 36.109626
+    - 114.360294
 
 佛山 · 千古情:
   url: FoShan_qianguqing
