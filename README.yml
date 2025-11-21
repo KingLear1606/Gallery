@@ -840,381 +840,573 @@
   date: "2024-08-20"
   style: default
   cover: ShangHai_waitan/DSC_0140.1idvit46tme8.webp
+  location:
+    - 31.238549
+    - 121.499318
 
 上海 · 静安寺:
   url: ShangHai_jingansi
   date: "2024-08-20"
   style: default
   cover: ShangHai_jingansi/DSC_0187.4rkgtry5vqc0.webp
+  location:
+    - 31.229850
+    - 121.451754
 
 上海 · 武康路:
   url: ShangHai_wukanglu
   date: "2024-08-20"
   style: default
   cover: ShangHai_wukanglu/DSC_0200.2goikfw540ys.webp
+  location:
+    - 31.218674
+    - 121.446950
 
 江门 · 立园:
   url: JiangMen_liyuan
   date: "2024-08-17"
   style: default
   cover: JiangMen_liyuan/DSC_9940.7ky4tx3p0pc0.webp
+  location:
+    - 22.355959
+    - 112.572345
 
 江门 · 天下粮仓:
   url: JiangMen_tianxialiangcang
   date: "2024-08-17"
   style: default
   cover: JiangMen_tianxialiangcang/DSC_9978.20lxvwfg7bhc.webp
+  location:
+    - 22.365217
+    - 112.592468
 
 江门 · 仓东村:
   url: JiangMen_cangdongcun
   date: "2024-08-17"
   style: default
   cover: JiangMen_cangdongcun/DSC_0011.7401ue1x3fk0.webp
+  location:
+    - 22.358533
+    - 112.574732
 
 江门 · 赤坎:
   url: JiangMen_chikan
   date: "2024-08-17"
   style: default
   cover: JiangMen_chikan/DSC_0102-已增强-降噪.4sn2cmyvkiy0.webp
+  location:
+    - 22.328228
+    - 112.595681
 
 香港 · 街道（2）:
   url: XiangGang_jiedao2
   date: "2024-05-02"
   style: default
   cover: XiangGang_jiedao2/DSC_9592.704izy1is840.webp
+  location:
+    - 22.299445
+    - 114.184295
 
 荆州 · 万寿塔:
   url: JingZhou_wanshouta
   date: "2024-02-13"
   style: default
   cover: JingZhou_wanshouta/DSC_9191-已增强-降噪.7ehns8wmkuo0.webp
+  location:
+    - 30.320831
+    - 112.236779
 
 荆州 · 楚王车马阵:
   url: JingZhou_chuwangchemazhen
   date: "2024-02-12"
   style: default
   cover: JingZhou_chuwangchemazhen/DSC_8815-已增强-降噪.3ff0b6eo3ue0.webp
+  location:
+    - 30.615612
+    - 112.022602
 
 荆州 · 古城:
   url: JingZhou_gucheng
   date: "2024-02-12"
   style: default
   cover: JingZhou_gucheng/DSC_8960.3yqk3meph5c0.webp
+  location:
+    - 30.353110
+    - 112.221829
 
 岳阳 · 白云湖公园:
   url: YueYang_baiyunhugongyuan
   date: "2024-02-06"
   style: default
   cover: YueYang_baiyunhugongyuan/DSC_8717.4j6a4ol8r0c0.webp
+  location:
+    - 29.463774
+    - 113.449824
 
 岳阳 · 临湘一中:
   url: YueYang_linxiangyizhong
   date: "2024-02-04"
   style: default
   cover: YueYang_linxiangyizhong/DSC_8660.g74d2lauj60.webp
+  location:
+    - 29.478160
+    - 113.461867
 
 香港 · 街道（1）:
   url: XiangGang_jiedao1
   date: "2024-01-08"
   style: default
   cover: XiangGang_jiedao1/DSC_8386.72i3cgxhj280.webp
+  location:
+    - 22.299445
+    - 114.184295
 
 郑州 · 郑州记忆:
   url: ZhengZhou_zhengzhoujiyi
   date: "2023-10-08"
   style: default
   cover: ZhengZhou_zhengzhoujiyi/DSC_6834.4bw2kzh9xye0.webp
+  location:
+    - 34.778437
+    - 113.646470
 
 郑州 · 二七广场:
   url: ZhengZhou_erqiguangchang
   date: "2023-10-08"
   style: default
   cover: ZhengZhou_erqiguangchang/DSC_6870.26fh0lljj2f4.webp
+  location:
+    - 34.758667
+    - 113.671546
 
 开封 · 山陕甘会馆:
   url: KaiFeng_shanshanganhuiguan
   date: "2023-10-08"
   style: default
   cover: KaiFeng_shanshanganhuiguan/DSC_6759.2sw24kqh4ys0.webp
+  location:
+    - 34.803726
+    - 114.359759
 
 开封 · 开封府:
   url: KaiFeng_kaifengfu
   date: "2023-10-08"
   style: default
   cover: KaiFeng_kaifengfu/DSC_6816.37f01twtlr60.webp
+  location:
+    - 34.795925
+    - 114.353355
 
 开封 · 大相国寺:
   url: KaiFeng_daxiangguosi
   date: "2023-10-08"
   style: default
   cover: KaiFeng_daxiangguosi/DSC_6821.h0nrvidliu0.webp
+  location:
+    - 34.797827
+    - 114.360976
 
 开封 · 翰园碑林:
   url: KaiFeng_hanyuanbeilin
   date: "2023-10-07"
   style: default
   cover: KaiFeng_hanyuanbeilin/DSC_6671.3cc94lywrc0.webp
+  location:
+    - 34.816369
+    - 114.350918
 
 开封 · 河南大学:
   url: KaiFeng_henandaxue
   date: "2023-10-07"
   style: default
   cover: KaiFeng_henandaxue/DSC_6686-2.4hyrdckdpbs0.webp
+  location:
+    - 34.817787
+    - 114.375852
 
 开封 · 铁塔:
   url: KaiFeng_tieta
   date: "2023-10-07"
   style: default
   cover: KaiFeng_tieta/DSC_6687.3jpzoal1zoa0.webp
+  location:
+    - 34.822449
+    - 114.375920
 
 开封 · 清明上河园:
   url: KaiFeng_qingmingshangheyuan
   date: "2023-10-07"
   style: default
   cover: KaiFeng_qingmingshangheyuan/DSC_6707.39ajpuelfw40.webp
+  location:
+    - 34.814934
+    - 114.346893
 
 开封 · 街道:
   url: KaiFeng_jiedao
   date: "2023-10-07"
   style: default
   cover: KaiFeng_jiedao/DSC_6652.1vk6d1kkzyww.webp
+  location:
+    - 34.800199
+    - 114.362376
 
 洛阳 · 龙门石窟:
   url: LuoYang_longmenshiku
   date: "2023-10-06"
   style: default
   cover: LuoYang_longmenshiku/DSC_6379.4zii6xnwltk0.webp
+  location:
+    - 34.555862
+    - 112.485337
 
 洛阳 · 关林:
   url: LuoYang_guanlin
   date: "2023-10-06"
   style: default
   cover: LuoYang_guanlin/DSC_6460.3dgb7nyfgs60.webp
+  location:
+    - 34.613231
+    - 112.489901
 
 洛阳 · 应天门:
   url: LuoYang_yingtianmen
   date: "2023-10-06"
   style: default
   cover: LuoYang_yingtianmen/DSC_6637.4sbu96a3p2q0.webp
+  location:
+    - 34.683086
+    - 112.467176
 
 洛阳 · 九洲池:
   url: LuoYang_jiuzhouchi
   date: "2023-10-06"
   style: default
   cover: LuoYang_jiuzhouchi/DSC_6630.5d51wppu6mo0.webp
+  location:
+    - 34.687553
+    - 112.459122
 
 洛阳 · 白马寺:
   url: LuoYang_baimasi
   date: "2023-10-05"
   style: default
   cover: LuoYang_baimasi/DSC_6256.79fejcapoj40.webp
+  location:
+    - 34.727580
+    - 112.611939
 
-洛阳 · 天堂明堂:
+洛阳 · 明堂天堂:
   url: LuoYang_tiantangmingtang
   date: "2023-10-05"
   style: default
   cover: LuoYang_tiantangmingtang/DSC_6338.3uar1nc8xr80.webp
-  
+  location:
+    - 34.686830
+    - 112.466253
+
 宜昌 · 三峡大坝:
   url: YiChang_sanxiadaba
   date: "2023-08-07"
   style: default
   cover: YiChang_sanxiadaba/VCG111449189377.507m3bjo90w0.webp
+  location:
+    - 30.830050
+    - 111.039614
 
-三峡:
+宜昌 · 三峡:
   url: SanXia
   date: "2023-08-04"
   style: default
   cover: SanXia/VCG111449189196.125zfd7emsz4.webp
-  
+  location:
+    - 31.045189
+    - 109.587719
+
 重庆 · 山城步道:
   url: ChongQing_shanchengbudao
   date: "2023-08-04"
   style: default
   cover: ChongQing_shanchengbudao/186_DSC_5362_02F7C259.21sdnj81d2ao.webp
+  location:
+    - 29.556854
+    - 106.573022
 
 重庆 · 歌乐山:
   url: ChongQing_geleshan
   date: "2023-08-03"
   style: default
   cover: ChongQing_geleshan/151_DSC_5158_1479294E.6ete7i5hrlo0.webp
+  location:
+    - 29.582446
+    - 106.440938
 
 重庆 · 磁器口:
   url: ChongQing_ciqikou
   date: "2023-08-03"
   style: default
   cover: ChongQing_ciqikou/165_DSC_5197_25087FDE.rnhl0zpv1fk.webp
+  location:
+    - 29.586879
+    - 106.456626
 
 重庆 · 人民大礼堂:
   url: ChongQing_renmingdalitang
   date: "2023-08-02"
   style: default
   cover: ChongQing_renmingdalitang/101_DSC_4760_E4082FFC.6ydph6ibp8c0.webp
+  location:
+    - 29.567873
+    - 106.560159
 
 重庆 · 解放碑:
   url: ChongQing_jiefangbei
   date: "2023-08-02"
   style: default
   cover: ChongQing_jiefangbei/117_DSC_4998_D4712794.3c876oewuoo0.webp
+  location:
+    - 29.563463
+    - 106.581786
 
 重庆 · 洪崖洞:
   url: ChongQing_hongyadong
   date: "2023-08-02"
   style: default
   cover: ChongQing_hongyadong/VCG111449188689.14igs6sgwvhc.webp
+  location:
+    - 29.566718
+    - 106.585076
 
 重庆 · 街道:
   url: ChongQing_jiedao
   date: "2023-08-02"
   style: default
   cover: ChongQing_jiedao/181_DSC_5349_66C3FDF4.5pz8r02j0h00.webp
+  location:
+    - 29.540714
+    - 106.593461
 
 咸宁 · 赤壁古战场:
   url: XianNing_chibiguzhanchang
   date: "2022-07-31"
   style: default
   cover: XianNing_chibiguzhanchang/VCG111450226854.1ejqavyqclts.webp
+  location:
+    - 29.885063
+    - 113.637256
 
 成都 · 望江楼:
   url: ChengDu_wangjianglou
   date: "2021-07-18"
   style: default
   cover: ChengDu_wangjianglou/DSC_8507.4x9v2vivio00.webp
+  location:
+    - 30.634914
+    - 104.098838
 
 成都 · 文殊院:
   url: ChengDu_wenshuyuan
   date: "2021-07-17"
   style: default
   cover: ChengDu_wenshuyuan/DSC_8094.25rckazxq9vk.webp
+  location:
+    - 30.681353
+    - 104.079149
 
 成都 · 金沙遗址:
   url: ChengDu_jinshayizhi
   date: "2021-07-17"
   style: default
   cover: ChengDu_jinshayizhi/DSC_8189.4o4ehzq6z4w0.webp
+  location:
+    - 30.687743
+    - 104.019116
 
 成都 · 武侯祠:
   url: ChengDu_wuhouci
   date: "2021-07-16"
   style: default
   cover: ChengDu_wuhouci/DSC_7834.5uzmnbpt6qs0.webp
+  location:
+    - 30.652544
+    - 104.054375
 
 成都 · 人民公园:
   url: ChengDu_renmingongyuan
   date: "2021-07-16"
   style: default
   cover: ChengDu_renmingongyuan/DSC_8000.5j75ff4csf00.webp
+  location:
+    - 30.663288
+    - 104.064123
 
 成都 · 锦里:
   url: ChengDu_jingli
   date: "2021-07-16"
   style: default
   cover: ChengDu_jingli/DSC_8072.7hr4m74z1ik0.webp
+  location:
+    - 30.653791
+    - 104.055393
 
 成都 · 熊猫基地:
   url: ChengDu_xiongmaojidi
   date: "2021-07-15"
   style: default
   cover: ChengDu_xiongmaojidi/DSC_7647.2ir8zxli0p40.webp
+  location:
+    - 30.747146
+    - 104.145729
 
 成都 · 东郊记忆:
   url: ChengDu_dongjiaojiyi
   date: "2021-07-15"
   style: default
   cover: ChengDu_dongjiaojiyi/DSC_7721.652v27rd46w0.webp
+  location:
+    - 30.674622
+    - 104.129414
 
 成都 · 都江堰:
   url: ChengDu_dujiangyan
   date: "2021-07-14"
   style: default
   cover: ChengDu_dujiangyan/DSC_7548.5b59thttv8s0.webp
+  location:
+    - 31.008302
+    - 103.615707
 
 成都 · 杜甫草堂:
   url: ChengDu_dufucaotang
   date: "2021-07-13"
   style: default
   cover: ChengDu_dufucaotang/DSC_7112.28gc3ii04idc.webp
+  location:
+    - 30.667301
+    - 104.034248
 
 成都 · 宽窄巷子:
   url: ChengDu_kuanzhaixiangzi
   date: "2021-07-13"
   style: default
   cover: ChengDu_kuanzhaixiangzi/DSC_7376.2gci43gx4h34.webp
+  location:
+    - 30.669926
+    - 104.059998
 
 成都 · 四川大学:
   url: ChengDu_sichuandaxue
   date: "2021-07-12"
   style: default
   cover: ChengDu_sichuandaxue/DSC_6960.57zqrwy97xs0.webp
+  location:
+    - 30.636490
+    - 104.090313
 
 成都 · 街道:
   url: ChengDu_jiedao
   date: "2021-07-12"
   style: default
   cover: ChengDu_jiedao/DSC_7008.7iabu0ssd600.webp
+  location:
+    - 30.645096
+    - 104.094499
 
 珠海 · 横琴:
   url: ZhuHai_hengqing
   date: "2021-02-13"
   style: default
   cover: ZhuHai_hengqing/DSC_6688.1n4belcdusg0.webp
+  location:
+    - 22.166301
+    - 113.524526
 
 珠海 · 日月贝:
   url: ZhuHai_riyuebei
   date: "2020-08-30"
   style: default
   cover: ZhuHai_riyuebei/DSC_4499-(2).2psw5me7dpk0.webp
+  location:
+    - 22.289866
+    - 113.595570
 
 肇庆 · 七星岩:
   url: Zhaoqing_qixingyan
   date: "2020-05-01"
   style: default
   cover: Zhaoqing_qixingyan/DSC_4011.39sguqx52zm0.webp
+  location:
+    - 23.080110
+    - 112.478887
 
 肇庆 · 阅江楼:
   url: Zhaoqing_yuejianglou
   date: "2020-05-01"
   style: default
   cover: Zhaoqing_yuejianglou/DSC_4028.2htyvz77bqw0.webp
+  location:
+    - 23.050696
+    - 112.478463
 
 武汉 · 江汉路:
   url: WuHan_jianghanlu
   date: "2019-08-05"
   style: default
   cover: WuHan_jianghanlu/DSC_2268.28iw9d0hps5c.webp
+  location:
+    - 30.584981
+    - 114.300011
 
 武汉 · 黄鹤楼:
   url: WuHan_huanghelou
   date: "2019-08-04"
   style: default
   cover: WuHan_huanghelou/DSC_1943.5pqvg7gd2ys0.webp
+  location:
+    - 30.550417
+    - 114.308997
 
 武汉 · 长江大桥:
   url: WuHan_changjiangdaqiao
   date: "2019-08-04"
   style: default
   cover: WuHan_changjiangdaqiao/DSC_2150.14vyeo3h5h28.webp
+  location:
+    - 30.553062
+    - 114.299005
 
 长沙 · 坡子街:
   url: Changsha_pozijie
   date: "2019-07-22"
   style: default
   cover: Changsha_pozijie/DSC_1318.7h7turqe5bw0.webp
+  location:
+    - 28.196207
+    - 112.978170
 
 长沙 · 橘子洲:
   url: Changsha_juzizhou
   date: "2019-07-22"
   style: default
   cover: Changsha_juzizhou/DSC_1075.8nr5pdm57jc.webp
+  location:
+    - 28.173455
+    - 112.966916
 
 长沙 · 岳麓山:
   url: Changsha_yuelushushan
   date: "2019-07-22"
   style: default
   cover: Changsha_yuelushushan/DSC_1177.7ce4zvlu2xk0.webp
+  location:
+    - 28.189911
+    - 112.942703
 
 阳江 · 海陵岛:
   url: YangJiang_hailingdao
   date: "2019-07-12"
   style: default
   cover: YangJiang_hailingdao/DSC_0693.5din2t08n4c0.webp
+  location:
+    - 21.623854
+    - 111.918496
