@@ -1,3 +1,30 @@
+惠州 · 朝京门:
+  url: HuiZhou_chaojingmen
+  date: "2025-11-29"
+  style: default
+  cover: HuiZhou_chaojingmen/DSC_2813.5scpjxlii9o0.webp
+  location:
+    - 23.104899
+    - 114.411087
+
+惠州 · 西湖:
+  url: HuiZhou_xihu
+  date: "2025-11-29"
+  style: default
+  cover: HuiZhou_xihu/DSC_3207.33dv5o0zwo80.webp
+  location:
+    - 23.095742
+    - 114.404667
+
+惠州 · 合江楼:
+  url: HuiZhou_hejianglou
+  date: "2025-11-29"
+  style: default
+  cover: HuiZhou_hejianglou/DSC_2941.56vdg3p5fbw0.webp
+  location:
+    - 23.097649
+    - 114.416112
+
 厦门 · 南普陀寺:
   url: XiaMen_nanputuo
   date: "2025-09-30"
