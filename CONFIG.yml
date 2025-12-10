@@ -14,7 +14,7 @@ root: /Gallery
 
 photography_page:
   slogan: true
-  slogan_descr: '影像随心'
+  slogan_descr: '旅行影集'
 
 google_analytics: 
   use: gtag
