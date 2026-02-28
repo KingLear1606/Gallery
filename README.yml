@@ -1,6 +1,6 @@
 岳阳 · 洞庭南路:
   url: YueYang_Dongtingnanlu
-  date: "2026-2-18"
+  date: "2026-2-21"
   style: default
   cover: YueYang_Dongtingnanlu/DSC_3956.4ul2n00bxfg0.webp
   location:
@@ -16,6 +16,16 @@
     - 29.355071
     - 113.534489
 
+
+
+江门 · 白沙祠:
+  url: JiangMen_Baishaci
+  date: "2026-2-03"
+  style: default
+  cover: JiangMen_Baishaci/DSC_3768.4r8r0dibebo0.webp
+  location:
+    - 22.576724
+    - 113.081830
 
 惠州 · 朝京门:
   url: HuiZhou_chaojingmen
