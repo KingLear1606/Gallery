@@ -34,6 +34,15 @@
     - 22.576724
     - 113.081830
 
+香港 · 街道（3）:
+  url: XiangGang_jiedao3
+  date: "2026-01-28"
+  style: default
+  cover: XiangGang_jiedao3/DSC_3706.5jy14vz957o0.webp
+  location:
+    - 22.305065
+    - 114.168350
+
 惠州 · 朝京门:
   url: HuiZhou_chaojingmen
   date: "2025-11-29"
