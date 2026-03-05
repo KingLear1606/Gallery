@@ -538,6 +538,24 @@
     - 36.109626
     - 114.360294
 
+佛山 · 南风古灶:
+  url: FoShan_nanfengguzao
+  date: "2025-03-16"
+  style: default
+  cover: FoShan_nanfengguzao/VCG111555319141.4rop93fownq0.webp
+  location:
+    - 23.011163
+    - 113.085705
+
+佛山 · 祖庙:
+  url: FoShan_zumiao
+  date: "2025-03-16"
+  style: default
+  cover: FoShan_zumiao/VCG111555315977.1ehd8dtwd03k.webp
+  location:
+    - 23.035561
+    - 113.119673
+
 佛山 · 千古情:
   url: FoShan_qianguqing
   date: "2025-01-31"
