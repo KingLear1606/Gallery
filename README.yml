@@ -997,7 +997,7 @@
     - 22.328228
     - 112.595681
 
-香港 · 街道（2）:
+香港 · 街道:
   url: XiangGang_jiedao2
   date: "2024-05-02"
   style: default
@@ -1006,7 +1006,7 @@
     - 22.299445
     - 114.184295
 
-深圳 · 梧桐山(1):
+深圳 · 梧桐山:
   url: ShenZhen_wutongshan1
   date: "2024-03-24"
   style: default
@@ -1060,7 +1060,7 @@
     - 29.478160
     - 113.461867
 
-香港 · 街道（1）:
+香港 · 街道:
   url: XiangGang_jiedao1
   date: "2024-01-08"
   style: default
@@ -1231,7 +1231,7 @@
     - 22.568824
     - 114.087335
 
-深圳 · 大芬油画村(2):
+深圳 · 大芬油画村:
   url: ShenZhen_dafenyouhuacun2
   date: "2023-09-29"
   style: default
@@ -1330,7 +1330,7 @@
     - 22.532600
     - 113.896001
 
-深圳 · 深圳湾(1):
+深圳 · 深圳湾:
   url: ShenZhen_shenzhenwan1
   date: "2023-02-19"
   style: default
@@ -1546,7 +1546,7 @@
     - 22.551439
     - 114.068407
 
-深圳 · 大芬油画村(1):
+深圳 · 大芬油画村:
   url: ShenZhen_dafenyouhuacun1
   date: "2021-05-01"
   style: default
