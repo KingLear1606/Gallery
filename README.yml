@@ -1465,6 +1465,15 @@
     - 30.645096
     - 104.094499
 
+广州 · 黄花岗:
+  url: GuangZhou_huanghuagang
+  date: "2021-04-04"
+  style: default
+  cover: GuangZhou_huanghuagang/psc.1pjr3t9ogzpc.webp
+  location:
+    - 23.147513
+    - 113.306480
+
 珠海 · 横琴:
   url: ZhuHai_hengqing
   date: "2021-02-13"
