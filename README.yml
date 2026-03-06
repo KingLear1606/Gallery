@@ -1332,12 +1332,21 @@
 
 咸宁 · 赤壁古战场:
   url: XianNing_chibiguzhanchang
-  date: "2022-07-31"
+  date: "2022-08-01"
   style: default
   cover: XianNing_chibiguzhanchang/VCG111450226854.1ejqavyqclts.webp
   location:
     - 29.885063
     - 113.637256
+
+荆州 · 洪湖风景区:
+  url: JingZhou_honghufengjingqu
+  date: "2022-07-31"
+  style: default
+  cover: JingZhou_honghufengjingqu/psc-(6).7g5migkjhs00.webp
+  location:
+    - 29.935763
+    - 113.216559
 
 成都 · 望江楼:
   url: ChengDu_wangjianglou
