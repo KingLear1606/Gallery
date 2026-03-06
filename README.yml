@@ -34,7 +34,7 @@
     - 22.576724
     - 113.081830
 
-香港 · 街道（3）:
+香港 · 街道:
   url: XiangGang_jiedao3
   date: "2026-01-28"
   style: default
@@ -43,7 +43,7 @@
     - 22.305065
     - 114.168350
 
-深圳 · 梧桐山(2):
+深圳 · 梧桐山:
   url: ShenZhen_wutongshan2
   date: "2025-12-05"
   style: default
@@ -1213,6 +1213,33 @@
     - 34.686830
     - 112.466253
 
+深圳 · 西涌:
+  url: ShenZhen_xichong
+  date: "2023-10-03"
+  style: default
+  cover: ShenZhen_xichong/DSC_6174.6m1xhyl8iug0.webp
+  location:
+    - 22.568824
+    - 114.087335
+
+深圳 · 笔架山:
+  url: ShenZhen_bijiashan
+  date: "2023-09-29"
+  style: default
+  cover: ShenZhen_bijiashan/DSC_6083.3fs07qcarvk0.webp
+  location:
+    - 22.568824
+    - 114.087335
+
+深圳 · 大芬油画村(2):
+  url: ShenZhen_dafenyouhuacun2
+  date: "2023-09-29"
+  style: default
+  cover: ShenZhen_dafenyouhuacun2/DSC_6034.1b5jbt1xcw3k.webp
+  location:
+    - 22.616658
+    - 114.143992
+
 宜昌 · 三峡大坝:
   url: YiChang_sanxiadaba
   date: "2023-08-07"
@@ -1293,6 +1320,24 @@
   location:
     - 29.540714
     - 106.593461
+
+深圳 · 前海石公园:
+  url: ShenZhen_qianhaishigongyuan
+  date: "2023-02-25"
+  style: default
+  cover: ShenZhen_qianhaishigongyuan/VCG111449186233.413xd1q8icu0.webp
+  location:
+    - 22.532600
+    - 113.896001
+
+深圳 · 深圳湾(1):
+  url: ShenZhen_shenzhenwan1
+  date: "2023-02-19"
+  style: default
+  cover: ShenZhen_shenzhenwan1/VCG111449183160.6drdyevn6a80.webp
+  location:
+    - 22.524768
+    - 113.987119
 
 武汉 · 华科:
   url: WuHan_huake
