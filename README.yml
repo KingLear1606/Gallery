@@ -1276,6 +1276,15 @@
     - 29.540714
     - 106.593461
 
+武汉 · 归元寺:
+  url: WuHan_guiyuansi
+  date: "2023-01-25"
+  style: default
+  cover: WuHan_guiyuansi/psc-(1).4i7brhc17280.webp
+  location:
+    - 30.551405
+    - 114.265531
+
 咸宁 · 赤壁古战场:
   url: XianNing_chibiguzhanchang
   date: "2022-07-31"
