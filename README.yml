@@ -1483,6 +1483,33 @@
     - 30.645096
     - 104.094499
 
+深圳 · 莲花山:
+  url: ShenZhen_lianhuashan
+  date: "2021-05-01"
+  style: default
+  cover: ShenZhen_lianhuashan/DSC_6835.3w6lcly4dak0.webp
+  location:
+    - 22.559257
+    - 114.065193
+
+深圳 · 规划展览馆:
+  url: ShenZhen_guihuazhanlanguan
+  date: "2021-05-01"
+  style: default
+  cover: ShenZhen_guihuazhanlanguan/DSC_6812.6m0ui9abq8c0.webp
+  location:
+    - 22.551439
+    - 114.068407
+
+深圳 · 大芬油画村(1):
+  url: ShenZhen_dafenyouhuacun1
+  date: "2021-05-01"
+  style: default
+  cover: ShenZhen_dafenyouhuacun1/DSC_6853.25xy294tbw5c.webp
+  location:
+    - 22.615937
+    - 114.143064
+
 广州 · 黄花岗:
   url: GuangZhou_huanghuagang
   date: "2021-04-04"
