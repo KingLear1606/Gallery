@@ -43,14 +43,7 @@
     - 22.305065
     - 114.168350
 
-深圳 · 梧桐山(1):
-  url: ShenZhen_wutongshan1
-  date: "2025-12-05"
-  style: default
-  cover: ShenZhen_wutongshan1/DSC_3240.1udu5559q540.webp
-  location:
-    - 22.573899
-    - 114.200281
+
 
 惠州 · 朝京门:
   url: HuiZhou_chaojingmen
@@ -1005,6 +998,15 @@
   location:
     - 22.299445
     - 114.184295
+
+深圳 · 梧桐山(1):
+  url: ShenZhen_wutongshan1
+  date: "2024-03-24"
+  style: default
+  cover: ShenZhen_wutongshan1/DSC_9405-已增强-降噪.3088kkvt4oy0.webp
+  location:
+    - 22.585721
+    - 114.226480
 
 荆州 · 万寿塔:
   url: JingZhou_wanshouta
