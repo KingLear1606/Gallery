@@ -1501,6 +1501,15 @@
     - 23.050696
     - 112.478463
 
+广州 · 石室圣心大教堂:
+  url: GuangZhou_shishishengxindajiaotang
+  date: "2019-08-11"
+  style: default
+  cover: GuangZhou_shishishengxindajiaotang/psc.51kcq2e80z40.webp
+  location:
+    - 23.120803
+    - 113.266659
+
 武汉 · 江汉路:
   url: WuHan_jianghanlu
   date: "2019-08-05"
