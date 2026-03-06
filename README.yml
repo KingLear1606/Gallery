@@ -34,7 +34,7 @@
     - 22.576724
     - 113.081830
 
-香港 · 街道:
+香港 · 街道(3):
   url: XiangGang_jiedao3
   date: "2026-01-28"
   style: default
@@ -43,7 +43,7 @@
     - 22.305065
     - 114.168350
 
-深圳 · 梧桐山:
+深圳 · 梧桐山(2):
   url: ShenZhen_wutongshan2
   date: "2025-12-05"
   style: default
@@ -997,7 +997,7 @@
     - 22.328228
     - 112.59568
 
-香港 · 街道:
+香港 · 街道(2):
   url: XiangGang_jiedao2
   date: "2024-05-02"
   style: default
@@ -1006,7 +1006,7 @@
     - 22.299445
     - 114.18429
 
-深圳 · 梧桐山:
+深圳 · 梧桐山(1):
   url: ShenZhen_wutongshan1
   date: "2024-03-24"
   style: default
@@ -1060,7 +1060,7 @@
     - 29.478160
     - 113.461867
 
-香港 · 街道:
+香港 · 街道(1):
   url: XiangGang_jiedao1
   date: "2024-01-08"
   style: default
