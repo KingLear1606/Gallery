@@ -1276,6 +1276,33 @@
     - 29.540714
     - 106.593461
 
+武汉 · 华科:
+  url: WuHan_huake
+  date: "2023-01-26"
+  style: default
+  cover: WuHan_huake/psc-(9).4lns9p66h8q0.webp
+  location:
+    - 30.514723
+    - 114.420095
+
+武汉 · 首义公园:
+  url: WuHan_shouyigongyuan
+  date: "2023-01-26"
+  style: default
+  cover: WuHan_shouyigongyuan/psc-(8).fyvc4dk5e4.webp
+  location:
+    - 30.547577
+    - 114.319700
+
+武汉 · 辛亥革命博物馆:
+  url: WuHan_xinhaigemingbowuyuan
+  date: "2023-01-26"
+  style: default
+  cover: WuHan_xinhaigemingbowuyuan/psc-(6).69rtrzbr5q00.webp
+  location:
+    - 30.547221
+    - 114.312846
+
 武汉 · 归元寺:
   url: WuHan_guiyuansi
   date: "2023-01-25"
@@ -1284,6 +1311,24 @@
   location:
     - 30.551405
     - 114.265531
+
+武汉 · 龟山:
+  url: WuHan_guishan
+  date: "2023-01-25"
+  style: default
+  cover: WuHan_guishan/psc-(3).2zmoa4r5e800.webp
+  location:
+    - 30.560987
+    - 114.282082
+
+武汉 · 古琴台:
+  url: WuHan_guqintai
+  date: "2023-01-25"
+  style: default
+  cover: WuHan_guqintai/psc-(1).6ag5bhntgvw0.webp
+  location:
+    - 30.560327
+    - 114.270120
 
 咸宁 · 赤壁古战场:
   url: XianNing_chibiguzhanchang
