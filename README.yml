@@ -1393,6 +1393,15 @@
     - 30.560327
     - 114.270120
 
+岳阳 · 岳阳楼(2):
+  url: YueYang_yueyanglou2
+  date: "2023-01-15"
+  style: default
+  cover: YueYang_yueyanglou2/050_DSC_0627_F74908A6.39cim5o1yra0.webp
+  location:
+    - 29.383497
+    - 113.100399
+
 咸宁 · 赤壁古战场:
   url: XianNing_chibiguzhanchang
   date: "2022-08-01"
@@ -1420,7 +1429,7 @@
     - 29.358539
     - 113.013682
 
-岳阳 · 岳阳楼:
+岳阳 · 岳阳楼(1):
   url: YueYang_yueyanglou
   date: "2022-07-27"
   style: default
