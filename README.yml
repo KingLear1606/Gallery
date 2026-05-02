@@ -1,3 +1,30 @@
+太原 · 蒙山大佛:
+  url: TaiYuan_mengshandafo
+  date: "2026-04-27"
+  style: default
+  cover: TaiYuan_mengshandafo/DSC_5710.4wfmuzn53zc0.webp
+  location:
+    - 37.788987
+    - 112.451164
+
+太原 · 天龙山石窟:
+  url: TaiYuan_tianlongshanshiku
+  date: "2026-04-27"
+  style: default
+  cover: TaiYuan_tianlongshanshiku/DSC_5600-已增强-降噪.5szjxgtfmno0.webp
+  location:
+    - 37.742711
+    - 112.390165
+
+太原 · 晋祠:
+  url: TaiYuan_jinci
+  date: "2026-04-27"
+  style: default
+  cover: TaiYuan_jinci/DSC_5285.3st6qcepf5k0.webp
+  location:
+    - 37.714955
+    - 112.447886
+
 太原 · 五一广场:
   url: TaiYuan_wuyiguangchang
   date: "2026-04-26"
