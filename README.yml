@@ -1,3 +1,39 @@
+太原 · 钟楼街:
+  url: TaiYuan_zhongloujie
+  date: "2026-04-26"
+  style: default
+  cover: TaiYuan_zhongloujie/DSC_5152.46xy7upsfv00.webp
+  location:
+    - 37.874746
+    - 112.562794
+
+太原 · 督军府:
+  url: TaiYuan_dujunfu
+  date: "2026-04-26"
+  style: default
+  cover: TaiYuan_dujunfu/DSC_5099-已增强-降噪.34ngcylh9ns0.webp
+  location:
+    - 37.879774
+    - 112.569161
+
+太原 · 大关帝庙:
+  url: TaiYuan_daguandimiao
+  date: "2026-04-26"
+  style: default
+  cover: TaiYuan_daguandimiao/DSC_4988.23k6mkmvnqo0.webp
+  location:
+    - 37.874192
+    - 112.564118
+
+太原 · 纯阳宫:
+  url: TaiYuan_chunyanggong
+  date: "2026-04-26"
+  style: default
+  cover: TaiYuan_chunyanggong/DSC_4820-已增强-降噪.5u1gn2ee7ng0.webp
+  location:
+    - 37.868721
+    - 112.578694
+
 太原 · 迎泽大桥:
   url: TaiYuan_yingzedaqiao
   date: "2026-04-25"
