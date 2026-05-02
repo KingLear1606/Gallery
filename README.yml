@@ -1,3 +1,30 @@
+太原 · 五一广场:
+  url: TaiYuan_wuyiguangchang
+  date: "2026-04-26"
+  style: default
+  cover: TaiYuan_wuyiguangchang/DSC_5255-已增强-降噪.3fogluvyjts0.webp
+  location:
+    - 37.867627
+    - 112.580179
+
+太原 · 山西饭店:
+  url: TaiYuan_shanxifandian
+  date: "2026-04-26"
+  style: default
+  cover: TaiYuan_shanxifandian/DSC_5222-已增强-降噪.3zz9eg6n2ho0.webp
+  location:
+    - 37.870376
+    - 112.578011
+
+太原 · 文瀛湖公园:
+  url: TaiYuan_wenyinghugongyuan
+  date: "2026-04-26"
+  style: default
+  cover: TaiYuan_wenyinghugongyuan/DSC_5196-已增强-降噪.3ivkd6qz1x40.webp
+  location:
+    - 37.871260
+    - 112.576343
+
 太原 · 钟楼街:
   url: TaiYuan_zhongloujie
   date: "2026-04-26"
