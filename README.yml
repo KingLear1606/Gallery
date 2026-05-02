@@ -1,3 +1,30 @@
+太原 · 迎泽大桥:
+  url: TaiYuan_yingzedaqiao
+  date: "2026-04-25"
+  style: default
+  cover: TaiYuan_yingzedaqiao/DSC_4763-已增强-降噪.4wjo6z1halq0.webp
+  location:
+    - 37.864718
+    - 112.545789
+
+太原 · 永祚寺双塔:
+  url: TaiYuan_yongzuosishuangta
+  date: "2026-04-25"
+  style: default
+  cover: TaiYuan_yongzuosishuangta/DSC_4701.2u3z2j0lyxw0.webp
+  location:
+    - 37.850436
+    - 112.604920
+    
+太原 · 北齐壁画博物馆:
+  url: TaiYuan_beiqibihuaguan
+  date: "2026-04-25"
+  style: default
+  cover: TaiYuan_beiqibihuaguan/DSC_4500-已增强-降噪.3v9lvjget7o0.webp
+  location:
+    - 37.842657
+    - 112.624899
+
 深圳 · 般若禅寺:
   url: ShenZhen_borechansi
   date: "2026-03-15"
