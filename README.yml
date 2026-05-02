@@ -1,3 +1,39 @@
+忻州 · 广济寺:
+  url: XinZhou_guangjisi
+  date: "2026-04-28"
+  style: default
+  cover: XinZhou_guangjisi/DSC_6015.x290i228db4.webp
+  location:
+    - 38.729485
+    - 113.266304
+
+忻州 · 佛光寺:
+  url: XinZhou_foguangsi
+  date: "2026-04-28"
+  style: default
+  cover: XinZhou_foguangsi/DSC_5891.15psghe9jihs.webp
+  location:
+    - 38.876386
+    - 113.400559
+
+忻州 · 延庆寺:
+  url: XinZhou_yanqingsi
+  date: "2026-04-28"
+  style: default
+  cover: XinZhou_yanqingsi/DSC_5856.3vpd11b6f6e0.webp
+  location:
+    - 38.756795
+    - 113.078571
+
+忻州 · 南禅寺:
+  url: XinZhou_nanchansi
+  date: "2026-04-28"
+  style: default
+  cover: XinZhou_nanchansi/DSC_5816.56sxmdc7rhc.webp
+  location:
+    - 38.708069
+    - 113.127359
+
 太原 · 蒙山大佛:
   url: TaiYuan_mengshandafo
   date: "2026-04-27"
