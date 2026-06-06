@@ -1,3 +1,66 @@
+上海 · 静安大悦城:
+  url: ShangHai_dayuecheng
+  date: "2026-06-05"
+  style: default
+  cover: ShangHai_dayuecheng/20260605-DSC_6730.29yalnt51z6s.webp
+  location:
+    - 31.250143
+    - 121.478529
+
+上海 · 四行仓库:
+  url: ShangHai_sihangcangku
+  date: "2026-06-05"
+  style: default
+  cover: ShangHai_sihangcangku/20260605-DSC_6716.35io15vn2m40.webp
+  location:
+    - 31.246241
+    - 121.477447
+
+上海 · 静安寺(2):
+  url: ShangHai_jingansi2
+  date: "2026-06-05"
+  style: default
+  cover: ShangHai_jingansi2/20260605-DSC_6602.6voiuyzz0e00.webp
+  location:
+    - 31.229947
+    - 121.451595
+
+上海 · 宋庆龄陵园:
+  url: ShangHai_songqinglingmu
+  date: "2026-06-05"
+  style: default
+  cover: ShangHai_songqinglingmu/20260605-DSC_6425.3wz1rt9m9hc0.webp
+  location:
+    - 31.201364
+    - 121.418336
+
+上海 · 徐家汇天主堂:
+  url: ShangHai_xujiahuitianzhutang
+  date: "2026-06-05"
+  style: default
+  cover: ShangHai_xujiahuitianzhutang/20260605-DSC_6392.2iaiekftsmc0.webp
+  location:
+    - 31.197480
+    - 121.442565
+
+上海 · 徐家汇书院:
+  url: ShangHai_xujiahuishuyuan
+  date: "2026-06-05"
+  style: default
+  cover: ShangHai_xujiahuishuyuan/20260605-DSC_6370-已增强-降噪.2zdwt02b7q80.webp
+  location:
+    - 31.197035
+    - 121.443535
+
+上海 · 龙华寺:
+  url: ShangHai_longhuasi
+  date: "2026-06-05"
+  style: default
+  cover: ShangHai_longhuasi/20260605-DSC_6327.26zuryd3obgg.webp
+  location:
+    - 31.181316
+    - 121.458256
+
 太原 · 唱经楼:
   url: TaiYuan_changjinglou
   date: "2026-04-29"
