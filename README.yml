@@ -1,3 +1,48 @@
+上海 · 外白渡桥:
+  url: ShangHai_waibaiduqiao
+  date: "2026-06-13"
+  style: default
+  cover: ShangHai_waibaiduqiao/20260613-DSC_7389-已增强-降噪.6synfaec2l80.webp
+  location:
+    - 31.249111
+    - 121.496866
+
+上海 · 乍浦路桥:
+  url: ShangHai_zhapuluqiao
+  date: "2026-06-13"
+  style: default
+  cover: ShangHai_zhapuluqiao/20260613-DSC_7257-已增强-降噪.4k9ynhae63k0.webp
+  location:
+    - 31.249942
+    - 121.494366
+
+上海 · 浙江路桥:
+  url: ShangHai_zhejiangluqiao
+  date: "2026-06-13"
+  style: default
+  cover: ShangHai_zhejiangluqiao/20260613-DSC_7098.7i12mz5iu280.webp
+  location:
+    - 31.247274
+    - 121.483088
+
+上海 · 四行仓库(2):
+  url: ShangHai_sihangcangku2
+  date: "2026-06-13"
+  style: default
+  cover: ShangHai_sihangcangku2/20260613-DSC_7023.4nq0z9dngky0.webp
+  location:
+    - 31.246180
+    - 121.476891
+
+上海 · 自然博物馆:
+  url: ShangHai_ziranbowuguan
+  date: "2026-06-13"
+  style: default
+  cover: ShangHai_ziranbowuguan/20260613-DSC_6768-已增强-降噪.hxcmerltddk.webp
+  location:
+    - 31.241162
+    - 121.469147
+
 上海 · 静安大悦城:
   url: ShangHai_dayuecheng
   date: "2026-06-05"
