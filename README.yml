@@ -1,3 +1,30 @@
+上海 · 外滩(2):
+  url: ShangHai_waitan2
+  date: "2026-06-19"
+  style: default
+  cover: ShangHai_waitan2/20260619-DSC_7609-已增强-降噪.61s0lz0bbmc0.webp
+  location:
+    - 31.243967
+    - 121.497049
+
+上海 · 一大会址:
+  url: ShangHai_yidahuizhi
+  date: "2026-06-19"
+  style: default
+  cover: ShangHai_yidahuizhi/20260619-DSC_7476.1z0qf3xpe1fk.webp
+  location:
+    - 31.226053
+    - 121.481827
+
+上海 · 世博会博物馆:
+  url: ShangHai_shibohuibowuguan
+  date: "2026-06-19"
+  style: default
+  cover: ShangHai_shibohuibowuguan/20260619-DSC_7432-已增强-降噪.6l1w5234skw0.webp
+  location:
+    - 31.200317
+    - 121.488626
+
 上海 · 外白渡桥:
   url: ShangHai_waibaiduqiao
   date: "2026-06-13"
