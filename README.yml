@@ -1,3 +1,48 @@
+上海 · 日落长廊:
+  url: ShangHai_riluochanglang
+  date: "2026-06-20"
+  style: default
+  cover: ShangHai_riluochanglang/20260620-DSC_7941.i5875z2v59c.webp
+  location:
+    - 31.243700
+    - 121.501920
+
+上海 · 多伦路:
+  url: ShangHai_duolunlu
+  date: "2026-06-20"
+  style: default
+  cover: ShangHai_duolunlu/20260620-DSC_7813.25mfc2ubt6w0.webp
+  location:
+    - 31.267760
+    - 121.490241
+
+上海 · 甜爱路:
+  url: ShangHai_tianailu
+  date: "2026-06-20"
+  style: default
+  cover: ShangHai_tianailu/20260620-DSC_7778.6ffueo86ddc0.webp
+  location:
+    - 31.272418
+    - 121.490268
+
+上海 · 鲁迅公园:
+  url: ShangHai_luxungongyuan
+  date: "2026-06-20"
+  style: default
+  cover: ShangHai_luxungongyuan/20260620-DSC_7754-已增强-降噪.6813sy15c8g0.webp
+  location:
+    - 31.277589
+    - 121.490149
+
+上海 · 中华艺术宫:
+  url: ShangHai_zhonghuayishugong
+  date: "2026-06-20"
+  style: default
+  cover: ShangHai_zhonghuayishugong/20260620-DSC_7685.6gxi9rnukv00.webp
+  location:
+    - 31.190005
+    - 121.501315
+
 上海 · 外滩(2):
   url: ShangHai_waitan2
   date: "2026-06-19"
