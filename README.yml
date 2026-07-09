@@ -1,3 +1,48 @@
+嘉兴 · 瓶山:
+  url: JiaXing_pingshan
+  date: "2026-06-28"
+  style: default
+  cover: JiaXing_pingshan/20260628-DSC_9512-已增强-降噪.2miu29n7vrw0.webp
+  location:
+    - 30.769474
+    - 120.759580
+
+嘉兴 · 南湖:
+  url: JiaXing_nanhu
+  date: "2026-06-28"
+  style: default
+  cover: JiaXing_nanhu/20260628-DSC_9450.30980t7oerg0.webp
+  location:
+    - 30.761132
+    - 120.766822
+
+嘉兴 · 天主教堂:
+  url: JiaXing_tianzhujiaotang
+  date: "2026-06-27"
+  style: default
+  cover: JiaXing_tianzhujiaotang/20260627-DSC_8497.121ngt7d6ou8.webp
+  location:
+    - 30.766952
+    - 120.757469
+
+嘉兴 · 子城:
+  url: JiaXing_zicheng
+  date: "2026-06-27"
+  style: default
+  cover: JiaXing_zicheng/20260627-DSC_8447.fwvpyedb0fc.webp
+  location:
+    - 30.766841
+    - 120.759392
+
+嘉兴 · 月河:
+  url: JiaXing_yuehe
+  date: "2026-06-27"
+  style: default
+  cover: JiaXing_yuehe/20260627-DSC_8791-已增强-降噪.3vidcuiey2g0.webp
+  location:
+    - 30.777178
+    - 120.756743
+
 上海 · 日落长廊:
   url: ShangHai_riluochanglang
   date: "2026-06-20"
