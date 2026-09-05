@@ -1,3 +1,49 @@
+镇江 · 金山:
+  url: ZhenJiang_jinshan
+  date: "2026-07-19"
+  style: default
+  cover: ZhenJiang_jinshan/20260719-DSC_0711-已增强-降噪.3n7ttd3lss20.webp
+  location:
+    - 32.221550
+    - 119.420911
+
+镇江 · 京畿路:
+  url: ZhenJiang_jingjilu
+  date: "2026-07-18"
+  style: default
+  cover: ZhenJiang_jingjilu/20260718-DSC_0554-已增强-降噪.4lala8y78480.webp
+  location:
+    - 32.215724
+    - 119.436357
+
+镇江 · 西津渡:
+  url: ZhenJiang_xijindu
+  date: "2026-07-18"
+  style: default
+  cover: ZhenJiang_xijindu/20260719-DSC_0877.110xal5pn19c.webp
+  location:
+    - 32.220147
+    - 119.436903
+
+镇江 · 北固山:
+  url: ZhenJiang_beigushan
+  date: "2026-07-18"
+  style: default
+  cover: ZhenJiang_beigushan/20260718-DSC_0136.4gtelqrnrg60.webp
+  location:
+    - 32.222391
+    - 119.463946
+
+镇江 · 焦山:
+  url: ZhenJiang_jiaoshan
+  date: "2026-07-18"
+  style: default
+  cover: ZhenJiang_jiaoshan/20260718-DSC_9891.1i2csu1uuy80.webp
+  location:
+    - 32.243813
+    - 119.492592
+
+
 嘉兴 · 瓶山:
   url: JiaXing_pingshan
   date: "2026-06-28"
