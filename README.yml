@@ -1,3 +1,138 @@
+青岛 · 信号山:
+  url: QingDao_xinhaoshan
+  date: "2026-07-26"
+  style: default
+  cover: QingDao_xinhaoshan/20260726-DSC_2316.5ak79f2t3c40.webp
+  location:
+    - 36.072566
+    - 120.337993
+
+青岛 · 德国总督府:
+  url: QingDao_deguozongdufu
+  date: "2026-07-26"
+  style: default
+  cover: QingDao_deguozongdufu/20260726-DSC_2292.7d82lfu69zg0.webp
+  location:
+    - 36.070823
+    - 120.338926
+
+青岛 · 五四广场:
+  url: QingDao_wusiguangchang
+  date: "2026-07-25"
+  style: default
+  cover: QingDao_wusiguangchang/20260725-DSC_2179-已增强-降噪.3exdtfbtck80.webp
+  location:
+    - 36.067562
+    - 120.391712
+
+青岛 · 青山渔村:
+  url: QingDao_qingshanyucun
+  date: "2026-07-25"
+  style: default
+  cover: QingDao_qingshanyucun/20260725-DSC_2167.2svri2hrm0g0.webp
+  location:
+    - 36.158956
+    - 120.698641
+
+青岛 · 崂山:
+  url: QingDao_laoshan
+  date: "2026-07-25"
+  style: default
+  cover: QingDao_laoshan/20260725-DSC_2051.npwb3p60byo.webp
+  location:
+    - 36.145944
+    - 120.682903
+
+青岛 · 雕塑园:
+  url: QingDao_diaosugongyuan
+  date: "2026-07-25"
+  style: default
+  cover: QingDao_diaosugongyuan/20260725-DSC_1885.7is5fmyv20s0.webp
+  location:
+    - 36.086080
+    - 120.461383
+
+青岛 · 圣弥厄尔大教堂:
+  url: QingDao_shengmieerdajiaotang
+  date: "2026-07-24"
+  style: default
+  cover: QingDao_shengmieerdajiaotang/20260726-DSC_2434.6puljxtpnis0.webp
+  location:
+    - 36.073993
+    - 120.327292
+
+青岛 · 中山路:
+  url: QingDao_zhongshanlu
+  date: "2026-07-24"
+  style: default
+  cover: QingDao_zhongshanlu/20260724-DSC_1741-已增强-降噪.5wh3fiyf8080.webp
+  location:
+    - 36.072127
+    - 120.325411
+
+青岛 · 栈桥:
+  url: QingDao_zhanqiao
+  date: "2026-07-24"
+  style: default
+  cover: QingDao_zhanqiao/20260724-DSC_1666.55kb34y1o0k0.webp
+  location:
+    - 36.067922
+    - 120.325723
+
+青岛 · 小青岛:
+  url: QingDao_xiaoqingdao
+  date: "2026-07-24"
+  style: default
+  cover: QingDao_xiaoqingdao/20260724-DSC_1642.7ayg1aeupdg0.webp
+  location:
+    - 36.059165
+    - 120.330705
+
+青岛 · 海军博物馆:
+  url: QingDao_haijunbowuguan
+  date: "2026-07-24"
+  style: default
+  cover: QingDao_haijunbowuguan/20260724-DSC_1601.2pnyxh2ot0s0.webp
+  location:
+    - 36.061123
+    - 120.335386
+
+青岛 · 鲁迅公园:
+  url: QingDao_luxungongyuan
+  date: "2026-07-24"
+  style: default
+  cover: QingDao_luxungongyuan/20260724-DSC_1516.2lgtt4f9xsq0.webp
+  location:
+    - 36.061067
+    - 120.339570
+
+青岛 · 小鱼山:
+  url: QingDao_xiaoyushan
+  date: "2026-07-24"
+  style: default
+  cover: QingDao_xiaoyushan/20260724-DSC_1365.4dxq13ju0eq0.webp
+  location:
+    - 36.064921
+    - 120.342985
+
+青岛 · 八大关:
+  url: QingDao_badaguan
+  date: "2026-07-24"
+  style: default
+  cover: QingDao_badaguan/20260724-DSC_1180.4qo6689mawe0.webp
+  location:
+    - 36.059714
+    - 120.357384
+
+青岛 · 青岛啤酒博物馆:
+  url: QingDao_qingdaopijiubowuguan
+  date: "2026-07-24"
+  style: default
+  cover: QingDao_qingdaopijiubowuguan/20260724-DSC_1066.20p3bq1ab4v4.webp
+  location:
+    - 36.085631
+    - 120.353640
+
 镇江 · 金山:
   url: ZhenJiang_jinshan
   date: "2026-07-19"
