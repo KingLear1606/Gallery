@@ -1,3 +1,77 @@
+
+
+上海 · 上海中心大厦:
+  url: ShangHai_shanghaizhongxindasha
+  date: "2026-08-21"
+  style: default
+  cover: ShangHai_shanghaizhongxindasha/20260821-DSC_4043-已增强-降噪.3h1zlklxg000.webp
+  location:
+    - 31.239212
+    - 121.511937
+
+上海 · 震旦博物馆:
+  url: ShangHai_zhendanbowuguan
+  date: "2026-08-21"
+  style: default
+  cover: ShangHai_zhendanbowuguan/20260821-DSC_3990-已增强-降噪.34ee941xbe20.webp
+  location:
+    - 31.240502
+    - 121.506116
+
+上海 · 北外滩:
+  url: ShangHai_beiwaitan
+  date: "2026-08-16"
+  style: default
+  cover: ShangHai_beiwaitan/20260816-DSC_3426.13bqe4g26zpc.webp
+  location:
+    - 31.252685
+    - 121.504893
+
+上海 · 龙华烈士陵园:
+  url: ShangHai_longhualieshilingyuan
+  date: "2026-08-16"
+  style: default
+  cover: ShangHai_longhualieshilingyuan/20260816-DSC_3246.39sdbj464720.webp
+  location:
+    - 31.182389
+    - 121.455897
+
+上海 · 静安寺(3):
+  url: ShangHai_jingansi3
+  date: "2026-08-15"
+  style: default
+  cover: ShangHai_jingansi3/20260815-DSC_3183-已增强-降噪_1.3n8impa28na0.webp
+  location:
+    - 31.227774
+    - 121.452052
+
+上海 · 城隍庙:
+  url: ShangHai_chenghuangmiao
+  date: "2026-08-08"
+  style: default
+  cover: ShangHai_chenghuangmiao/20260808-DSC_2607-已增强-降噪.5hs8ts7g35k0.webp
+  location:
+    - 31.231471
+    - 121.499034
+
+上海 · 外滩(3):
+  url: ShangHai_waitan3
+  date: "2026-08-08"
+  style: default
+  cover: ShangHai_waitan3/20260808-DSC_2590.76ockqabpw00.webp
+  location:
+    - 31.239806
+    - 121.497388
+
+上海 · 展览中心:
+  url: ShangHai_zhanlanzhongxin
+  date: "2026-08-08"
+  style: default
+  cover: ShangHai_zhanlanzhongxin/20260808-DSC_2566.1xymmg2t59s0.webp
+  location:
+    - 31.230961
+    - 121.459249
+
 青岛 · 信号山:
   url: QingDao_xinhaoshan
   date: "2026-07-26"
@@ -178,6 +252,14 @@
     - 32.243813
     - 119.492592
 
+上海 · 武康路(2):
+  url: ShangHai_wukanglu2
+  date: "2026-07-11"
+  style: default
+  cover: ShangHai_wukanglu2/20260711-DSC_9608.3okrja7bf3g0.webp
+  location:
+    - 31.216986
+    - 121.447738
 
 嘉兴 · 瓶山:
   url: JiaXing_pingshan
