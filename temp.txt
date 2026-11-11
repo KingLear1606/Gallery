@@ -14,4 +14,4 @@ https://cdn.staticaly.com/gh/KingLear1606/Gallery@master/ZhuHai_guihuazhanlangua
     - 113.578750
 
 
-将以下链接和坐标按照示例转换，注意坐标从 GCJ-02转为WGS84，转换完成后填入README.yml对应位置。
+将以下链接和坐标按照示例转换，注意坐标从BD-09转为WGS84，转换完成后填入README.yml对应位置。
