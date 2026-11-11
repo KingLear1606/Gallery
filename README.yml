@@ -1,3 +1,30 @@
+珠海 · 规划展览馆:
+  url: ZhuHai_guihuazhanlanguan
+  date: "2026-11-01"
+  style: default
+  cover: ZhuHai_guihuazhanlanguan/20261101-DSC_5765.2ioouhkmh3s0.webp
+  location:
+    - 22.299004
+    - 113.583788
+
+珠海 · 野狸岛:
+  url: ZhuHai_yelidao
+  date: "2026-10-31"
+  style: default
+  cover: ZhuHai_yelidao/20261101-DSC_5739.4dwjhuyn3l40.webp
+  location:
+    - 22.286013
+    - 113.598171
+
+珠海 · 香山:
+  url: ZhuHai_xiangshan
+  date: "2026-10-31"
+  style: default
+  cover: ZhuHai_xiangshan/20261031-DSC_5452.6kwkqb4z52o0.webp
+  location:
+    - 22.281064
+    - 113.579515
+
 
 衡阳 · 祝圣寺:
   url: HengYang_zhushengsi
