@@ -3,7 +3,8 @@
 
 
 <!DOCTYPE html>
-<html lang="zh-CN">
+
+<html lang="zh-CN" data-skin="modern">
 <!-- Head tag -->
 <head>
   <meta charset="utf-8">
@@ -67,7 +68,7 @@
   <!-- https://material.io/resources/icons/?style=outline -->
   
   
-  <script src="https://lf1-cdn-tos.bytegoofy.com/obj/iconpark/icons_29703_16.0f9623ad85e64efb07f6dddba36807a6.js"></script>
+  <script src="https://lf1-cdn-tos.bytegoofy.com/obj/iconpark/icons_29703_20.a16abc3c381b339cccd05404911bbf44.js"></script>
   
   
 <style>
@@ -103,6 +104,10 @@
   }
 </style>
 
+  
+  
+<link rel="stylesheet" href="/Gallery/css/tokens.css">
+
   <!-- Custom CSS/Sass -->
   
 <link rel="stylesheet" href="/Gallery/css/style.css">
@@ -110,21 +115,30 @@
   
 <link rel="stylesheet" href="/Gallery/css/fancybox.css">
 
-  <!--样式切换-->
-  
   
 <link rel="stylesheet" href="/Gallery/css/material3.css">
 
   
   
   
-  
-  
-  <!--highlight.js CSS-->
-  
-  
-<link rel="stylesheet" href="/Gallery/css/highlight/github.css">
+<link rel="stylesheet" href="/Gallery/css/skins/classic.css">
 
+  
+  
+<link rel="stylesheet" href="/Gallery/css/skins/darkroom.css">
+
+  
+  
+<link rel="stylesheet" href="/Gallery/css/skins/gallery.css">
+
+  
+  
+<link rel="stylesheet" href="/Gallery/css/skins/editorial.css">
+
+  
+  
+  
+  
   
   
 
@@ -226,33 +240,41 @@
   
   <!--只在 **非文章** 页面显示-->
   
-  <a class="itp-float-bar-item rounded" href="/Gallery/location" title="地图">
+  
+  <a class="itp-float-bar-item rounded itp-nav-item itp-nav-idx-0" href="/Gallery/location" title="地图">
     
     <iconpark-icon class="navicon" name="local-two"></iconpark-icon>
     
   </a>
   
-  <a class="itp-float-bar-item rounded" target="_blank" rel="noopener" href="https://github.com/KingLear1606/Gallery" title="归档">
+  <a class="itp-float-bar-item rounded itp-nav-item itp-nav-idx-1" target="_blank" rel="noopener" href="https://github.com/KingLear1606/Gallery" title="归档">
     
     <iconpark-icon class="navicon" name="inbox"></iconpark-icon>
     
   </a>
   
-  <a class="itp-float-bar-item rounded" href="/Gallery/grid-all" title="时间线">
+  <a class="itp-float-bar-item rounded itp-nav-item itp-nav-idx-2" href="/Gallery/grid-all" title="时间线">
     
     <iconpark-icon class="navicon" name="grid-nine"></iconpark-icon>
     
   </a>
   
-  <a class="itp-float-bar-item rounded" href="/Gallery/status" title="状态监控">
+  <a class="itp-float-bar-item rounded itp-nav-item itp-nav-idx-3" href="/Gallery/status" title="状态监控">
     
     <iconpark-icon class="navicon" name="list-view"></iconpark-icon>
     
   </a>
   
-  <a class="itp-float-bar-item rounded" href="/Gallery/random" title="随机">
+  <a class="itp-float-bar-item rounded itp-nav-item itp-nav-idx-4" href="/Gallery/random" title="随机">
     
     <iconpark-icon class="navicon" name="pic"></iconpark-icon>
+    
+  </a>
+  
+  
+  <a class="itp-float-bar-item rounded itp-nav-more" id="itp_nav_more" href="javascript:void(0)" title="More" aria-label="More">
+    
+    <iconpark-icon class="navicon" name="all-application"></iconpark-icon>
     
   </a>
   
@@ -271,14 +293,117 @@
   <div class="itp-float-layer-bg layer-bg-nodisplay" id="close_layer"></div>
 </div>
 
-
+<div class="itp-nav-sheet" id="itp_nav_sheet" role="dialog" aria-modal="true" aria-hidden="true">
+  <div class="itp-nav-sheet-handle"></div>
+  <div class="itp-nav-sheet-grid">
+    
+    <a class="itp-nav-sheet-item" href="/Gallery/status">
+      <iconpark-icon class="navicon" name="list-view"></iconpark-icon>
+      <span>状态监控</span>
+    </a>
+    
+    <a class="itp-nav-sheet-item" href="/Gallery/random">
+      <iconpark-icon class="navicon" name="pic"></iconpark-icon>
+      <span>随机</span>
+    </a>
+    
+  </div>
+</div>
+<div class="itp-nav-sheet-bg" id="itp_nav_sheet_bg"></div>
 <style>
-  .navicon {
-    font-size: 18px;
-    padding-top: 18px;
-    color: var(--main-black);
+  /* the SCSS .itp-float-bar .itp-float-bar-item rule is 2-class specificity,
+     so we have to match it here or `display: inline-flex` wins on desktop */
+  .itp-float-bar .itp-nav-more { display: none; }
+  .itp-nav-sheet, .itp-nav-sheet-bg { display: none; }
+  @media (max-width: 768px) {
+    /* hide overflow nav items in the floatbar; sheet shows them all */
+    .itp-float-bar .itp-nav-item.itp-nav-idx-3,
+    .itp-float-bar .itp-nav-item.itp-nav-idx-4,
+    .itp-float-bar .itp-nav-item.itp-nav-idx-5,
+    .itp-float-bar .itp-nav-item.itp-nav-idx-6,
+    .itp-float-bar .itp-nav-item.itp-nav-idx-7,
+    .itp-float-bar .itp-nav-item.itp-nav-idx-8,
+    .itp-float-bar .itp-nav-item.itp-nav-idx-9 { display: none; }
+    .itp-float-bar .itp-nav-more { display: flex; }
+  }
+  .itp-nav-sheet-bg {
+    position: fixed; inset: 0;
+    background: rgba(20,20,20,.35);
+    z-index: 1100;
+    opacity: 0; transition: opacity .18s ease-out;
+  }
+  .itp-nav-sheet-bg.show { display: block; opacity: 1; }
+  .itp-nav-sheet {
+    position: fixed; left: 0; right: 0;
+    bottom: calc(56px + env(safe-area-inset-bottom, 0px));
+    z-index: 1101;
+    background: var(--surface, #fff);
+    border-top-left-radius: var(--radius-lg, 14px);
+    border-top-right-radius: var(--radius-lg, 14px);
+    box-shadow: 0 -8px 28px rgba(0,0,0,.18);
+    padding: 8px 16px 20px;
+    transform: translateY(100%);
+    transition: transform .22s cubic-bezier(.2,.8,.2,1);
+  }
+  .itp-nav-sheet.show { display: block; transform: translateY(0); }
+  .itp-nav-sheet-handle {
+    width: 40px; height: 4px; border-radius: 2px;
+    background: rgba(120,120,120,.35);
+    margin: 6px auto 14px;
+  }
+  .itp-nav-sheet-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px 8px;
+  }
+  .itp-nav-sheet-item {
+    display: flex; flex-direction: column; align-items: center; gap: 6px;
+    padding: 8px 4px;
+    color: var(--on-surface, #2f3a2f);
+    text-decoration: none;
+    font-size: 12px;
+    border-radius: 10px;
+    transition: background-color .15s ease;
+  }
+  .itp-nav-sheet-item:active { background: rgba(120,120,120,.12); }
+  .itp-nav-sheet-item iconpark-icon { font-size: 24px; }
+  @media (prefers-color-scheme: dark) {
+    .itp-nav-sheet { background: #1d2326; }
+    .itp-nav-sheet-item { color: #e6e0d0; }
+    .itp-nav-sheet-bg { background: rgba(0,0,0,.55); }
   }
 </style>
+<script>
+  (function () {
+    var btn = document.getElementById('itp_nav_more');
+    var sheet = document.getElementById('itp_nav_sheet');
+    var bg = document.getElementById('itp_nav_sheet_bg');
+    if (!btn || !sheet || !bg) return;
+    function open() {
+      sheet.style.display = 'block'; bg.style.display = 'block';
+      // next frame so the transition runs
+      requestAnimationFrame(function () { sheet.classList.add('show'); bg.classList.add('show'); });
+      sheet.setAttribute('aria-hidden', 'false');
+    }
+    function close() {
+      sheet.classList.remove('show'); bg.classList.remove('show');
+      sheet.setAttribute('aria-hidden', 'true');
+      setTimeout(function () { sheet.style.display = 'none'; bg.style.display = 'none'; }, 220);
+    }
+    btn.addEventListener('click', function (e) { e.preventDefault(); sheet.classList.contains('show') ? close() : open(); });
+    bg.addEventListener('click', close);
+    sheet.querySelectorAll('.itp-nav-sheet-item').forEach(function (a) {
+      a.addEventListener('click', function () { close(); });
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && sheet.classList.contains('show')) close();
+    });
+  })();
+</script>
+
+
+
+
   <!-- Main Content -->
   <section class="pjax-area">
   <div class="content-area album-area">
@@ -289,6 +414,24 @@
     
     <div class="container gpro-container grid grid-cols-1 xs:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
       
+      
+      <a href="ZhuHai_guihuazhanlanguan">
+        <div class="gpro-tile lazy" data-src="ZhuHai_guihuazhanlanguan/20261101-DSC_5765.2ioouhkmh3s0.webp">
+          <div class="gpro-tile-descr">珠海 · 规划展览馆</div>
+        </div>
+      </a>
+      
+      <a href="ZhuHai_yelidao">
+        <div class="gpro-tile lazy" data-src="ZhuHai_yelidao/20261101-DSC_5739.4dwjhuyn3l40.webp">
+          <div class="gpro-tile-descr">珠海 · 野狸岛</div>
+        </div>
+      </a>
+      
+      <a href="ZhuHai_xiangshan">
+        <div class="gpro-tile lazy" data-src="ZhuHai_xiangshan/20261031-DSC_5452.6kwkqb4z52o0.webp">
+          <div class="gpro-tile-descr">珠海 · 香山</div>
+        </div>
+      </a>
       
       <a href="HengYang_zhushengsi">
         <div class="gpro-tile lazy" data-src="HengYang_zhushengsi/20260921-DSC_5185.2ggqjp1k40ro.webp">
@@ -2029,25 +2172,12 @@
 <link rel="stylesheet" href="" />
 <script src="/Gallery/js/fancybox.umd.js" defer></script>
 
-<!-- mdui -->
-
 <!-- busuanzi -->
 
 <!-- <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" defer></script> -->
 
 <!-- highlightjs -->
 
-
-<script src="/Gallery/js/highlight.min.js"></script>
-
-<script>window.addEventListener('load', () => {
-  hljs.highlightAll(); // initialize highlighting
-});</script>
-<script>
-  $("pre.code").each(function() {
-    $(this).html("<ol><li>" + $(this).html().replace(/\n/g, "\n</li><li>") + "\n</li></ol>");
-  });
-</script>
 
 
 
@@ -2079,6 +2209,62 @@
 <!---->
 <!---->
 <!--首页键盘快捷键-->
+
+
+
+<script>
+(function () {
+  var root = document.documentElement;
+  var KEY = 'sdt.overrides.v1';
+
+  window.__sdtDefaultSkin = 'modern';
+  window.__sdtShowButton = false;
+
+  // ── 1) 重放覆盖 ────────────────────────────────────────────────────────
+  try {
+    var saved = JSON.parse(localStorage.getItem(KEY)) || {};
+    if (saved['data-skin']) root.dataset.skin = saved['data-skin'];
+    Object.keys(saved).forEach(function (k) {
+      if (k !== 'data-skin') root.style.setProperty(k, saved[k]);
+    });
+  } catch (e) { /* localStorage 不可用（隐私模式等）时就当没存过 */ }
+
+  // ── 2) Shift+D ─────────────────────────────────────────────────────────
+  var loading = false;
+
+  function summon() {
+    if (window.__sdtToggle) { window.__sdtToggle(); return; }   // 已加载，直接开关
+    if (loading) return;
+    loading = true;
+    var s = document.createElement('script');
+    s.src = '/Gallery/js/skin-devtool.js';
+    s.onload = function () {
+      window.__sdtInit();
+      window.__sdtToggle();      // 首次唤出直接打开，不用再按一次
+    };
+    s.onerror = function () {
+      loading = false;
+      console.warn('[skin-devtool] 加载失败：' + s.src);
+    };
+    document.head.appendChild(s);
+  }
+
+  document.addEventListener('keydown', function (e) {
+    if (e.key !== 'D' || !e.shiftKey || e.ctrlKey || e.metaKey || e.altKey) return;
+    // 输入焦点保护。主题原有的 Shift+1..5 快捷键没做这个，在评论框里敲字会误触
+    // （上游 e538133 也修过一次同类问题）。这里从一开始就带上。
+    var el = document.activeElement;
+    if (el && (el.isContentEditable ||
+               /^(INPUT|TEXTAREA|SELECT)$/.test(el.tagName))) return;
+    e.preventDefault();
+    summon();
+  });
+
+  // 配置里开了浮标，就得先把面板加载出来才有按钮可点
+  if (window.__sdtShowButton) summon();
+})();
+</script>
+
 
   <style>
   :root {

@@ -3,7 +3,8 @@
 
 
 <!DOCTYPE html>
-<html lang="zh-CN">
+
+<html lang="zh-CN" data-skin="modern">
 <!-- Head tag -->
 <head>
   <meta charset="utf-8">
@@ -67,7 +68,7 @@
   <!-- https://material.io/resources/icons/?style=outline -->
   
   
-  <script src="https://lf1-cdn-tos.bytegoofy.com/obj/iconpark/icons_29703_16.0f9623ad85e64efb07f6dddba36807a6.js"></script>
+  <script src="https://lf1-cdn-tos.bytegoofy.com/obj/iconpark/icons_29703_20.a16abc3c381b339cccd05404911bbf44.js"></script>
   
   
 <style>
@@ -103,6 +104,10 @@
   }
 </style>
 
+  
+  
+<link rel="stylesheet" href="/Gallery/css/tokens.css">
+
   <!-- Custom CSS/Sass -->
   
 <link rel="stylesheet" href="/Gallery/css/style.css">
@@ -110,21 +115,30 @@
   
 <link rel="stylesheet" href="/Gallery/css/fancybox.css">
 
-  <!--样式切换-->
-  
   
 <link rel="stylesheet" href="/Gallery/css/material3.css">
 
   
   
   
-  
-  
-  <!--highlight.js CSS-->
-  
-  
-<link rel="stylesheet" href="/Gallery/css/highlight/github.css">
+<link rel="stylesheet" href="/Gallery/css/skins/classic.css">
 
+  
+  
+<link rel="stylesheet" href="/Gallery/css/skins/darkroom.css">
+
+  
+  
+<link rel="stylesheet" href="/Gallery/css/skins/gallery.css">
+
+  
+  
+<link rel="stylesheet" href="/Gallery/css/skins/editorial.css">
+
+  
+  
+  
+  
   
   
 
@@ -226,33 +240,41 @@
   
   <!--只在 **非文章** 页面显示-->
   
-  <a class="itp-float-bar-item rounded" href="/Gallery/location" title="地图">
+  
+  <a class="itp-float-bar-item rounded itp-nav-item itp-nav-idx-0" href="/Gallery/location" title="地图">
     
     <iconpark-icon class="navicon" name="local-two"></iconpark-icon>
     
   </a>
   
-  <a class="itp-float-bar-item rounded" target="_blank" rel="noopener" href="https://github.com/KingLear1606/Gallery" title="归档">
+  <a class="itp-float-bar-item rounded itp-nav-item itp-nav-idx-1" target="_blank" rel="noopener" href="https://github.com/KingLear1606/Gallery" title="归档">
     
     <iconpark-icon class="navicon" name="inbox"></iconpark-icon>
     
   </a>
   
-  <a class="itp-float-bar-item rounded" href="/Gallery/grid-all" title="时间线">
+  <a class="itp-float-bar-item rounded itp-nav-item itp-nav-idx-2" href="/Gallery/grid-all" title="时间线">
     
     <iconpark-icon class="navicon" name="grid-nine"></iconpark-icon>
     
   </a>
   
-  <a class="itp-float-bar-item rounded" href="/Gallery/status" title="状态监控">
+  <a class="itp-float-bar-item rounded itp-nav-item itp-nav-idx-3" href="/Gallery/status" title="状态监控">
     
     <iconpark-icon class="navicon" name="list-view"></iconpark-icon>
     
   </a>
   
-  <a class="itp-float-bar-item rounded" href="/Gallery/random" title="随机">
+  <a class="itp-float-bar-item rounded itp-nav-item itp-nav-idx-4" href="/Gallery/random" title="随机">
     
     <iconpark-icon class="navicon" name="pic"></iconpark-icon>
+    
+  </a>
+  
+  
+  <a class="itp-float-bar-item rounded itp-nav-more" id="itp_nav_more" href="javascript:void(0)" title="More" aria-label="More">
+    
+    <iconpark-icon class="navicon" name="all-application"></iconpark-icon>
     
   </a>
   
@@ -271,14 +293,117 @@
   <div class="itp-float-layer-bg layer-bg-nodisplay" id="close_layer"></div>
 </div>
 
-
+<div class="itp-nav-sheet" id="itp_nav_sheet" role="dialog" aria-modal="true" aria-hidden="true">
+  <div class="itp-nav-sheet-handle"></div>
+  <div class="itp-nav-sheet-grid">
+    
+    <a class="itp-nav-sheet-item" href="/Gallery/status">
+      <iconpark-icon class="navicon" name="list-view"></iconpark-icon>
+      <span>状态监控</span>
+    </a>
+    
+    <a class="itp-nav-sheet-item" href="/Gallery/random">
+      <iconpark-icon class="navicon" name="pic"></iconpark-icon>
+      <span>随机</span>
+    </a>
+    
+  </div>
+</div>
+<div class="itp-nav-sheet-bg" id="itp_nav_sheet_bg"></div>
 <style>
-  .navicon {
-    font-size: 18px;
-    padding-top: 18px;
-    color: var(--main-black);
+  /* the SCSS .itp-float-bar .itp-float-bar-item rule is 2-class specificity,
+     so we have to match it here or `display: inline-flex` wins on desktop */
+  .itp-float-bar .itp-nav-more { display: none; }
+  .itp-nav-sheet, .itp-nav-sheet-bg { display: none; }
+  @media (max-width: 768px) {
+    /* hide overflow nav items in the floatbar; sheet shows them all */
+    .itp-float-bar .itp-nav-item.itp-nav-idx-3,
+    .itp-float-bar .itp-nav-item.itp-nav-idx-4,
+    .itp-float-bar .itp-nav-item.itp-nav-idx-5,
+    .itp-float-bar .itp-nav-item.itp-nav-idx-6,
+    .itp-float-bar .itp-nav-item.itp-nav-idx-7,
+    .itp-float-bar .itp-nav-item.itp-nav-idx-8,
+    .itp-float-bar .itp-nav-item.itp-nav-idx-9 { display: none; }
+    .itp-float-bar .itp-nav-more { display: flex; }
+  }
+  .itp-nav-sheet-bg {
+    position: fixed; inset: 0;
+    background: rgba(20,20,20,.35);
+    z-index: 1100;
+    opacity: 0; transition: opacity .18s ease-out;
+  }
+  .itp-nav-sheet-bg.show { display: block; opacity: 1; }
+  .itp-nav-sheet {
+    position: fixed; left: 0; right: 0;
+    bottom: calc(56px + env(safe-area-inset-bottom, 0px));
+    z-index: 1101;
+    background: var(--surface, #fff);
+    border-top-left-radius: var(--radius-lg, 14px);
+    border-top-right-radius: var(--radius-lg, 14px);
+    box-shadow: 0 -8px 28px rgba(0,0,0,.18);
+    padding: 8px 16px 20px;
+    transform: translateY(100%);
+    transition: transform .22s cubic-bezier(.2,.8,.2,1);
+  }
+  .itp-nav-sheet.show { display: block; transform: translateY(0); }
+  .itp-nav-sheet-handle {
+    width: 40px; height: 4px; border-radius: 2px;
+    background: rgba(120,120,120,.35);
+    margin: 6px auto 14px;
+  }
+  .itp-nav-sheet-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px 8px;
+  }
+  .itp-nav-sheet-item {
+    display: flex; flex-direction: column; align-items: center; gap: 6px;
+    padding: 8px 4px;
+    color: var(--on-surface, #2f3a2f);
+    text-decoration: none;
+    font-size: 12px;
+    border-radius: 10px;
+    transition: background-color .15s ease;
+  }
+  .itp-nav-sheet-item:active { background: rgba(120,120,120,.12); }
+  .itp-nav-sheet-item iconpark-icon { font-size: 24px; }
+  @media (prefers-color-scheme: dark) {
+    .itp-nav-sheet { background: #1d2326; }
+    .itp-nav-sheet-item { color: #e6e0d0; }
+    .itp-nav-sheet-bg { background: rgba(0,0,0,.55); }
   }
 </style>
+<script>
+  (function () {
+    var btn = document.getElementById('itp_nav_more');
+    var sheet = document.getElementById('itp_nav_sheet');
+    var bg = document.getElementById('itp_nav_sheet_bg');
+    if (!btn || !sheet || !bg) return;
+    function open() {
+      sheet.style.display = 'block'; bg.style.display = 'block';
+      // next frame so the transition runs
+      requestAnimationFrame(function () { sheet.classList.add('show'); bg.classList.add('show'); });
+      sheet.setAttribute('aria-hidden', 'false');
+    }
+    function close() {
+      sheet.classList.remove('show'); bg.classList.remove('show');
+      sheet.setAttribute('aria-hidden', 'true');
+      setTimeout(function () { sheet.style.display = 'none'; bg.style.display = 'none'; }, 220);
+    }
+    btn.addEventListener('click', function (e) { e.preventDefault(); sheet.classList.contains('show') ? close() : open(); });
+    bg.addEventListener('click', close);
+    sheet.querySelectorAll('.itp-nav-sheet-item').forEach(function (a) {
+      a.addEventListener('click', function () { close(); });
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && sheet.classList.contains('show')) close();
+    });
+  })();
+</script>
+
+
+
+
   <!-- Main Content -->
   <script src="js/sql-wasm.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js"></script>
@@ -294,12 +419,22 @@
         scroll-behavior: smooth;
     }
 
+    /* 年度回顾是自成一体的沉浸式页面，画布由 --recap-bg 一个人说了算，不跟随
+       全站的明暗模式：各皮肤的 recap 调色本身就是完整的一套（画廊是纸白配墨字，
+       暗房是近黑配琥珀），再叠一层 prefers-color-scheme 只会互相打架。
+       这里必须用 !important——_dark.scss 的 body 规则带 !important，不然画布会被
+       它抢走，变成深底配浅底皮肤的深色字，直接读不了。 */
     body {
         font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', system-ui;
-        background: #000;
-        color: #fff;
+        background: var(--recap-bg) !important;
+        color: var(--recap-fg);
         line-height: 1.5;
         overflow-x: hidden;
+    }
+
+    /* 同理，标题也要拿回来：_dark.scss 会给全站 h1..h6 上暗色标题色 */
+    h1, h2, h3, h4, h5, h6 {
+        color: var(--recap-fg);
     }
 
     .section {
@@ -313,7 +448,7 @@
     }
 
     .hero {
-        background: linear-gradient(180deg, #000 0%, #1a1a1a 100%);
+        background: linear-gradient(180deg, var(--recap-bg) 0%, var(--recap-bg-2) 100%);
         text-align: center;
     }
 
@@ -323,7 +458,7 @@
         text-align: center;
         margin-bottom: 1rem;
         line-height: 1.1;
-        background: linear-gradient(180deg, #fff, rgba(255, 255, 255, 0.8));
+        background: linear-gradient(180deg, var(--recap-fg), var(--recap-fg-dim));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
@@ -340,7 +475,7 @@
     .stat-number {
         font-size: clamp(4rem, 15vw, 12rem);
         font-weight: 700;
-        background: linear-gradient(90deg, #007AFF, #FF2D55);
+        background: linear-gradient(90deg, var(--recap-accent), var(--recap-accent-2));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         line-height: 1;
@@ -371,8 +506,8 @@
     }
 
     .stat-card {
-        background: rgba(255, 255, 255, 0.05);
-        border-radius: 20px;
+        background: var(--recap-card);
+        border-radius: var(--radius-xl);
         padding: 30px;
         backdrop-filter: blur(10px);
         -webkit-backdrop-filter: blur(10px);
@@ -389,7 +524,7 @@
     .stat-title {
         font-size: 1.2rem;
         margin-bottom: 20px;
-        color: rgba(255, 255, 255, 0.9);
+        color: var(--recap-fg-soft);
     }
 
     .chart-container {
@@ -406,20 +541,28 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        gap: 12px;
         padding: 12px 16px;
-        background: rgba(255, 255, 255, 0.05);
+        background: var(--recap-card);
         margin-bottom: 8px;
-        border-radius: 8px;
+        border-radius: var(--radius-sm);
     }
 
     .stat-label {
-        color: rgba(255, 255, 255, 0.8);
-        max-width: 200px;
+        color: var(--recap-fg-dim);
+        flex: 1;
+        min-width: 0;
+        overflow-wrap: anywhere;
+        word-break: break-word;
+        line-height: 1.4;
     }
 
     .stat-value {
-        color: #007AFF;
+        color: var(--recap-accent);
         font-weight: 500;
+        flex-shrink: 0;
+        white-space: nowrap;
+        font-variant-numeric: tabular-nums;
     }
 
     .scroll-indicator {
@@ -436,7 +579,7 @@
         display: block;
         width: 2px;
         height: 60px;
-        background: linear-gradient(180deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0) 100%);
+        background: linear-gradient(180deg, var(--recap-fg-dim) 0%, transparent 100%);
         animation: scrollIndicator 2s cubic-bezier(0.76, 0, 0.24, 1) infinite;
     }
 
@@ -466,7 +609,7 @@
         top: 0;
         left: 0;
         height: 2px;
-        background: linear-gradient(90deg, #007AFF, #FF2D55);
+        background: linear-gradient(90deg, var(--recap-accent), var(--recap-accent-2));
         z-index: 1000;
     }
 
@@ -507,12 +650,12 @@
 
     .photo-item {
         position: relative;
-        border-radius: 16px;
+        border-radius: var(--radius-lg);
         overflow: hidden;
         aspect-ratio: 4/3;
         transform: translateY(0);
         transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-        background: rgba(255, 255, 255, 0.05);
+        background: var(--recap-card);
     }
 
     .photo-item:hover {
@@ -531,7 +674,7 @@
         left: 0;
         right: 0;
         padding: 20px;
-        background: linear-gradient(0deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+        background: linear-gradient(0deg, var(--recap-scrim) 0%, rgba(0, 0, 0, 0) 100%);
         color: #fff;
         display: flex;
         justify-content: space-between;
@@ -558,9 +701,9 @@
 
     .photo-wall-container {
         max-width: 1400px;
-        border-radius: 20px;
+        border-radius: var(--radius-xl);
         padding: 30px;
-        background-color: rgba(255, 255, 255, 0.05);
+        background-color: var(--recap-card);
         margin: 0 auto;
     }
 
@@ -622,11 +765,36 @@
 </section>
 
 <script type="module">
-    // 设置全局Chart.js配置
-    Chart.defaults.color = '#fff';
-    Chart.defaults.borderColor = 'rgba(255, 255, 255, 0.1)';
-    Chart.defaults.plugins.tooltip.backgroundColor = 'rgba(0, 0, 0, 0.8)';
-    Chart.defaults.plugins.legend.labels.color = '#fff';
+    // Chart.js 的配色从 CSS 变量读，这样图表能跟着皮肤走。Chart.js 自己不认
+    // var(--…)——它把颜色交给 canvas，canvas 不参与 CSS 级联——所以必须在 JS 里
+    // 先解析成具体值。skin 运行时可切，故把取色和重绘包成函数复用。
+    const cssVar = (n) => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+    const series = () => cssVar('--recap-series').split(',').map(c => c.trim()).filter(Boolean);
+    const seriesAt = (i, p) => p[i % p.length];   // 条目多于色板时循环取用
+
+    function applyChartTheme() {
+        Chart.defaults.color = cssVar('--recap-fg');
+        Chart.defaults.borderColor = cssVar('--recap-grid');
+        Chart.defaults.plugins.tooltip.backgroundColor = cssVar('--recap-tooltip');
+        Chart.defaults.plugins.legend.labels.color = cssVar('--recap-fg');
+    }
+    applyChartTheme();
+
+    // 切皮肤后把画好的图表重新上色。图表在下面创建时逐个登记到 charts。
+    // 切皮肤后重建图表。不能只改 dataset 的颜色再 update()——Chart.js 把解析好的
+    // 配置缓存在元素上（element.options），实测无论用 update()、update('none')、
+    // 清 controller._cachedDataOpts 还是改成函数式配置，元素级的颜色都不会刷新。
+    // 图表很轻，直接销毁重建最省心也最可靠：工厂函数在调用时才读 CSS 变量。
+    const chartSlots = [];
+    function mountChart(factory) {
+        const slot = { factory, chart: factory() };
+        chartSlots.push(slot);
+        return slot.chart;
+    }
+    new MutationObserver(() => {
+        applyChartTheme();
+        chartSlots.forEach(slot => { slot.chart.destroy(); slot.chart = slot.factory(); });
+    }).observe(document.documentElement, { attributes: true, attributeFilter: ['data-skin'] });
 
     const SQL = await initSqlJs({
         locateFile: file => `/Gallery/js/sql-wasm.wasm`
@@ -729,6 +897,36 @@
     console.log(sql)
     var data = db.exec(sql);
     const DATA = JSON.parse(data[0].values[0][0])
+    // 若 gallery/.analysis/annual-summary/<year>.json 存在，由它覆盖每月精选；否则保留 SQL 随机结果。
+    try {
+        const annualRes = await fetch(`annual-summary/${year}.json`);
+        if (annualRes.ok) {
+            const annual = await annualRes.json();
+            const thum = "https://cdn.jsdelivr.net/gh/KingLear1606/Gallery@thumbnail/";
+            const monthEntries = Object.keys(annual)
+                .filter(k => /^\d{2}$/.test(k) && annual[k])
+                .sort();
+            const lookupDate = (path) => {
+                try {
+                    const r = db.exec(
+                        "SELECT strftime('%Y-%m-%d', e.date) FROM photo p JOIN exifdata e ON p.exif_data_id = e.id WHERE p.path = $p LIMIT 1",
+                        { $p: path }
+                    );
+                    return r[0]?.values?.[0]?.[0] || '';
+                } catch (_) { return ''; }
+            };
+            const overridden = monthEntries.map(k => ({
+                month: parseInt(k, 10),
+                date: lookupDate(annual[k]) || `${year}-${k}`,
+                url: thum + annual[k]
+            }));
+            if (overridden.length) {
+                DATA.photos = overridden;
+            }
+        }
+    } catch (e) {
+        console.warn('annual-summary override skipped:', e);
+    }
     const title = document.getElementById("title")
     console.log(DATA)
     title.textContent = DATA.year + title.textContent
@@ -797,13 +995,13 @@
         window.addEventListener('scroll', updateProgressBar);
 
         // 初始化图表
-        new Chart(document.getElementById('cameraChart'), {
+        mountChart(() => new Chart(document.getElementById('cameraChart'), {
             type: 'doughnut',
             data: {
                 labels: DATA.maker.map(([maker]) => maker),
                 datasets: [{
                     data: DATA.maker.map(([_, count]) => count),
-                    backgroundColor: DATA.maker.map(([maker]) => generatePastelColor()),
+                    backgroundColor: DATA.maker.map((_, i) => seriesAt(i, series())),
                     borderWidth: 0
                 }]
             },
@@ -822,7 +1020,7 @@
                     }
                 }
             }
-        });
+        }));
 
         function renderStats(lensData) {
             const lens = document.createElement('ul');
@@ -846,14 +1044,14 @@
         const location = document.getElementById("location")
         location.appendChild(renderStats(DATA.locations))
 
-        new Chart(document.getElementById('apertureChart'), {
+        mountChart(() => new Chart(document.getElementById('apertureChart'), {
             type: 'bar',
             data: {
                 labels: DATA.F.map(([f]) => f),
                 datasets: [{
                     label: '使用次数',
                     data: DATA.F.map(([_, count]) => count),
-                    backgroundColor: '#007AFF',
+                    backgroundColor: cssVar('--recap-accent'),
                     borderRadius: 4
                 }]
             },
@@ -869,7 +1067,7 @@
                     y: {
                         beginAtZero: true,
                         grid: {
-                            color: 'rgba(255, 255, 255, 0.1)'
+                            color: cssVar('--recap-grid')
                         }
                     },
                     x: {
@@ -879,7 +1077,7 @@
                     }
                 }
             }
-        });
+        }));
 
         function renderMonthlyPhotos(container, data) {
             const card = document.createElement('section');
@@ -936,25 +1134,12 @@
 <link rel="stylesheet" href="" />
 <script src="/Gallery/js/fancybox.umd.js" defer></script>
 
-<!-- mdui -->
-
 <!-- busuanzi -->
 
 <!-- <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" defer></script> -->
 
 <!-- highlightjs -->
 
-
-<script src="/Gallery/js/highlight.min.js"></script>
-
-<script>window.addEventListener('load', () => {
-  hljs.highlightAll(); // initialize highlighting
-});</script>
-<script>
-  $("pre.code").each(function() {
-    $(this).html("<ol><li>" + $(this).html().replace(/\n/g, "\n</li><li>") + "\n</li></ol>");
-  });
-</script>
 
 
 
@@ -986,6 +1171,62 @@
 <!---->
 <!---->
 <!--首页键盘快捷键-->
+
+
+
+<script>
+(function () {
+  var root = document.documentElement;
+  var KEY = 'sdt.overrides.v1';
+
+  window.__sdtDefaultSkin = 'modern';
+  window.__sdtShowButton = false;
+
+  // ── 1) 重放覆盖 ────────────────────────────────────────────────────────
+  try {
+    var saved = JSON.parse(localStorage.getItem(KEY)) || {};
+    if (saved['data-skin']) root.dataset.skin = saved['data-skin'];
+    Object.keys(saved).forEach(function (k) {
+      if (k !== 'data-skin') root.style.setProperty(k, saved[k]);
+    });
+  } catch (e) { /* localStorage 不可用（隐私模式等）时就当没存过 */ }
+
+  // ── 2) Shift+D ─────────────────────────────────────────────────────────
+  var loading = false;
+
+  function summon() {
+    if (window.__sdtToggle) { window.__sdtToggle(); return; }   // 已加载，直接开关
+    if (loading) return;
+    loading = true;
+    var s = document.createElement('script');
+    s.src = '/Gallery/js/skin-devtool.js';
+    s.onload = function () {
+      window.__sdtInit();
+      window.__sdtToggle();      // 首次唤出直接打开，不用再按一次
+    };
+    s.onerror = function () {
+      loading = false;
+      console.warn('[skin-devtool] 加载失败：' + s.src);
+    };
+    document.head.appendChild(s);
+  }
+
+  document.addEventListener('keydown', function (e) {
+    if (e.key !== 'D' || !e.shiftKey || e.ctrlKey || e.metaKey || e.altKey) return;
+    // 输入焦点保护。主题原有的 Shift+1..5 快捷键没做这个，在评论框里敲字会误触
+    // （上游 e538133 也修过一次同类问题）。这里从一开始就带上。
+    var el = document.activeElement;
+    if (el && (el.isContentEditable ||
+               /^(INPUT|TEXTAREA|SELECT)$/.test(el.tagName))) return;
+    e.preventDefault();
+    summon();
+  });
+
+  // 配置里开了浮标，就得先把面板加载出来才有按钮可点
+  if (window.__sdtShowButton) summon();
+})();
+</script>
+
 
   <style>
   :root {
