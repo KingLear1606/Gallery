@@ -1,0 +1,17 @@
+按照要求为我转换：
+示例：
+https://cdn.staticaly.com/gh/KingLear1606/Gallery@master/ZhuHai_guihuazhanlanguan/20261101-DSC_5765.2ioouhkmh3s0.webp
+113.583788,22.299004
+
+转换为：
+珠海 · 规划展览馆:
+  url: ZhuHai_guihuazhanlanguan
+  date: "2026-11-01"
+  style: default
+  cover: ZhuHai_guihuazhanlanguan/20261101-DSC_5765.2ioouhkmh3s0.webp
+  location:
+    - 22.302029
+    - 113.578750
+
+
+将以下链接和坐标按照示例转换，注意坐标从 GCJ-02转为WGS84，转换完成后填入README.yml对应位置。
