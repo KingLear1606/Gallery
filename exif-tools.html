@@ -1,0 +1,1458 @@
+<!-- @format -->
+
+
+
+<!DOCTYPE html>
+
+<html lang="zh-CN" data-skin="modern">
+<!-- Head tag -->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <!--360 使用 Google Chrome Frame-->
+  <meta name="renderer" content="webkit">
+  <!--百度禁止转码-->
+  <meta http-equiv="Cache-Control" content="no-siteapp">
+  <!--Description-->
+  
+  <meta name="google-site-verification" content="J4gssmXGNI9-DfJ9w52mL5KFPlRCYvySveEN0RJFZHU" />
+  <!--Author-->
+  
+  <meta name="author" content="Breeze">
+  
+  <!--Open Graph Title-->
+  <meta property="og:title" content="Exif Tools" />
+  <!--Open Graph Description-->
+  <meta property="og:description" content="" />
+  <!--Open Graph Site Name-->
+  <meta property="og:site_name" content="MyGallery" />
+  <!--Type page-->
+  
+  <meta property="og:type" content="article" />
+  
+  <!--Page Cover-->
+  
+  <meta property="og:image" content="https://github.com/lfkdsk/picx-images-hosting/raw/master/20230817/IMG_7586.4e91my1ve140.17iz0sa56gik.webp" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <!-- Title -->
+  
+  <title>Exif Tools - MyGallery</title>
+  <!-- 添加到主屏后的标题（iOS 6 新增） -->
+  <meta name="apple-mobile-web-app-title" content="MyGallery">
+  <!-- 是否启用 WebApp 全屏模式 -->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <link rel="apple-touch-startup-image" href="/assets/ splash-assets.png" media="(max-device-width: 700px)">
+  <!-- 禁止数字识自动别为电话号码 -->
+  <meta name="format-detection" content="telephone=no" />
+  <link rel="shortcut icon" href="https://imgur.lzmun.com/picgo/after2022/tripper2whitefull.png_avatar">
+  <!--Apple iOS Safari ICON-->
+  <link rel="apple-touch-icon" sizes="57x57" href="https://imgur.lzmun.com/picgo/after2022/tripper2color.png_iPhone" />
+  <link rel="apple-touch-icon" sizes="72x72" href="https://imgur.lzmun.com/picgo/after2022/tripper2color.png_RetinaiPad" />
+  <link rel="apple-touch-icon" sizes="114x114" href="https://imgur.lzmun.com/picgo/after2022/tripper2color.png_iPhoneHD" />
+  <link rel="apple-touch-icon" sizes="144x144" href="https://imgur.lzmun.com/picgo/after2022/tripper2color.png_RetinaiPad" />
+  <!-- 添加 RSS 订阅 -->
+  <link rel="alternate" type="application/rss+xml" title="MyGallery" href="/rss" />
+  <!-- uc强制竖屏 -->
+  <meta name="screen-orientation" content="portrait">
+  <!-- QQ强制竖屏 -->
+  <meta name="x5-orientation" content="portrait">
+  <!-- UC强制全屏 -->
+  <meta name="full-screen" content="yes">
+  <!-- QQ强制全屏 -->
+  <meta name="x5-fullscreen" content="true">
+  <!-- UC应用模式 -->
+  <meta name="browsermode" content="application">
+  <!-- QQ应用模式 -->
+  <meta name="x5-page-mode" content="app">
+  <!-- https://material.io/resources/icons/?style=outline -->
+  
+  
+  <script src="https://lf1-cdn-tos.bytegoofy.com/obj/iconpark/icons_29703_20.a16abc3c381b339cccd05404911bbf44.js"></script>
+  
+  
+<style>
+  .itp-gallery-title,
+  .itp-gallery-subtitle,
+  .itp-post-title,
+  .itp-post-entry-title,
+  .itp-post-entry-subtitle,
+  .itp-mag-logo,
+  .itp-index-title,
+  .itp-post-entry-moment,
+  .itp-header-actions-menu {
+    font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Noto Sans,Ubuntu,Cantarell,Helvetica Neue,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Noto Sans,Ubuntu,Cantarell,Helvetica Neue,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+  }
+
+  .itp-header-title,
+  .itp-m3-post-entry-info .title,
+  .itp-header-actions,
+  .itp-cover-title,
+  .itp-cover-subtitle,
+  .itp-post-subtitle,
+  .itp-post-entry-title,
+  .itp-m3-cover-subtitle,
+  .itp-m3-cover-title,
+  .itp-gallery-info .title,
+  .footer-info {
+    font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Noto Sans,Ubuntu,Cantarell,Helvetica Neue,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Noto Sans,Ubuntu,Cantarell,Helvetica Neue,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+  }
+
+  .article,
+  .itp-post-entry-excerpt {
+    font-family: 'SF UI Display', '.PingFang SC', 'PingFang SC', 'Neue Haas Grotesk Text Pro', 'Arial Nova', 'Segoe UI', 'Microsoft YaHei', 'Microsoft JhengHei', 'Helvetica Neue', 'Source Han Sans SC', 'Noto Sans CJK SC', 'Source Han Sans CN', 'Noto Sans SC', 'Source Han Sans TC', 'Noto Sans CJK TC', 'Helvetica', 'Hiragino Sans GB', sans-serif;
+  }
+</style>
+
+  
+  
+<link rel="stylesheet" href="/Gallery/css/tokens.css">
+
+  <!-- Custom CSS/Sass -->
+  
+<link rel="stylesheet" href="/Gallery/css/style.css">
+
+  
+<link rel="stylesheet" href="/Gallery/css/fancybox.css">
+
+  
+<link rel="stylesheet" href="/Gallery/css/material3.css">
+
+  
+  
+  
+<link rel="stylesheet" href="/Gallery/css/skins/classic.css">
+
+  
+  
+<link rel="stylesheet" href="/Gallery/css/skins/darkroom.css">
+
+  
+  
+<link rel="stylesheet" href="/Gallery/css/skins/gallery.css">
+
+  
+  
+<link rel="stylesheet" href="/Gallery/css/skins/editorial.css">
+
+  
+  
+  
+  
+  
+  
+
+  
+
+  <!-- jquery -->
+  
+  <script src="/Gallery/js/jquery.min.js"></script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css"/>
+  <!--Comment-->
+  
+  <!--Vercel Audiences Analytics-->
+  
+  <!--umami analytics-->
+  
+  <script src="js/tools.js"></script>
+  <!--Howxm Analytics-->
+  
+  
+  
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=XXXXX" defer></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'XXXXX');
+  </script>
+  
+  
+  
+  
+  <link rel="manifest" href="/Gallery/manifest.json">
+  <meta name="theme-color" content="#71afdd">
+  
+  <!-- Google Search Advanced
+  https://developers.google.com/search/docs/advanced/structured-data/search-gallery
+  -->
+  
+  
+  
+  
+  
+  <!--<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      spacing: {
+        '1': '8px',
+        '2': '12px',
+        '3': '16px',
+        '4': '24px',
+        '5': '32px',
+        '6': '48px',
+      },
+      container: {
+        center: true,
+      },
+      extend: {
+        colors: {
+          tblack: '#222831',
+        },
+        boxShadow: {
+          'itp': '1px 10px 30px 0 rgb(0 0 0 / 10%)',
+        }
+      }
+    }
+  }
+</script>-->
+
+<link rel="stylesheet" href="/Gallery/css/tailwind.css">
+
+<meta name="generator" content="Hexo 6.0.0"></head>
+
+
+
+<!--Other Pages-->
+
+
+<body>
+  <!-- Nav -->
+  
+
+
+<div class="itp-float-bar">
+  <!--所有页面都显示-->
+  <a class="itp-float-bar-item rounded" href="/Gallery/" title="MyGallery">
+    
+    <iconpark-icon class="navicon" name="home"></iconpark-icon>
+    
+  </a>
+  
+  <!--只在 **非文章** 页面显示-->
+  
+  
+  <a class="itp-float-bar-item rounded itp-nav-item itp-nav-idx-0" target="_blank" rel="noopener" href="https://github.com/KingLear1606/Gallery" title="归档">
+    
+    <iconpark-icon class="navicon" name="inbox"></iconpark-icon>
+    
+  </a>
+  
+  <a class="itp-float-bar-item rounded itp-nav-item itp-nav-idx-1" href="/Gallery/location" title="地图">
+    
+    <iconpark-icon class="navicon" name="local-two"></iconpark-icon>
+    
+  </a>
+  
+  <a class="itp-float-bar-item rounded itp-nav-item itp-nav-idx-2" href="/Gallery/random" title="随机">
+    
+    <iconpark-icon class="navicon" name="pic"></iconpark-icon>
+    
+  </a>
+  
+  <a class="itp-float-bar-item rounded itp-nav-item itp-nav-idx-3" href="/Gallery/status" title="状态监控">
+    
+    <iconpark-icon class="navicon" name="list-view"></iconpark-icon>
+    
+  </a>
+  
+  <a class="itp-float-bar-item rounded itp-nav-item itp-nav-idx-4" href="/Gallery/grid-all" title="时间线">
+    
+    <iconpark-icon class="navicon" name="grid-nine"></iconpark-icon>
+    
+  </a>
+  
+  
+  <a class="itp-float-bar-item rounded itp-nav-more" id="itp_nav_more" href="javascript:void(0)" title="More" aria-label="More">
+    
+    <iconpark-icon class="navicon" name="all-application"></iconpark-icon>
+    
+  </a>
+  
+  
+  
+
+  <div class="itp-float-layer itp-toc-layer">
+    <div class="clost-btn" style="display: flex;">
+      <a class="itp-float-layer-close-btn" id="close_btn">
+        <div class="close_btn_red">
+        </div>
+      </a>
+    </div>
+    
+  </div>
+  <div class="itp-float-layer-bg layer-bg-nodisplay" id="close_layer"></div>
+</div>
+
+<div class="itp-nav-sheet" id="itp_nav_sheet" role="dialog" aria-modal="true" aria-hidden="true">
+  <div class="itp-nav-sheet-handle"></div>
+  <div class="itp-nav-sheet-grid">
+    
+    <a class="itp-nav-sheet-item" href="/Gallery/status">
+      <iconpark-icon class="navicon" name="list-view"></iconpark-icon>
+      <span>状态监控</span>
+    </a>
+    
+    <a class="itp-nav-sheet-item" href="/Gallery/grid-all">
+      <iconpark-icon class="navicon" name="grid-nine"></iconpark-icon>
+      <span>时间线</span>
+    </a>
+    
+  </div>
+</div>
+<div class="itp-nav-sheet-bg" id="itp_nav_sheet_bg"></div>
+<style>
+  /* the SCSS .itp-float-bar .itp-float-bar-item rule is 2-class specificity,
+     so we have to match it here or `display: inline-flex` wins on desktop */
+  .itp-float-bar .itp-nav-more { display: none; }
+  .itp-nav-sheet, .itp-nav-sheet-bg { display: none; }
+  @media (max-width: 768px) {
+    /* hide overflow nav items in the floatbar; sheet shows them all */
+    .itp-float-bar .itp-nav-item.itp-nav-idx-3,
+    .itp-float-bar .itp-nav-item.itp-nav-idx-4,
+    .itp-float-bar .itp-nav-item.itp-nav-idx-5,
+    .itp-float-bar .itp-nav-item.itp-nav-idx-6,
+    .itp-float-bar .itp-nav-item.itp-nav-idx-7,
+    .itp-float-bar .itp-nav-item.itp-nav-idx-8,
+    .itp-float-bar .itp-nav-item.itp-nav-idx-9 { display: none; }
+    .itp-float-bar .itp-nav-more { display: flex; }
+  }
+  .itp-nav-sheet-bg {
+    position: fixed; inset: 0;
+    background: rgba(20,20,20,.35);
+    z-index: 1100;
+    opacity: 0; transition: opacity .18s ease-out;
+  }
+  .itp-nav-sheet-bg.show { display: block; opacity: 1; }
+  .itp-nav-sheet {
+    position: fixed; left: 0; right: 0;
+    bottom: calc(56px + env(safe-area-inset-bottom, 0px));
+    z-index: 1101;
+    background: var(--surface, #fff);
+    border-top-left-radius: var(--radius-lg, 14px);
+    border-top-right-radius: var(--radius-lg, 14px);
+    box-shadow: 0 -8px 28px rgba(0,0,0,.18);
+    padding: 8px 16px 20px;
+    transform: translateY(100%);
+    transition: transform .22s cubic-bezier(.2,.8,.2,1);
+  }
+  .itp-nav-sheet.show { display: block; transform: translateY(0); }
+  .itp-nav-sheet-handle {
+    width: 40px; height: 4px; border-radius: 2px;
+    background: rgba(120,120,120,.35);
+    margin: 6px auto 14px;
+  }
+  .itp-nav-sheet-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px 8px;
+  }
+  .itp-nav-sheet-item {
+    display: flex; flex-direction: column; align-items: center; gap: 6px;
+    padding: 8px 4px;
+    color: var(--on-surface, #2f3a2f);
+    text-decoration: none;
+    font-size: 12px;
+    border-radius: 10px;
+    transition: background-color .15s ease;
+  }
+  .itp-nav-sheet-item:active { background: rgba(120,120,120,.12); }
+  .itp-nav-sheet-item iconpark-icon { font-size: 24px; }
+  @media (prefers-color-scheme: dark) {
+    .itp-nav-sheet { background: #1d2326; }
+    .itp-nav-sheet-item { color: #e6e0d0; }
+    .itp-nav-sheet-bg { background: rgba(0,0,0,.55); }
+  }
+</style>
+<script>
+  (function () {
+    var btn = document.getElementById('itp_nav_more');
+    var sheet = document.getElementById('itp_nav_sheet');
+    var bg = document.getElementById('itp_nav_sheet_bg');
+    if (!btn || !sheet || !bg) return;
+    function open() {
+      sheet.style.display = 'block'; bg.style.display = 'block';
+      // next frame so the transition runs
+      requestAnimationFrame(function () { sheet.classList.add('show'); bg.classList.add('show'); });
+      sheet.setAttribute('aria-hidden', 'false');
+    }
+    function close() {
+      sheet.classList.remove('show'); bg.classList.remove('show');
+      sheet.setAttribute('aria-hidden', 'true');
+      setTimeout(function () { sheet.style.display = 'none'; bg.style.display = 'none'; }, 220);
+    }
+    btn.addEventListener('click', function (e) { e.preventDefault(); sheet.classList.contains('show') ? close() : open(); });
+    bg.addEventListener('click', close);
+    sheet.querySelectorAll('.itp-nav-sheet-item').forEach(function (a) {
+      a.addEventListener('click', function () { close(); });
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && sheet.classList.contains('show')) close();
+    });
+  })();
+</script>
+
+
+
+
+  <!-- Main Content -->
+  <script src="js/mini-live-photo.js"></script>
+<section class="pjax-area">
+    <div class="content-area post-album fullscreen-content-area">
+    <div class="grid grid-cols-3 gap-2">
+        <div id="all-pic"
+            class="pic-area fullscreen-pic">
+            <div id="pic-g" class="pic-item" />
+            <img id="imgbox" class="pic-box nofancy" />
+        </div>
+        <div id="wrapper">
+            <div id="exif-wrapper" class="pic-wrapper">
+    <div class="exif-left" style="display: flex; flex-direction: column; justify-content: center;">
+        <div id="exif-param"></div>
+        <div id="exif-date"></div>
+    </div>
+    
+    <div class="exif-right" style="display: flex; flex-direction: column; justify-content: center;">
+        <div style="display: flex; flex-direction:row; justify-content: start;">
+            <div style="display: flex; justify-content: center; flex-direction: column;">
+                <img id="exif-maker-logo" class="nofancy" style="object-fit: cover;"></img>
+            </div>
+            <div style="margin-left: 10px; width: 1px; background-color: black;"></div>
+            <div id="exif-text" style="padding-left: 10px; position: relative;">
+                <div style="display: flex; flex-direction: column; justify-content: center;">
+                    <div id="exif-maker"></div>
+                    <div id="exif-lens"></div>
+                    <div id="exif-author"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="normal-wrapper" class="pic-wrapper" style="height: 68px; justify-content: center; flex-direction: column;">
+    <div id="no-exif-data" style="text-align: center; font-size: large; font-weight: lighter;">
+    </div>
+</div>
+<style>
+    #exif-text {
+        max-width: calc(20vw);
+    }
+
+    #exif-maker-logo {
+        text-align: center;
+        vertical-align: baseline;
+    }
+
+    #exif-param {
+        font-weight: bold;
+        font-size: 80%;
+    }
+
+    #exif-maker {
+        font-size: 80%;
+    }
+
+    #exif-date {
+        margin-top: 4px;
+        font-weight: lighter;
+        color: gray;
+        font-size: 80%;
+    }
+
+    #exif-lens,
+    #exif-author {
+        font-weight: lighter;
+        color: gray;
+        font-size: 80%;
+    }
+
+    #exif-lens {
+        /* 镜头型号可能很长，需要「超出截断 + 省略号」。原来直接写 overflow: hidden，
+           但它连纵向一起裁：实测这行字的墨迹会伸出行盒约 1.8px（字体 ascent +
+           descent 之和大于 line-height），底部因此被削。屏幕上 12.8px 字号看不出，
+           下载图放大 4.6 倍后很明显——看着像和下一行叠在一起。
+
+           试过几条路都不行：
+           - overflow-x: hidden + overflow-y: visible ——按 CSS 规范，一个方向非
+             visible 时另一个的 visible 会被算成 auto，照样裁；
+           - overflow-clip-margin ——html2canvas 不支持，实测无效；
+           - 单纯加大 line-height ——盒子变高的同时文字也整体下移，余量只从
+             0.3px 涨到 0.6px，白付出行距。
+
+           成立的做法：padding 在盒子内侧，能把裁剪边往下推；再用等量负 margin
+           抵消掉它对布局的影响，卡片高度不变。实测墨迹底部回到 622.5px，与
+           overflow: visible 的基准完全一致，即一点没被削。 */
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        padding-bottom: 4px;
+        margin-bottom: -4px;
+    }
+
+    .pic-wrapper {
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+        padding: 4px 8px;
+    }
+
+    .pic-area {
+        border-style: solid;
+        border-width: thin;
+        border-color: rgb(22 22 22 / 48%);
+    }
+
+    @media (max-width: 768px) {
+        .pic-wrapper {
+            padding: 4px 0px;
+        }
+
+        #exif-param {
+            font-size: .5rem;
+        }
+
+        #exif-date {
+            font-size: .6rem;
+        }
+
+        #exif-maker {
+            font-size: .5rem;
+        }
+
+        #exif-lens,
+        #exif-author {
+            font-size: .5rem;
+        }
+
+        #exif-text {
+            max-width: calc(30vw);
+        }
+    }
+
+    .apple-logo,
+    .ricoh-logo,
+    .fujifilm-logo,
+    .om-system-logo,
+    .hasselblad-logo,
+    .olympus-logo {
+        height: 40px;
+    }
+
+    .nikon-logo {
+        height: 50px;
+    }
+
+    .sony-logo,
+    .canon-logo {
+        width: 80px;
+    }
+
+    .dji-logo {
+        width: 60px;
+    }
+
+    @media (max-width: 768px) {
+        .apple-logo,
+        .ricoh-logo,
+        .nikon-logo,
+        .hasselblad-logo,
+        .fujifilm-logo,
+        .om-system-logo,
+        .olympus-logo {
+            height: 30px;
+        }
+
+        .sony-logo,
+        .canon-logo {
+            width: 40px;
+        }
+
+    }
+
+    @media (prefers-color-scheme: dark) {
+        .pic-area {
+            border-style: solid;
+            border-width: thin;
+            background-color: white;
+            border-color: white;
+        }
+    }
+
+.mlp-wrap {
+    overflow: hidden;
+    border-radius: inherit;    /* 如果父级有圆角，继承一下更自然 */
+}
+
+.mlp-wrap, [data-livephoto] { position: relative; overflow: hidden; border-radius: inherit; }
+
+/* 初始隐藏视频，启用硬件合成避免闪烁 */
+.mlp-wrap .mlp-video, [data-livephoto] .mlp-video{
+  position:absolute; inset:0; width:100%; height:100%; object-fit:contain;
+  opacity:0; transition:opacity .18s ease, transform .25s ease;
+  will-change: opacity, transform; pointer-events:none;
+}
+
+/* “首帧就绪”后，允许显示（只把不透明度交给 JS 控） */
+.mlp-wrap.is-prepped .mlp-video,
+[data-livephoto].is-prepped .mlp-video{ opacity:0; }
+
+/* 开始播放时再交叉淡入 */
+.mlp-wrap.is-playing .mlp-video,
+[data-livephoto].is-playing .mlp-video{ opacity:1; }
+
+/* （可选）缩放动画 */
+.mlp-wrap.is-zoom .mlp-video,
+[data-livephoto].is-zoom .mlp-video{ transform: scale(1.04); }
+
+[data-livephoto].is-playing {
+  -webkit-touch-callout: none;
+  user-select: none;
+  touch-action: none;
+}
+
+/* 禁止浏览器把 img/video 当成可拖拽对象 */
+[data-livephoto] img,
+[data-livephoto] video {
+  -webkit-user-drag: none;
+  user-drag: none; /* 非标准，但部分浏览器支持 */
+}
+</style>
+        </div>
+    </div>
+    <div id="tools-wrapper" class="album-info fullscreen-info" hidden>
+        <p id="descbox" class="text-center text-xs hint-text"> </p>
+        <div style="display: flex; flex-direction: row; justify-content: center;">
+            <button id="copybox" class="album-next-one">COPY URL</button>
+            <button id="nextbox" class="album-next-one">NEXT ONE</button>
+            <button id="downloadbox" class="album-next-one">DOWNLOAD</button>
+        </div>
+        <div class="album-info-main">
+        </div>
+    </div>
+</div>
+<style>
+    body {
+        background-color: #fff;
+    }
+
+    .screenshot {
+        display: flex;
+    }
+
+    #nextbox,
+    #downloadbox,
+    #copybox {
+        margin-top: 10px;
+    }
+
+    #exif-maker-logo {
+        text-align: center;
+        vertical-align: baseline;
+    }
+
+    #exif-param {
+        font-weight: bold;
+        font-size: 90%;
+    }
+
+    #exif-date {
+        margin-top: 4px;
+        font-weight: lighter;
+        color: gray;
+    }
+
+    #exif-lens,
+    #exif-author {
+        font-weight: lighter;
+        color: gray;
+    }
+
+    #wrapper {
+        display: none;
+    }
+
+    .pic-wrapper {
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+        padding: 10px 10px;
+    }
+
+    /* 嵌入模式（?widget=true）。页面外框那些留白都是给固定导航条让位用的，
+       嵌到 iframe 里就成了照片上下的大片死白，所以一律收掉，让照片尽量铺满。
+       导航条本身也藏起来——嵌入方有自己的界面，不需要站点导航。 */
+    .is-widget .content-area {
+        margin-top: 0 !important;
+    }
+
+    /* 嵌入模式外面已经有一圈白边当相框，再描一道黑线就像个 UI 框，去掉。 */
+    .is-widget .pic-area {
+        padding: 0 !important;
+        border: 0 !important;
+    }
+
+    /* 相框的衬底。#imgbox 是 object-fit: contain，竖构图时左右（横构图时上下）
+       会露出后面的 .pic-item —— 站内它是黑的，看照片时黑衬底最不干扰。
+       但嵌到小组件里，四周是白的，这块黑就成了一整片突兀的色块，
+       所以嵌入模式下让它跟着白底走。 */
+    .is-widget .pic-item {
+        background-color: #fff !important;
+    }
+
+    /* 桌面小组件（Glimpse 之类）只是给网页拍个快照：页面多高都只截第一屏，
+       按钮也点不了。原来照片 + EXIF 就已经占满一屏，三个按钮被挤到最底下，
+       正好被小组件自己的标题栏（"GALLERY · x min ago"）盖住，成了半截。
+       所以嵌入模式下：按钮和 EXIF 都藏掉（EXIF 在小组件里只有几 pt，看不清，
+       只会让画面变挤）；页面钉死成一屏高，照片在里面居中。四周留一圈
+       --widget-frame（默认 9vmin）的白边当相框，也免得照片四角被小组件圆角
+       裁掉。如果小组件底下还叠着自己的标题栏（Glimpse 可以关掉），用 ?inset=9vh
+       之类的参数在白边之外再多留 --widget-inset，让标题栏上方露出的白边和其他三边一样宽。 */
+    .is-widget #wrapper,
+    .is-widget #tools-wrapper {
+        display: none !important;
+    }
+
+    .is-widget .content-area {
+        height: 100vh;
+        max-height: none !important;
+        max-width: none !important;
+        padding: var(--widget-frame, 9vmin) var(--widget-frame, 9vmin) calc(var(--widget-frame, 9vmin) + var(--widget-inset, 0px)) !important;
+        box-sizing: border-box;
+    }
+
+    .is-widget .content-area > .grid {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .is-widget #all-pic {
+        flex: 1;
+        min-height: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .is-widget #pic-g {
+        flex: 1;
+        min-height: 0;
+        aspect-ratio: auto;
+    }
+
+    /* 照片在白边里完整显示、上下左右居中（contain，不裁切）。
+       不能靠 #imgbox 本身的 height: 100%：Glimpse 用的 WebKit 解析不出 flex 子项
+       里的百分比高度，图片会退回按原始比例排、贴在顶上，底下空一大片白。
+       改成绝对定位铺满 #pic-g，哪个内核都认。 */
+    .is-widget #pic-g {
+        position: relative;
+    }
+
+    .is-widget #imgbox {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    .is-widget .itp-float-bar,
+    .is-widget .itp-footer,
+    .is-widget .itp-nav-sheet,
+    .is-widget .itp-nav-sheet-bg {
+        display: none !important;
+    }
+
+    .pic-area {
+        border-style: solid;
+        border-width: thin;
+        border-color: rgb(22, 22, 22);
+    }
+
+    .album-comment {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .album-article {
+        font-size: 1.2rem;
+    }
+
+    .hint-text {
+        color: black;
+        opacity: 60%;
+        padding-top: 4px;
+    }
+
+    .pic-item {
+        background-color: black;
+        background-size: cover;
+        background-position: center;
+        transition: all .3s ease-in-out;
+        min-height: 200px;
+        aspect-ratio: 3 / 2;
+    }
+
+    .pic-item>a {
+        width: 100%;
+        height: 100%;
+        display: inline-block;
+    }
+
+    .pic-box {
+        transition: all .3s ease-in-out;
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        margin: 0 auto;
+    }
+
+    .album-info {
+        flex-direction: column;
+        justify-content: space-between;
+        color: var(--main-black);
+    }
+
+    .album-title {
+        font-size: 2em;
+    }
+
+    .album-subtitle {
+        font-size: 1.2em;
+        opacity: 0.8;
+    }
+
+
+    .album-location {
+        display: inline-flex;
+        font-size: .8em;
+        color: #71afdd;
+        gap: 4px;
+        padding-bottom: 4px;
+    }
+
+    .album-list {
+        padding-top: 6px;
+        overflow-x: scroll;
+    }
+
+    .album-item {
+        background-color: black;
+        aspect-ratio: 1 / 1;
+        min-height: 100px;
+        min-width: 100px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .album-next-one {
+        display: block;
+        text-align: center;
+        border-style: solid;
+        border-color: black;
+        background-color: white;
+        margin: 0 8px;
+        padding: 1em 1.5em;
+        border-width: 2px;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+
+    .album-next-one:hover {
+        background-color: black;
+        color: white;
+    }
+
+    .album-next-one:active {
+        background-color: white;
+        color: black;
+    }
+
+    @media (max-width: 768px) {
+        .album-next-one {
+            padding: 0.3em 0.6em;
+            margin-left: 4px;
+        }
+
+        .content-area {
+            max-width: 100vw;
+        }
+
+        .pic-area {
+            grid-column: span 3 / span 3;
+            padding: 16px 16px 0px 16px;
+        }
+
+        .album-info {
+            grid-column: span 3 / span 3;
+            padding: 12px;
+        }
+
+        .album-article {
+            padding: 2px;
+        }
+
+        .album-title {
+            font-size: 1.5em;
+        }
+
+        .pic-wrapper {
+            padding: 4px 0px;
+        }
+
+        #exif-param {
+            font-size: .5rem;
+        }
+
+        #exif-date {
+            font-size: .6rem;
+        }
+
+        #exif-maker {
+            font-size: .5rem;
+        }
+
+        #exif-lens,
+        #exif-author {
+            font-size: .5rem;
+        }
+
+        #exif-maker-logo {
+            height: 30px;
+        }
+    }
+
+    @media (min-width: 769px) {
+        .content-area {
+            max-width: 92%;
+            margin: 0 auto;
+            padding: 135px 16px 16px 16px;
+        }
+
+        .album-article {
+            margin-top: 2px;
+        }
+
+        .default-article {
+            max-height: 500px;
+            overflow-y: scroll;
+        }
+
+        .pic-area {
+            grid-column: span 2 / span 2;
+        }
+
+        .album-info {
+            grid-column: span 1 / span 1;
+        }
+    }
+
+    @media (min-width: 1304px) {
+        .content-area {
+            max-width: 1400px;
+        }
+
+        .fullscreen-content-area {
+            max-height: 80vh;
+            max-width: 100vh;
+        }
+
+        .itp-footer {
+            margin-top: 15vh;
+        }
+
+    }
+
+    @media (prefers-color-scheme: dark) {
+        .album-info {
+            color: #fff;
+        }
+
+        .album-location {
+            color: #bdbdbd;
+        }
+
+        .hint-text {
+            color: white;
+            opacity: 80%;
+        }
+
+        .pic-item {
+            background-color: black;
+        }
+
+        .album-item {
+            background-color: black;
+        }
+
+        .album-next-one {
+            border-color: white;
+            background-color: black;
+            color: white;
+        }
+
+        .album-next-one:hover {
+            color: black;
+            background-color: white;
+        }
+
+        .album-next-one:active {
+            border-color: white;
+            background-color: black;
+            color: white;
+        }
+
+        .pic-area {
+            border-style: solid;
+            border-width: thin;
+            background-color: white;
+            border-color: white;
+        }
+    }
+
+    .fullscreen-pic {
+        grid-column: span 3 / span 3;
+    }
+
+    .fullscreen-info {
+        grid-column: span 3 / span 3;
+    }
+
+.mlp-wrap {
+    overflow: hidden;
+    border-radius: inherit;    /* 如果父级有圆角，继承一下更自然 */
+}
+
+</style>
+
+        <script type="module">
+            var imageBox = document.getElementById("imgbox"); // imageBox 是放置大图片的图框
+            var descBox = $("#descbox");
+            var nextBox = $("#nextbox");
+            var copyBox = $("#copybox");
+            var wrapper = $("#exif-wrapper");
+            var normalWrapper = $("#normal-wrapper");
+            var normalData = $("#no-exif-data");
+
+            let currentFilename = 'image';
+            let currentObjectUrl = null;
+            const AUTHOR_KEY = 'exif-tools:author';
+            let currentAuthor = localStorage.getItem(AUTHOR_KEY) || "Breeze";
+            let hasLoadedImage = false;
+            let lastExifData = null;
+            let lastHasExif = false;
+            const fileInput = document.createElement('input');
+            fileInput.type = 'file';
+            fileInput.accept = 'image/*';
+            fileInput.hidden = true;
+            document.body.appendChild(fileInput);
+
+            // hide useless button
+            $("#tools-wrapper").show();
+            $("#nextbox").hide();
+            copyBox.text('LOAD');
+            copyBox.show();
+
+            const authorBtn = document.createElement('button');
+            authorBtn.id = 'authorbox';
+            authorBtn.className = 'album-next-one';
+            authorBtn.textContent = 'AUTHOR';
+            const btnRow = copyBox[0]?.parentElement;
+            if (btnRow) {
+                btnRow.insertBefore(authorBtn, copyBox[0].nextSibling);
+            }
+
+            const downloadBtn = document.getElementById('downloadbox');
+            if (downloadBtn) downloadBtn.disabled = true;
+
+            function formatNumber(n, digits = 1) {
+                if (typeof n !== 'number' || !isFinite(n)) return '';
+                const p = Math.pow(10, digits);
+                return String(Math.round(n * p) / p);
+            }
+
+            function formatExposureTime(value) {
+                if (typeof value !== 'number' || !isFinite(value) || value <= 0) return '';
+                if (value >= 1) return `${formatNumber(value, 3)}s`;
+                const inv = Math.round(1 / value);
+                if (inv >= 1) return `1/${inv}s`;
+                return `${formatNumber(value, 6)}s`;
+            }
+
+            function parseExifFromJpeg(buffer) {
+                const view = new DataView(buffer);
+                if (view.byteLength < 4) return {};
+                if (view.getUint16(0, false) !== 0xffd8) return {};
+
+                let offset = 2;
+                while (offset + 4 <= view.byteLength) {
+                    if (view.getUint8(offset) !== 0xff) break;
+                    const marker = view.getUint8(offset + 1);
+                    if (marker === 0xda) break;
+                    const size = view.getUint16(offset + 2, false);
+                    if (size < 2) break;
+                    if (marker === 0xe1) {
+                        const headerOffset = offset + 4;
+                        const headerLength = 6;
+                        if (headerOffset + headerLength <= view.byteLength) {
+                            const exifHeader = String.fromCharCode(
+                                view.getUint8(headerOffset + 0),
+                                view.getUint8(headerOffset + 1),
+                                view.getUint8(headerOffset + 2),
+                                view.getUint8(headerOffset + 3)
+                            );
+                            if (exifHeader === 'Exif') {
+                                const tiffOffset = headerOffset + 6;
+                                return parseTiff(view, tiffOffset);
+                            }
+                        }
+                    }
+                    offset += 2 + size;
+                }
+                return {};
+            }
+
+            function parseTiff(view, tiffOffset) {
+                if (tiffOffset + 8 > view.byteLength) return {};
+                const byteOrder = view.getUint16(tiffOffset, false);
+                const little = byteOrder === 0x4949;
+                if (!little && byteOrder !== 0x4d4d) return {};
+                if (view.getUint16(tiffOffset + 2, little) !== 0x002a) return {};
+                const ifd0Offset = view.getUint32(tiffOffset + 4, little);
+                const tags0 = readIfd(view, tiffOffset, tiffOffset + ifd0Offset, little);
+                const make = tags0[0x010f];
+                const model = tags0[0x0110];
+                const exifIfdPointer = tags0[0x8769];
+                const exifTags = typeof exifIfdPointer === 'number'
+                    ? readIfd(view, tiffOffset, tiffOffset + exifIfdPointer, little)
+                    : {};
+                return {
+                    make,
+                    model,
+                    dateTimeOriginal: exifTags[0x9003],
+                    exposureTime: exifTags[0x829a],
+                    fNumber: exifTags[0x829d],
+                    iso: exifTags[0x8827],
+                    focalLength: exifTags[0x920a],
+                    lensModel: exifTags[0xa434],
+                };
+            }
+
+            function readIfd(view, tiffStart, dirStart, little) {
+                if (dirStart + 2 > view.byteLength) return {};
+                const entries = view.getUint16(dirStart, little);
+                const tags = {};
+                const entrySize = 12;
+                const max = dirStart + 2 + entries * entrySize;
+                if (max > view.byteLength) return {};
+
+                for (let i = 0; i < entries; i++) {
+                    const entryOffset = dirStart + 2 + i * entrySize;
+                    const tag = view.getUint16(entryOffset, little);
+                    const type = view.getUint16(entryOffset + 2, little);
+                    const count = view.getUint32(entryOffset + 4, little);
+                    const valueOffset = entryOffset + 8;
+
+                    const value = readTagValue(view, tiffStart, valueOffset, type, count, little);
+                    if (value !== undefined) {
+                        tags[tag] = value;
+                    }
+                }
+                return tags;
+            }
+
+            function readTagValue(view, tiffStart, valueOffset, type, count, little) {
+                const typeSizes = {
+                    1: 1,
+                    2: 1,
+                    3: 2,
+                    4: 4,
+                    5: 8,
+                    7: 1,
+                    9: 4,
+                    10: 8,
+                };
+                const size = typeSizes[type];
+                if (!size) return undefined;
+                const total = size * count;
+                let dataOffset = valueOffset;
+                if (total > 4) {
+                    const off = view.getUint32(valueOffset, little);
+                    dataOffset = tiffStart + off;
+                }
+                if (dataOffset + total > view.byteLength) return undefined;
+
+                switch (type) {
+                    case 2: {
+                        let out = '';
+                        for (let i = 0; i < count; i++) {
+                            const c = view.getUint8(dataOffset + i);
+                            if (c === 0) break;
+                            out += String.fromCharCode(c);
+                        }
+                        return out;
+                    }
+                    case 3: {
+                        if (count === 1) return view.getUint16(dataOffset, little);
+                        return Array.from({ length: count }, (_, i) => view.getUint16(dataOffset + i * 2, little));
+                    }
+                    case 4: {
+                        if (count === 1) return view.getUint32(dataOffset, little);
+                        return Array.from({ length: count }, (_, i) => view.getUint32(dataOffset + i * 4, little));
+                    }
+                    case 5: {
+                        const readOne = (i) => {
+                            const num = view.getUint32(dataOffset + i * 8, little);
+                            const den = view.getUint32(dataOffset + i * 8 + 4, little);
+                            if (!den) return 0;
+                            return num / den;
+                        };
+                        if (count === 1) return readOne(0);
+                        return Array.from({ length: count }, (_, i) => readOne(i));
+                    }
+                    case 9: {
+                        if (count === 1) return view.getInt32(dataOffset, little);
+                        return Array.from({ length: count }, (_, i) => view.getInt32(dataOffset + i * 4, little));
+                    }
+                    case 10: {
+                        const readOne = (i) => {
+                            const num = view.getInt32(dataOffset + i * 8, little);
+                            const den = view.getInt32(dataOffset + i * 8 + 4, little);
+                            if (!den) return 0;
+                            return num / den;
+                        };
+                        if (count === 1) return readOne(0);
+                        return Array.from({ length: count }, (_, i) => readOne(i));
+                    }
+                    default:
+                        return undefined;
+                }
+            }
+
+            function toDisplayExif(parsed) {
+                return {
+                    'Image Make': parsed.make || '',
+                    'Image Model': parsed.model || '',
+                    'EXIF LensModel': parsed.lensModel || '',
+                    'EXIF DateTimeOriginal': parsed.dateTimeOriginal || '',
+                    'EXIF ISOSpeedRatings': parsed.iso ? `ISO ${parsed.iso}` : '',
+                    'EXIF FNumber': parsed.fNumber ? `F${formatNumber(parsed.fNumber, 1)}` : '',
+                    'EXIF FocalLength': parsed.focalLength ? `${formatNumber(parsed.focalLength, 1)}mm` : '',
+                    'EXIF ExposureTime': parsed.exposureTime ? formatExposureTime(parsed.exposureTime) : '',
+                };
+            }
+
+            function updateExifUI(exifData) {
+                lastExifData = exifData;
+                const hasExif = Object.values(exifData).some((v) => String(v).trim() !== '');
+                lastHasExif = hasExif;
+                $("#wrapper").show();
+                if (!hasExif) {
+                    wrapper.hide();
+                    normalWrapper.show();
+                    normalData.text("Shot By " + currentAuthor);
+                    return;
+                }
+                wrapper.show();
+                normalWrapper.hide();
+                wrapperData({ exif_data: exifData }, currentAuthor);
+            }
+
+            authorBtn.addEventListener('click', () => {
+                const next = window.prompt('Author', currentAuthor);
+                if (next === null) return;
+                currentAuthor = String(next).trim() || "Breeze";
+                localStorage.setItem(AUTHOR_KEY, currentAuthor);
+                if (!hasLoadedImage) return;
+                if (lastHasExif && lastExifData) {
+                    updateExifUI(lastExifData);
+                    return;
+                }
+                wrapper.hide();
+                normalWrapper.show();
+                normalData.text('Shot By ' + currentAuthor);
+            });
+
+            copyBox.click(function () {
+                fileInput.click();
+            });
+
+            fileInput.addEventListener('change', async () => {
+                const file = fileInput.files && fileInput.files[0];
+                if (!file) return;
+
+                currentFilename = (file.name || 'image').replace(/\.[^/.]+$/, '') || 'image';
+                descBox.text(currentFilename);
+                if (currentObjectUrl) {
+                    URL.revokeObjectURL(currentObjectUrl);
+                }
+                currentObjectUrl = URL.createObjectURL(file);
+                imageBox.src = currentObjectUrl;
+                if (downloadBtn) downloadBtn.disabled = false;
+                hasLoadedImage = true;
+
+                const buffer = await file.arrayBuffer();
+                const parsed = parseExifFromJpeg(buffer);
+                const exifData = toDisplayExif(parsed);
+                updateExifUI(exifData);
+            });
+
+            $("#downloadbox").click(function () {
+                // 这一页的图是用户本地上传的，<img> 里已是原始像素，
+                // 没有远端原图可换，所以不传 fullSrc。
+                downloadFramedPhoto({
+                    node: document.getElementById('all-pic'),
+                    img: document.getElementById('imgbox'),
+                    filename: currentFilename,
+                    button: this,
+                });
+            });
+
+            $("#wrapper").hide();
+            wrapper.hide();
+            normalWrapper.show();
+            normalData.text("Load an image to see EXIF");
+        </script>
+</section>
+
+  <!-- Footer -->
+  <!-- Footer -->
+<footer class="itp-footer text-center">
+  <section class="footer-info">
+    MyGallery &copy; 2017 - 2026
+    
+    
+    
+    <span> / Template</span>
+    <a href="https://github.com/lfkdsk/album_template" target="_blank">Type
+    </a>
+  </section>
+  
+    <section class="footer-logo">
+      <a href="https://github.com/KingLear1606" target="_blank">
+        <img width="80px" height="80px" style="padding-top: 12px; display: block; margin: 0 auto;" src="https://github.com/lfkdsk/picx-images-hosting/raw/master/20230817/tripper2white.2pbuwaqvndu0.webp" alt="footer logo"></a>
+    </section>
+  
+</footer>
+
+  <!-- After footer scripts -->
+  <!-- fancybox -->
+
+<link rel="stylesheet" href="" />
+<script src="/Gallery/js/fancybox.umd.js" defer></script>
+
+<!-- busuanzi -->
+
+<!-- <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" defer></script> -->
+
+<!-- highlightjs -->
+
+
+
+
+<script src="/Gallery/js/app.js"></script>
+
+
+
+<!--
+
+<script src="/Gallery/js/canvas2image.js"></script>
+
+
+<script src="/Gallery/js/shareimg.js"></script>
+
+<script src="https://html2canvas.hertzen.com/dist/html2canvas.js" defer></script>
+-->
+<!--lazyload-->
+
+
+<script src="/Gallery/js/lazyload.js"></script>
+
+
+<!--PJAX-->
+<!--Pjax from https://github.com/MoOx/pjax-->
+
+<!--<script src="https://cdn.jsdelivr.net/npm/pjax/pjax.js"></script>-->
+<!---->
+<!---->
+<!---->
+<!---->
+<!--首页键盘快捷键-->
+
+
+
+<script>
+(function () {
+  var root = document.documentElement;
+  var KEY = 'sdt.overrides.v1';
+
+  window.__sdtDefaultSkin = 'modern';
+  window.__sdtShowButton = false;
+
+  // ── 1) 重放覆盖 ────────────────────────────────────────────────────────
+  try {
+    var saved = JSON.parse(localStorage.getItem(KEY)) || {};
+    if (saved['data-skin']) root.dataset.skin = saved['data-skin'];
+    Object.keys(saved).forEach(function (k) {
+      if (k !== 'data-skin') root.style.setProperty(k, saved[k]);
+    });
+  } catch (e) { /* localStorage 不可用（隐私模式等）时就当没存过 */ }
+
+  // ── 2) Shift+D ─────────────────────────────────────────────────────────
+  var loading = false;
+
+  function summon() {
+    if (window.__sdtToggle) { window.__sdtToggle(); return; }   // 已加载，直接开关
+    if (loading) return;
+    loading = true;
+    var s = document.createElement('script');
+    s.src = '/Gallery/js/skin-devtool.js';
+    s.onload = function () {
+      window.__sdtInit();
+      window.__sdtToggle();      // 首次唤出直接打开，不用再按一次
+    };
+    s.onerror = function () {
+      loading = false;
+      console.warn('[skin-devtool] 加载失败：' + s.src);
+    };
+    document.head.appendChild(s);
+  }
+
+  document.addEventListener('keydown', function (e) {
+    if (e.key !== 'D' || !e.shiftKey || e.ctrlKey || e.metaKey || e.altKey) return;
+    // 输入焦点保护。主题原有的 Shift+1..5 快捷键没做这个，在评论框里敲字会误触
+    // （上游 e538133 也修过一次同类问题）。这里从一开始就带上。
+    var el = document.activeElement;
+    if (el && (el.isContentEditable ||
+               /^(INPUT|TEXTAREA|SELECT)$/.test(el.tagName))) return;
+    e.preventDefault();
+    summon();
+  });
+
+  // 配置里开了浮标，就得先把面板加载出来才有按钮可点
+  if (window.__sdtShowButton) summon();
+})();
+</script>
+
+
+  <style>
+  :root {
+    --main-color: #71AFDD;
+    --sub-color: #6CD9CE;
+    --main-black: #222831;
+  }
+</style>
+</body>
+
+
+
+
+</html>
