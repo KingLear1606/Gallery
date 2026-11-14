@@ -630,6 +630,15 @@
     - 31.176930
     - 121.447258
 
+太原 · 山西博物院:
+  url: TaiYuan_shanxibowuyuan
+  date: "2026-04-29"
+  style: default
+  cover: TaiYuan_shanxibowuyuan/20260429-DSC_6173-已增强-降噪.5nwwic8mx600.webp
+  location:
+    - 37.864842
+    - 112.524934
+
 太原 · 唱经楼:
   url: TaiYuan_changjinglou
   date: "2026-04-29"
@@ -1071,6 +1080,15 @@
     - 24.915241
     - 118.586484
 
+晋城 · 晋城博物馆:
+  url: JingCheng_jingchengbowuguan
+  date: "2025-07-31"
+  style: default
+  cover: JingCheng_jingchengbowuguan/20250731-DSC_8962-已增强-降噪.khexbi4mzn4.webp
+  location:
+    - 35.491595
+    - 112.862777
+
 晋城 · 皇城相府:
   url: JingCheng_huangchengxiangfu
   date: "2025-07-30"
@@ -1251,6 +1269,15 @@
     - 36.598922
     - 114.480841
 
+邯郸 · 邯郸市博物馆:
+  url: HanDan_handanshibowuguan
+  date: "2025-05-03"
+  style: default
+  cover: HanDan_handanshibowuguan/20250503-DSC_6981-已增强-降噪.2jdlnnnmwl40.webp
+  location:
+    - 36.609942
+    - 114.517114
+
 邯郸 · 南响堂山石窟:
   url: HanDan_nanxiangtangshanshiku
   date: "2025-05-03"
@@ -1268,6 +1295,15 @@
   location:
     - 36.425171
     - 114.194890
+
+邯郸 · 邺城考古博物馆:
+  url: HanDan_yechengkaogubowuguan
+  date: "2025-05-02"
+  style: default
+  cover: HanDan_yechengkaogubowuguan/20250502-DSC_6445.13dpabc1x1og.webp
+  location:
+    - 36.342796
+    - 114.589748
 
 邯郸 · 北响堂山石窟:
   url: HanDan_beixiangtangshanshiku
@@ -1548,6 +1584,15 @@
     - 39.880541
     - 116.404592
 
+北京 · 国家博物馆:
+  url: BeiJing_guojiabowuguan
+  date: "2024-09-25"
+  style: default
+  cover: BeiJing_guojiabowuguan/20240925-DSC_1997-已增强-降噪.5r9wy8ao84w0.webp
+  location:
+    - 39.904011
+    - 116.395145
+
 北京 · 天安门:
   url: BeiJing_tiananmen
   date: "2024-09-25"
@@ -1592,6 +1637,15 @@
   location:
     - 40.001908
     - 116.320848
+
+大同 · 大同市博物馆:
+  url: DaTong_datongshibowuguan
+  date: "2024-08-24"
+  style: default
+  cover: DaTong_datongshibowuguan/20240824-DSC_1443.2i5e324r44s0.webp
+  location:
+    - 40.089617
+    - 113.357646
 
 大同 · 华严寺:
   url: DaTong_huayansi
@@ -1844,6 +1898,15 @@
   location:
     - 22.582386
     - 114.215126
+
+荆州 · 荆州博物馆:
+  url: JingZhou_jingzhoubowuguan
+  date: "2024-02-13"
+  style: default
+  cover: JingZhou_jingzhoubowuguan/20240213-DSC_9023.7kpdd35v33c0.webp
+  location:
+    - 30.355968
+    - 112.174295
 
 荆州 · 万寿塔:
   url: JingZhou_wanshouta
@@ -2286,6 +2349,15 @@
     - 30.631606
     - 104.089698
 
+成都 · 成都博物馆:
+  url: ChengDu_chengdubowuguan
+  date: "2021-07-17"
+  style: default
+  cover: ChengDu_chengdubowuguan/20210717-DSC_8236.167m1zp092u8.webp
+  location:
+    - 30.659720
+    - 104.061146
+
 成都 · 文殊院:
   url: ChengDu_wenshuyuan
   date: "2021-07-17"
@@ -2357,6 +2429,15 @@
   location:
     - 31.005146
     - 103.607098
+
+成都 · 四川博物院:
+  url: ChengDu_sichuanbowuyuan
+  date: "2021-07-13"
+  style: default
+  cover: ChengDu_sichuanbowuyuan/20210713-DSC_7276.2qyg15x3o0m0.webp
+  location:
+    - 30.663280
+    - 104.031698
 
 成都 · 杜甫草堂:
   url: ChengDu_dufucaotang
