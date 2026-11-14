@@ -801,6 +801,15 @@
     - 22.573518
     - 113.069867
 
+香港 · 故宫文化博物馆(2):
+  url: XiangGang_gugongwenhuabowuguan2
+  date: "2026-01-28"
+  style: default
+  cover: XiangGang_gugongwenhuabowuguan2/20260128-DSC_3510-已增强-降噪.7iopddy8k6g0.webp
+  location:
+    - 22.302699
+    - 114.156117
+
 香港 · 街道(3):
   url: XiangGang_jiedao3
   date: "2026-01-28"
@@ -1314,6 +1323,15 @@
     - 36.103183
     - 114.347862
 
+香港 · 太平山:
+  url: XiangGang_taipingshan
+  date: "2025-04-06"
+  style: default
+  cover: XiangGang_taipingshan/20250406-DSC_5684-已增强-降噪.1ke1suwsjgm8.webp
+  location:
+    - 22.271002
+    - 114.149388
+
 佛山 · 南风古灶:
   url: FoShan_nanfengguzao
   date: "2025-03-16"
@@ -1764,6 +1782,15 @@
     - 22.325255
     - 112.584265
 
+香港 · 慈山寺:
+  url: XiangGang_cishansi
+  date: "2024-05-02"
+  style: default
+  cover: XiangGang_cishansi/20240502-DSC_9491-已增强-降噪.2ggcd9fr9jfo.webp
+  location:
+    - 22.474152
+    - 114.205796
+
 香港 · 街道(2):
   url: XiangGang_jiedao2
   date: "2024-05-02"
@@ -1826,6 +1853,15 @@
   location:
     - 29.475011
     - 113.449336
+
+香港 · 故宫文化博物馆(1):
+  url: XiangGang_gugongwenhuabowuguan
+  date: "2024-01-08"
+  style: default
+  cover: XiangGang_gugongwenhuabowuguan/20240108-DSC_8211.mbabz24rq68.webp
+  location:
+    - 22.312514
+    - 114.146116
 
 香港 · 街道(1):
   url: XiangGang_jiedao1
