@@ -108,6 +108,15 @@
     - 112.610967
 
 
+上海 · 浦东美术馆:
+  url: ShangHai_pudongmeishuguan
+  date: "2026-08-21"
+  style: default
+  cover: ShangHai_pudongmeishuguan/20260821-DSC_3508.4etmils38fe0.webp
+  location:
+    - 31.240106
+    - 121.491849
+
 上海 · 上海中心大厦:
   url: ShangHai_shanghaizhongxindasha
   date: "2026-08-21"
@@ -144,6 +153,15 @@
     - 31.177974
     - 121.444899
 
+上海 · 上海博物馆东馆:
+  url: ShangHai_shangbodongguan
+  date: "2026-08-15"
+  style: default
+  cover: ShangHai_shangbodongguan/20260815-DSC_2699-已增强-降噪.15zmxmtvi7mk.webp
+  location:
+    - 31.222199
+    - 121.534476
+
 上海 · 静安寺(3):
   url: ShangHai_jingansi3
   date: "2026-08-15"
@@ -152,6 +170,15 @@
   location:
     - 31.223293
     - 121.441013
+
+上海 · 交响音乐博物馆:
+  url: ShangHai_jiaoxiangyinyuebowuguan
+  date: "2026-08-08"
+  style: default
+  cover: ShangHai_jiaoxiangyinyuebowuguan/20260808-DSC_2547-已增强-降噪.5hkuz349g340.webp
+  location:
+    - 31.213545
+    - 121.445632
 
 上海 · 城隍庙:
   url: ShangHai_chenghuangmiao
@@ -179,6 +206,15 @@
   location:
     - 31.226554
     - 121.448208
+
+上海 · 历史博物馆:
+  url: ShangHai_lishibowuguan
+  date: "2026-08-01"
+  style: default
+  cover: ShangHai_lishibowuguan/20260801-DSC_2463-已增强-降噪.495wiuzutgy0.webp
+  location:
+    - 31.232589
+    - 121.466404
 
 青岛 · 信号山:
   url: QingDao_xinhaoshan
