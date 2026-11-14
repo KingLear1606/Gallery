@@ -1486,23 +1486,14 @@
     - 31.890003
     - 118.733405
 
-南京 · 中山陵:
-  url: NanJing_zhongshanling
+南京 · 玄武湖:
+  url: NanJing_xuanwuhu
   date: "2024-10-27"
   style: default
-  cover: NanJing_zhongshanling/DSC_3528.4nqip2shple0.webp
+  cover: NanJing_xuanwuhu/DSC_3824.1kgphwwpf63k.webp
   location:
-    - 32.057242
-    - 118.849963
-
-南京 · 音乐台:
-  url: NanJing_yinyuetai
-  date: "2024-10-27"
-  style: default
-  cover: NanJing_yinyuetai/DSC_3565.vwp56ak2k3k.webp
-  location:
-    - 32.057131
-    - 118.850040
+    - 32.072326
+    - 118.793823
 
 南京 · 灵谷:
   url: NanJing_linggu
@@ -1513,14 +1504,23 @@
     - 32.057789
     - 118.861507
 
-南京 · 玄武湖:
-  url: NanJing_xuanwuhu
+南京 · 音乐台:
+  url: NanJing_yinyuetai
   date: "2024-10-27"
   style: default
-  cover: NanJing_xuanwuhu/DSC_3824.1kgphwwpf63k.webp
+  cover: NanJing_yinyuetai/DSC_3565.vwp56ak2k3k.webp
   location:
-    - 32.072326
-    - 118.793823
+    - 32.057131
+    - 118.850040
+
+南京 · 中山陵:
+  url: NanJing_zhongshanling
+  date: "2024-10-27"
+  style: default
+  cover: NanJing_zhongshanling/DSC_3528.4nqip2shple0.webp
+  location:
+    - 32.057242
+    - 118.849963
 
 北京 · 圆明园:
   url: BeiJing_yuanmingyuan

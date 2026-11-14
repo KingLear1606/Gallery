@@ -9,7 +9,7 @@ env:
   GIT_USER: KingLear1606
   GIT_EMAIL: 2217047095@qq.com
   THEME_REPO: KingLear1606/hexo-theme-type
-  THEME_BRANCH: 9c12198d0185674b50489e8c24bb8b3d41f3e015
+  THEME_BRANCH: main
   TEMPLATE_REPO: KingLear1606/album_template
   TEMPLATE_BRANCH: main
 
