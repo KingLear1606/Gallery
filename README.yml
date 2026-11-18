@@ -369,91 +369,91 @@
     - 119.424399
 
 镇江 · 西津渡:
-  url: ZhenJiang_xijindu
+  url: 镇江_西津渡
   date: "2026-07-18"
   style: default
-  cover: ZhenJiang_xijindu/20260719-DSC_0877.110xal5pn19c.webp
+  cover: 镇江_西津渡/20260719-DSC_0877.110xal5pn19c.webp
   location:
     - 32.216035
     - 119.424947
 
 镇江 · 北固山:
-  url: ZhenJiang_beigushan
+  url: 镇江_北固山
   date: "2026-07-18"
   style: default
-  cover: ZhenJiang_beigushan/20260718-DSC_0136.4gtelqrnrg60.webp
+  cover: 镇江_北固山/20260718-DSC_0136.4gtelqrnrg60.webp
   location:
     - 32.218670
     - 119.451958
 
 镇江 · 焦山:
-  url: ZhenJiang_jiaoshan
+  url: 镇江_焦山
   date: "2026-07-18"
   style: default
-  cover: ZhenJiang_jiaoshan/20260718-DSC_9891.1i2csu1uuy80.webp
+  cover: 镇江_焦山/20260718-DSC_9891.1i2csu1uuy80.webp
   location:
     - 32.239890
     - 119.480794
 
 上海 · 武康路(2):
-  url: ShangHai_wukanglu2
+  url: 上海_武康路(2)
   date: "2026-07-11"
   style: default
-  cover: ShangHai_wukanglu2/20260711-DSC_9608.3okrja7bf3g0.webp
+  cover: 上海_武康路(2)/20260711-DSC_9608.3okrja7bf3g0.webp
   location:
     - 31.212490
     - 121.436703
 
 嘉兴 · 瓶山:
-  url: JiaXing_pingshan
+  url: 嘉兴_瓶山
   date: "2026-06-28"
   style: default
-  cover: JiaXing_pingshan/20260628-DSC_9512-已增强-降噪.2miu29n7vrw0.webp
+  cover: 嘉兴_瓶山/20260628-DSC_9512-已增强-降噪.2miu29n7vrw0.webp
   location:
     - 30.765817
     - 120.748729
 
 嘉兴 · 南湖:
-  url: JiaXing_nanhu
+  url: 嘉兴_南湖
   date: "2026-06-28"
   style: default
-  cover: JiaXing_nanhu/20260628-DSC_9450.30980t7oerg0.webp
+  cover: 嘉兴_南湖/20260628-DSC_9450.30980t7oerg0.webp
   location:
     - 30.757607
     - 120.755936
 
 嘉兴 · 天主教堂:
-  url: JiaXing_tianzhujiaotang
+  url: 嘉兴_天主教堂
   date: "2026-06-27"
   style: default
-  cover: JiaXing_tianzhujiaotang/20260627-DSC_8497.121ngt7d6ou8.webp
+  cover: 嘉兴_天主教堂/20260627-DSC_8497.121ngt7d6ou8.webp
   location:
     - 30.763257
     - 120.746627
 
 嘉兴 · 子城:
-  url: JiaXing_zicheng
+  url: 嘉兴_子城
   date: "2026-06-27"
   style: default
-  cover: JiaXing_zicheng/20260627-DSC_8447.fwvpyedb0fc.webp
+  cover: 嘉兴_子城/20260627-DSC_8447.fwvpyedb0fc.webp
   location:
     - 30.763182
     - 120.748540
 
 嘉兴 · 月河:
-  url: JiaXing_yuehe
+  url: 嘉兴_月河
   date: "2026-06-27"
   style: default
-  cover: JiaXing_yuehe/20260627-DSC_8791-已增强-降噪.3vidcuiey2g0.webp
+  cover: 嘉兴_月河/20260627-DSC_8791-已增强-降噪.3vidcuiey2g0.webp
   location:
     - 30.773466
     - 120.745911
 
 上海 · 日落长廊:
-  url: ShangHai_riluochanglang
+  url: 上海_日落长廊
   date: "2026-06-20"
   style: default
-  cover: ShangHai_riluochanglang/20260620-DSC_7941.i5875z2v59c.webp
+  cover: 上海_日落长廊/20260620-DSC_7941.i5875z2v59c.webp
   location:
     - 31.240036
     - 121.490846
