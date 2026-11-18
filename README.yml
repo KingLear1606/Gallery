@@ -1,8 +1,8 @@
 珠海 · 规划展览馆:
-  url: ZhuHai_guihuazhanlanguan
+  url: 珠海_规划展览馆
   date: "2026-11-01"
   style: default
-  cover: ZhuHai_guihuazhanlanguan/20261101-DSC_5765.2ioouhkmh3s0.webp
+  cover: 珠海_规划展览馆/20261101-DSC_5765.2ioouhkmh3s0.webp
   location:
     - 22.296363
     - 113.572194
@@ -17,83 +17,83 @@
     - 113.586605
 
 珠海 · 香山:
-  url: ZhuHai_xiangshan
+  url: 珠海_香山
   date: "2026-10-31"
   style: default
-  cover: ZhuHai_xiangshan/20261031-DSC_5452.6kwkqb4z52o0.webp
+  cover: 珠海_香山/20261031-DSC_5452.6kwkqb4z52o0.webp
   location:
     - 22.278392
     - 113.567913
 
 
 衡阳 · 祝圣寺:
-  url: HengYang_zhushengsi
+  url: 衡阳_祝圣寺
   date: "2026-09-21"
   style: default
-  cover: HengYang_zhushengsi/20260921-DSC_5185.2ggqjp1k40ro.webp
+  cover: 衡阳_祝圣寺/20260921-DSC_5185.2ggqjp1k40ro.webp
   location:
     - 27.246815
     - 112.732210
 
 衡阳 · 南岳大庙:
-  url: HengYang_nanyuedamiao
+  url: 衡阳_南岳大庙
   date: "2026-09-21"
   style: default
-  cover: HengYang_nanyuedamiao/20260921-DSC_5117-已增强-降噪.24n2sh7hkhb4.webp
+  cover: 衡阳_南岳大庙/20260921-DSC_5117-已增强-降噪.24n2sh7hkhb4.webp
   location:
     - 27.249416
     - 112.728683
 
 衡阳 · 南岳里:
-  url: HengYang_nanyueli
+  url: 衡阳_南岳里
   date: "2026-09-20"
   style: default
-  cover: HengYang_nanyueli/20260920-DSC_4863-已增强-降噪.1nh7rt62hlvk.webp
+  cover: 衡阳_南岳里/20260920-DSC_4863-已增强-降噪.1nh7rt62hlvk.webp
   location:
     - 27.228472
     - 112.724658
 
 衡阳 · 衡山:
-  url: HengYang_hengshan
+  url: 衡阳_衡山
   date: "2026-09-20"
   style: default
-  cover: HengYang_hengshan/20260920-DSC_4567.3drjbiwk0p60.webp
+  cover: 衡阳_衡山/20260920-DSC_4567.3drjbiwk0p60.webp
   location:
     - 27.297587
     - 112.688950
 
 衡阳 · 东洲岛:
-  url: HengYang_dongzhoudao
+  url: 衡阳_东洲岛
   date: "2026-09-19"
   style: default
-  cover: HengYang_dongzhoudao/20260919-DSC_4487-已增强-降噪.1p3wezdbnnvk.webp
+  cover: 衡阳_东洲岛/20260919-DSC_4487-已增强-降噪.1p3wezdbnnvk.webp
   location:
     - 26.871985
     - 112.630822
 
 衡阳 · 湘江公铁大桥:
-  url: HengYang_xiangjianggongtiedaqiao
+  url: 衡阳_湘江公铁大桥
   date: "2026-09-19"
   style: default
-  cover: HengYang_xiangjianggongtiedaqiao/20260919-DSC_4329.5yx7xytgi5o0.webp
+  cover: 衡阳_湘江公铁大桥/20260919-DSC_4329.5yx7xytgi5o0.webp
   location:
     - 26.887191
     - 112.612868
 
 衡阳 · 回雁峰:
-  url: HengYang_huiyanfeng
+  url: 衡阳_回雁峰
   date: "2026-09-19"
   style: default
-  cover: HengYang_huiyanfeng/20260919-DSC_4298.31l6ap904ti0.webp
+  cover: 衡阳_回雁峰/20260919-DSC_4298.31l6ap904ti0.webp
   location:
     - 26.890463
     - 112.608569
 
 衡阳 · 抗战纪念城:
-  url: HengYang_kangzhanjiniancheng
+  url: 衡阳_抗战纪念城
   date: "2026-09-19"
   style: default
-  cover: HengYang_kangzhanjiniancheng/20260919-DSC_4232.6y0eyb7alig0.webp
+  cover: 衡阳_抗战纪念城/20260919-DSC_4232.6y0eyb7alig0.webp
   location:
     - 26.894401
     - 112.601541
