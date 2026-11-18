@@ -910,91 +910,91 @@
     - 118.091757
 
 厦门 · 中山路:
-  url: XiaMen_zhongshanlu
+  url: 厦门_中山路
   date: "2025-09-30"
   style: default
-  cover: XiaMen_zhongshanlu/DSC_2540.14nvqp3esxeo.webp
+  cover: 厦门_中山路/DSC_2540.14nvqp3esxeo.webp
   location:
     - 24.458564
     - 118.080184
 
 厦门 · 山海步道:
-  url: XiaMen_shanhaibudao
+  url: 厦门_山海步道
   date: "2025-09-29"
   style: default
-  cover: XiaMen_shanhaibudao/DSC_1648.65511mbni7o0.webp
+  cover: 厦门_山海步道/DSC_1648.65511mbni7o0.webp
   location:
     - 24.426334
     - 118.131857
 
 厦门 · 海滩:
-  url: XiaMen_haitan
+  url: 厦门_海滩
   date: "2025-09-29"
   style: default
-  cover: XiaMen_haitan/DSC_1859.itjqfkerwow.webp
+  cover: 厦门_海滩/DSC_1859.itjqfkerwow.webp
   location:
     - 24.427507
     - 118.118984
 
 厦门 · 鼓浪屿:
-  url: XiaMen_gulangyu
+  url: 厦门_鼓浪屿
   date: "2025-09-29"
   style: default
-  cover: XiaMen_gulangyu/DSC_2360.1doppxvdt60w.webp
+  cover: 厦门_鼓浪屿/DSC_2360.1doppxvdt60w.webp
   location:
     - 24.447365
     - 118.062085
 
 厦门 · 朝天宫:
-  url: XiaMen_chaotiangong
+  url: 厦门_朝天宫
   date: "2025-09-29"
   style: default
-  cover: XiaMen_chaotiangong/DSC_1332-已增强-降噪.3m41qv06v700.webp
+  cover: 厦门_朝天宫/DSC_1332-已增强-降噪.3m41qv06v700.webp
   location:
     - 24.526448
     - 118.104270
 
 泉州 · 蔡襄祠:
-  url: QuanZhou_caixiangci
+  url: 泉州_蔡襄祠
   date: "2025-09-28"
   style: default
-  cover: QuanZhou_caixiangci/DSC_0758.70ib995qw780.webp
+  cover: 泉州_蔡襄祠/DSC_0758.70ib995qw780.webp
   location:
     - 24.949573
     - 118.671802
 
 泉州 · 洛阳桥:
-  url: QuanZhou_luoyangqiao
+  url: 泉州_洛阳桥
   date: "2025-09-28"
   style: default
-  cover: QuanZhou_luoyangqiao/DSC_1140.ifnxipidsz4.webp
+  cover: 泉州_洛阳桥/DSC_1140.ifnxipidsz4.webp
   location:
     - 24.953175
     - 118.675102
 
 泉州 · 清源山:
-  url: QuanZhou_qingyuanshan
+  url: 泉州_清源山
   date: "2025-09-28"
   style: default
-  cover: QuanZhou_qingyuanshan/DSC_0694.3l6o3apdl760.webp
+  cover: 泉州_清源山/DSC_0694.3l6o3apdl760.webp
   location:
     - 24.948643
     - 118.607295
 
 泉州 · 清净寺:
-  url: QuanZhou_qingjingsi
+  url: 泉州_清净寺
   date: "2025-09-27"
   style: default
-  cover: QuanZhou_qingjingsi/DSC_0385-已增强-降噪.5np4gsyaayk0.webp
+  cover: 泉州_清净寺/DSC_0385-已增强-降噪.5np4gsyaayk0.webp
   location:
     - 24.905708
     - 118.587048
 
 泉州 · 府文庙:
-  url: QuanZhou_fuwenmiao
+  url: 泉州_府文庙
   date: "2025-09-27"
   style: default
-  cover: QuanZhou_fuwenmiao/DSC_9890.1hfif58y710g.webp
+  cover: 泉州_府文庙/DSC_9890.1hfif58y710g.webp
   location:
     - 24.908393
     - 118.585561
