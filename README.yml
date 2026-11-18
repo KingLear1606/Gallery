@@ -1451,91 +1451,91 @@
     - 118.782476
 
 南京 · 秦淮河:
-  url: NanJing_qinhuaihe
+  url: 南京_秦淮河
   date: "2024-10-28"
   style: default
-  cover: NanJing_qinhuaihe/DSC_4094.6s4ptteoegg0.webp
+  cover: 南京_秦淮河/DSC_4094.6s4ptteoegg0.webp
   location:
     - 32.022982
     - 118.783693
 
 南京 · 大报恩寺:
-  url: NanJing_dabaoensi
+  url: 南京_大报恩寺
   date: "2024-10-28"
   style: default
-  cover: NanJing_dabaoensi/DSC_3964.2p1wwnr77xs0.webp
+  cover: 南京_大报恩寺/DSC_3964.2p1wwnr77xs0.webp
   location:
     - 32.011261
     - 118.777814
 
 南京 · 牛首山:
-  url: NanJing_niushoushan
+  url: 南京_牛首山
   date: "2024-10-28"
   style: default
-  cover: NanJing_niushoushan/DSC_3874.1hdjiyicrruo.webp
+  cover: 南京_牛首山/DSC_3874.1hdjiyicrruo.webp
   location:
     - 31.907540
     - 118.738472
 
 南京 · 南唐二陵:
-  url: NanJing_nantangerling
+  url: 南京_南唐二陵
   date: "2024-10-28"
   style: default
-  cover: NanJing_nantangerling/DSC_3845.4gxfxen6yfm0.webp
+  cover: 南京_南唐二陵/DSC_3845.4gxfxen6yfm0.webp
   location:
     - 31.890003
     - 118.733405
 
 南京 · 玄武湖:
-  url: NanJing_xuanwuhu
+  url: 南京_玄武湖
   date: "2024-10-27"
   style: default
-  cover: NanJing_xuanwuhu/DSC_3824.1kgphwwpf63k.webp
+  cover: 南京_玄武湖/DSC_3824.1kgphwwpf63k.webp
   location:
     - 32.072326
     - 118.793823
 
 南京 · 灵谷:
-  url: NanJing_linggu
+  url: 南京_灵谷
   date: "2024-10-27"
   style: default
-  cover: NanJing_linggu/DSC_3595.5cpzkhg6ub40.webp
+  cover: 南京_灵谷/DSC_3595.5cpzkhg6ub40.webp
   location:
     - 32.057789
     - 118.861507
 
 南京 · 音乐台:
-  url: NanJing_yinyuetai
+  url: 南京_音乐台
   date: "2024-10-27"
   style: default
-  cover: NanJing_yinyuetai/DSC_3565.vwp56ak2k3k.webp
+  cover: 南京_音乐台/DSC_3565.vwp56ak2k3k.webp
   location:
     - 32.057131
     - 118.850040
 
 南京 · 中山陵:
-  url: NanJing_zhongshanling
+  url: 南京_中山陵
   date: "2024-10-27"
   style: default
-  cover: NanJing_zhongshanling/DSC_3528.4nqip2shple0.webp
+  cover: 南京_中山陵/DSC_3528.4nqip2shple0.webp
   location:
     - 32.057242
     - 118.849963
 
 北京 · 慈寿寺塔:
-  url: BeiJing_cishousita
+  url: 北京_慈寿寺塔
   date: "2024-09-30"
   style: default
-  cover: BeiJing_cishousita/DSC_3423.75i7fj3nblk0.webp
+  cover: 北京_慈寿寺塔/DSC_3423.75i7fj3nblk0.webp
   location:
     - 39.926820
     - 116.289268
 
 北京 · 圆明园:
-  url: BeiJing_yuanmingyuan
+  url: 北京_圆明园
   date: "2024-09-30"
   style: default
-  cover: BeiJing_yuanmingyuan/DSC_3347.1816teyxt5z4.webp
+  cover: 北京_圆明园/DSC_3347.1816teyxt5z4.webp
   location:
     - 40.005129
     - 116.297505
