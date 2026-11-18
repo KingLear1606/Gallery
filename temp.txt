@@ -16,5 +16,5 @@ https://cdn.staticaly.com/gh/KingLear1606/Gallery@master/珠海_规划展览馆/2026110
 
 将以下链接和坐标按照示例转换，注意坐标从BD-09转为WGS84，转换完成后填入README.yml对应位置。
 
-https://cdn.staticaly.com/gh/KingLear1606/Gallery@master/AnYang_anyangbowuguan/20250430-DSC_5819.6zpnrbwtugo0.webp
+https://cdn.staticaly.com/gh/KingLear1606/Gallery@master/安阳_安阳博物馆/20250430-DSC_5819.6zpnrbwtugo0.webp
 114.398924,36.097180
