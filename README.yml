@@ -369,181 +369,181 @@
     - 119.424399
 
 镇江 · 西津渡:
-  url: ZhenJiang_xijindu
+  url: 镇江_西津渡
   date: "2026-07-18"
   style: default
-  cover: ZhenJiang_xijindu/20260719-DSC_0877.110xal5pn19c.webp
+  cover: 镇江_西津渡/20260719-DSC_0877.110xal5pn19c.webp
   location:
     - 32.216035
     - 119.424947
 
 镇江 · 北固山:
-  url: ZhenJiang_beigushan
+  url: 镇江_北固山
   date: "2026-07-18"
   style: default
-  cover: ZhenJiang_beigushan/20260718-DSC_0136.4gtelqrnrg60.webp
+  cover: 镇江_北固山/20260718-DSC_0136.4gtelqrnrg60.webp
   location:
     - 32.218670
     - 119.451958
 
 镇江 · 焦山:
-  url: ZhenJiang_jiaoshan
+  url: 镇江_焦山
   date: "2026-07-18"
   style: default
-  cover: ZhenJiang_jiaoshan/20260718-DSC_9891.1i2csu1uuy80.webp
+  cover: 镇江_焦山/20260718-DSC_9891.1i2csu1uuy80.webp
   location:
     - 32.239890
     - 119.480794
 
 上海 · 武康路(2):
-  url: ShangHai_wukanglu2
+  url: 上海_武康路(2)
   date: "2026-07-11"
   style: default
-  cover: ShangHai_wukanglu2/20260711-DSC_9608.3okrja7bf3g0.webp
+  cover: 上海_武康路(2)/20260711-DSC_9608.3okrja7bf3g0.webp
   location:
     - 31.212490
     - 121.436703
 
 嘉兴 · 瓶山:
-  url: JiaXing_pingshan
+  url: 嘉兴_瓶山
   date: "2026-06-28"
   style: default
-  cover: JiaXing_pingshan/20260628-DSC_9512-已增强-降噪.2miu29n7vrw0.webp
+  cover: 嘉兴_瓶山/20260628-DSC_9512-已增强-降噪.2miu29n7vrw0.webp
   location:
     - 30.765817
     - 120.748729
 
 嘉兴 · 南湖:
-  url: JiaXing_nanhu
+  url: 嘉兴_南湖
   date: "2026-06-28"
   style: default
-  cover: JiaXing_nanhu/20260628-DSC_9450.30980t7oerg0.webp
+  cover: 嘉兴_南湖/20260628-DSC_9450.30980t7oerg0.webp
   location:
     - 30.757607
     - 120.755936
 
 嘉兴 · 天主教堂:
-  url: JiaXing_tianzhujiaotang
+  url: 嘉兴_天主教堂
   date: "2026-06-27"
   style: default
-  cover: JiaXing_tianzhujiaotang/20260627-DSC_8497.121ngt7d6ou8.webp
+  cover: 嘉兴_天主教堂/20260627-DSC_8497.121ngt7d6ou8.webp
   location:
     - 30.763257
     - 120.746627
 
 嘉兴 · 子城:
-  url: JiaXing_zicheng
+  url: 嘉兴_子城
   date: "2026-06-27"
   style: default
-  cover: JiaXing_zicheng/20260627-DSC_8447.fwvpyedb0fc.webp
+  cover: 嘉兴_子城/20260627-DSC_8447.fwvpyedb0fc.webp
   location:
     - 30.763182
     - 120.748540
 
 嘉兴 · 月河:
-  url: JiaXing_yuehe
+  url: 嘉兴_月河
   date: "2026-06-27"
   style: default
-  cover: JiaXing_yuehe/20260627-DSC_8791-已增强-降噪.3vidcuiey2g0.webp
+  cover: 嘉兴_月河/20260627-DSC_8791-已增强-降噪.3vidcuiey2g0.webp
   location:
     - 30.773466
     - 120.745911
 
 上海 · 日落长廊:
-  url: ShangHai_riluochanglang
+  url: 上海_日落长廊
   date: "2026-06-20"
   style: default
-  cover: ShangHai_riluochanglang/20260620-DSC_7941.i5875z2v59c.webp
+  cover: 上海_日落长廊/20260620-DSC_7941.i5875z2v59c.webp
   location:
     - 31.240036
     - 121.490846
 
 上海 · 多伦路:
-  url: ShangHai_duolunlu
+  url: 上海_多伦路
   date: "2026-06-20"
   style: default
-  cover: ShangHai_duolunlu/20260620-DSC_7813.25mfc2ubt6w0.webp
+  cover: 上海_多伦路/20260620-DSC_7813.25mfc2ubt6w0.webp
   location:
     - 31.263942
     - 121.479174
 
 上海 · 甜爱路:
-  url: ShangHai_tianailu
+  url: 上海_甜爱路
   date: "2026-06-20"
   style: default
-  cover: ShangHai_tianailu/20260620-DSC_7778.6ffueo86ddc0.webp
+  cover: 上海_甜爱路/20260620-DSC_7778.6ffueo86ddc0.webp
   location:
     - 31.268600
     - 121.479205
 
 上海 · 鲁迅公园:
-  url: ShangHai_luxungongyuan
+  url: 上海_鲁迅公园
   date: "2026-06-20"
   style: default
-  cover: ShangHai_luxungongyuan/20260620-DSC_7754-已增强-降噪.6813sy15c8g0.webp
+  cover: 上海_鲁迅公园/20260620-DSC_7754-已增强-降噪.6813sy15c8g0.webp
   location:
     - 31.273768
     - 121.479090
 
 上海 · 中华艺术宫:
-  url: ShangHai_zhonghuayishugong
+  url: 上海_中华艺术宫
   date: "2026-06-20"
   style: default
-  cover: ShangHai_zhonghuayishugong/20260620-DSC_7685.6gxi9rnukv00.webp
+  cover: 上海_中华艺术宫/20260620-DSC_7685.6gxi9rnukv00.webp
   location:
     - 31.186370
     - 121.490277
 
 上海 · 外滩(2):
-  url: ShangHai_waitan2
+  url: 上海_外滩(2)
   date: "2026-06-19"
   style: default
-  cover: ShangHai_waitan2/20260619-DSC_7609-已增强-降噪.61s0lz0bbmc0.webp
+  cover: 上海_外滩(2)/20260619-DSC_7609-已增强-降噪.61s0lz0bbmc0.webp
   location:
     - 31.240255
     - 121.485967
 
 上海 · 一大会址:
-  url: ShangHai_yidahuizhi
+  url: 上海_一大会址
   date: "2026-06-19"
   style: default
-  cover: ShangHai_yidahuizhi/20260619-DSC_7476.1z0qf3xpe1fk.webp
+  cover: 上海_一大会址/20260619-DSC_7476.1z0qf3xpe1fk.webp
   location:
     - 31.222086
     - 121.470753
 
 上海 · 世博会博物馆:
-  url: ShangHai_shibohuibowuguan
+  url: 上海_世博会博物馆
   date: "2026-06-19"
   style: default
-  cover: ShangHai_shibohuibowuguan/20260619-DSC_7432-已增强-降噪.6l1w5234skw0.webp
+  cover: 上海_世博会博物馆/20260619-DSC_7432-已增强-降噪.6l1w5234skw0.webp
   location:
     - 31.196503
     - 121.477569
 
 上海 · 外白渡桥:
-  url: ShangHai_waibaiduqiao
+  url: 上海_外白渡桥
   date: "2026-06-13"
   style: default
-  cover: ShangHai_waibaiduqiao/20260613-DSC_7389-已增强-降噪.6synfaec2l80.webp
+  cover: 上海_外白渡桥/20260613-DSC_7389-已增强-降噪.6synfaec2l80.webp
   location:
     - 31.245395
     - 121.485786
 
 上海 · 乍浦路桥:
-  url: ShangHai_zhapuluqiao
+  url: 上海_乍浦路桥
   date: "2026-06-13"
   style: default
-  cover: ShangHai_zhapuluqiao/20260613-DSC_7257-已增强-降噪.4k9ynhae63k0.webp
+  cover: 上海_乍浦路桥/20260613-DSC_7257-已增强-降噪.4k9ynhae63k0.webp
   location:
     - 31.246193
     - 121.483284
 
 上海 · 浙江路桥:
-  url: ShangHai_zhejiangluqiao
+  url: 上海_浙江路桥
   date: "2026-06-13"
   style: default
-  cover: ShangHai_zhejiangluqiao/20260613-DSC_7098.7i12mz5iu280.webp
+  cover: 上海_浙江路桥/20260613-DSC_7098.7i12mz5iu280.webp
   location:
     - 31.243324
     - 121.472011
