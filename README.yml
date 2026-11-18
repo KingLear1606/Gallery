@@ -2262,91 +2262,91 @@
     - 114.300826
 
 武汉 · 首义公园:
-  url: WuHan_shouyigongyuan
+  url: 武汉_首义公园
   date: "2023-01-26"
   style: default
-  cover: WuHan_shouyigongyuan/psc-(8).fyvc4dk5e4.webp
+  cover: 武汉_首义公园/psc-(8).fyvc4dk5e4.webp
   location:
     - 30.544266
     - 114.307687
 
 武汉 · 华科:
-  url: WuHan_huake
+  url: 武汉_华科
   date: "2023-01-26"
   style: default
-  cover: WuHan_huake/psc-(9).4lns9p66h8q0.webp
+  cover: 武汉_华科/psc-(9).4lns9p66h8q0.webp
   location:
     - 30.511346
     - 114.407953
 
 武汉 · 古琴台:
-  url: WuHan_guqintai
+  url: 武汉_古琴台
   date: "2023-01-25"
   style: default
-  cover: WuHan_guqintai/psc-(1).6ag5bhntgvw0.webp
+  cover: 武汉_古琴台/psc-(1).6ag5bhntgvw0.webp
   location:
     - 30.556694
     - 114.258252
 
 武汉 · 龟山:
-  url: WuHan_guishan
+  url: 武汉_龟山
   date: "2023-01-25"
   style: default
-  cover: WuHan_guishan/psc-(3).2zmoa4r5e800.webp
+  cover: 武汉_龟山/psc-(3).2zmoa4r5e800.webp
   location:
     - 30.557557
     - 114.270158
 
 武汉 · 归元寺:
-  url: WuHan_guiyuansi
+  url: 武汉_归元寺
   date: "2023-01-25"
   style: default
-  cover: WuHan_guiyuansi/psc-(1).4i7brhc17280.webp
+  cover: 武汉_归元寺/psc-(1).4i7brhc17280.webp
   location:
     - 30.547700
     - 114.253674
 
 岳阳 · 岳阳楼(2):
-  url: YueYang_yueyanglou2
+  url: 岳阳_岳阳楼(2)
   date: "2023-01-15"
   style: default
-  cover: YueYang_yueyanglou2/050_DSC_0627_F74908A6.39cim5o1yra0.webp
+  cover: 岳阳_岳阳楼(2)/050_DSC_0627_F74908A6.39cim5o1yra0.webp
   location:
     - 29.380348
     - 113.087858
 
 咸宁 · 赤壁古战场:
-  url: XianNing_chibiguzhanchang
+  url: 咸宁_赤壁古战场
   date: "2022-08-01"
   style: default
-  cover: XianNing_chibiguzhanchang/VCG111450226854.1ejqavyqclts.webp
+  cover: 咸宁_赤壁古战场/VCG111450226854.1ejqavyqclts.webp
   location:
     - 29.881487
     - 113.625249
 
 荆州 · 洪湖风景区:
-  url: JingZhou_honghufengjingqu
+  url: 荆州_洪湖风景区
   date: "2022-07-31"
   style: default
-  cover: JingZhou_honghufengjingqu/psc-(6).7g5migkjhs00.webp
+  cover: 荆州_洪湖风景区/psc-(6).7g5migkjhs00.webp
   location:
     - 29.932577
     - 113.204088
 
 岳阳 · 君山:
-  url: YueYang_junshan
+  url: 岳阳_君山
   date: "2022-07-28"
   style: default
-  cover: YueYang_junshan/087_DSC_8994_023FE1E7.13md7nxryzj4.webp
+  cover: 岳阳_君山/087_DSC_8994_023FE1E7.13md7nxryzj4.webp
   location:
     - 29.355312
     - 113.001437
 
 岳阳 · 岳阳楼(1):
-  url: YueYang_yueyanglou
+  url: 岳阳_岳阳楼(1)
   date: "2022-07-27"
   style: default
-  cover: YueYang_yueyanglou/063_DSC_8915_2D884A66.4xq0exqftq40.webp
+  cover: 岳阳_岳阳楼(1)/063_DSC_8915_2D884A66.4xq0exqftq40.webp
   location:
     - 29.380348
     - 113.087858
