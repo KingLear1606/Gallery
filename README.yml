@@ -1451,181 +1451,181 @@
     - 118.782476
 
 南京 · 秦淮河:
-  url: 南京_秦淮河
+  url: NanJing_qinhuaihe
   date: "2024-10-28"
   style: default
-  cover: 南京_秦淮河/DSC_4094.6s4ptteoegg0.webp
+  cover: NanJing_qinhuaihe/DSC_4094.6s4ptteoegg0.webp
   location:
     - 32.022982
     - 118.783693
 
 南京 · 大报恩寺:
-  url: 南京_大报恩寺
+  url: NanJing_dabaoensi
   date: "2024-10-28"
   style: default
-  cover: 南京_大报恩寺/DSC_3964.2p1wwnr77xs0.webp
+  cover: NanJing_dabaoensi/DSC_3964.2p1wwnr77xs0.webp
   location:
     - 32.011261
     - 118.777814
 
 南京 · 牛首山:
-  url: 南京_牛首山
+  url: NanJing_niushoushan
   date: "2024-10-28"
   style: default
-  cover: 南京_牛首山/DSC_3874.1hdjiyicrruo.webp
+  cover: NanJing_niushoushan/DSC_3874.1hdjiyicrruo.webp
   location:
     - 31.907540
     - 118.738472
 
 南京 · 南唐二陵:
-  url: 南京_南唐二陵
+  url: NanJing_nantangerling
   date: "2024-10-28"
   style: default
-  cover: 南京_南唐二陵/DSC_3845.4gxfxen6yfm0.webp
+  cover: NanJing_nantangerling/DSC_3845.4gxfxen6yfm0.webp
   location:
     - 31.890003
     - 118.733405
 
 南京 · 玄武湖:
-  url: 南京_玄武湖
+  url: NanJing_xuanwuhu
   date: "2024-10-27"
   style: default
-  cover: 南京_玄武湖/DSC_3824.1kgphwwpf63k.webp
+  cover: NanJing_xuanwuhu/DSC_3824.1kgphwwpf63k.webp
   location:
     - 32.072326
     - 118.793823
 
 南京 · 灵谷:
-  url: 南京_灵谷
+  url: NanJing_linggu
   date: "2024-10-27"
   style: default
-  cover: 南京_灵谷/DSC_3595.5cpzkhg6ub40.webp
+  cover: NanJing_linggu/DSC_3595.5cpzkhg6ub40.webp
   location:
     - 32.057789
     - 118.861507
 
 南京 · 音乐台:
-  url: 南京_音乐台
+  url: NanJing_yinyuetai
   date: "2024-10-27"
   style: default
-  cover: 南京_音乐台/DSC_3565.vwp56ak2k3k.webp
+  cover: NanJing_yinyuetai/DSC_3565.vwp56ak2k3k.webp
   location:
     - 32.057131
     - 118.850040
 
 南京 · 中山陵:
-  url: 南京_中山陵
+  url: NanJing_zhongshanling
   date: "2024-10-27"
   style: default
-  cover: 南京_中山陵/DSC_3528.4nqip2shple0.webp
+  cover: NanJing_zhongshanling/DSC_3528.4nqip2shple0.webp
   location:
     - 32.057242
     - 118.849963
 
 北京 · 慈寿寺塔:
-  url: 北京_慈寿寺塔
+  url: BeiJing_cishousita
   date: "2024-09-30"
   style: default
-  cover: 北京_慈寿寺塔/DSC_3423.75i7fj3nblk0.webp
+  cover: BeiJing_cishousita/DSC_3423.75i7fj3nblk0.webp
   location:
     - 39.926820
     - 116.289268
 
 北京 · 圆明园:
-  url: 北京_圆明园
+  url: BeiJing_yuanmingyuan
   date: "2024-09-30"
   style: default
-  cover: 北京_圆明园/DSC_3347.1816teyxt5z4.webp
+  cover: BeiJing_yuanmingyuan/DSC_3347.1816teyxt5z4.webp
   location:
     - 40.005129
     - 116.297505
 
 北京 · 北海公园:
-  url: 北京_北海公园
+  url: BeiJing_beihaigongyuan
   date: "2024-09-29"
   style: default
-  cover: 北京_北海公园/DSC_3246-已增强-降噪.1l8h3qub8134.webp
+  cover: BeiJing_beihaigongyuan/DSC_3246-已增强-降噪.1l8h3qub8134.webp
   location:
     - 39.926891
     - 116.382535
 
 北京 · 景山:
-  url: 北京_景山
+  url: BeiJing_jingshan
   date: "2024-09-29"
   style: default
-  cover: 北京_景山/DSC_3207-已增强-降噪.31gn89u498i0.webp
+  cover: BeiJing_jingshan/DSC_3207-已增强-降噪.31gn89u498i0.webp
   location:
     - 39.924532
     - 116.390211
 
 北京 · 故宫:
-  url: 北京_故宫
+  url: BeiJing_gugong
   date: "2024-09-29"
   style: default
-  cover: 北京_故宫/DSC_2973.1ejtuhu8z868.webp
+  cover: BeiJing_gugong/DSC_2973.1ejtuhu8z868.webp
   location:
     - 39.916350
     - 116.390805
 
 北京 · 明十三陵:
-  url: 北京_明十三陵
+  url: BeiJing_mingshisanling
   date: "2024-09-28"
   style: default
-  cover: 北京_明十三陵/DSC_2925.2348do791pwg.webp
+  cover: BeiJing_mingshisanling/DSC_2925.2348do791pwg.webp
   location:
     - 40.277878
     - 116.234443
 
 北京 · 天坛:
-  url: 北京_天坛
+  url: BeiJing_tiantan
   date: "2024-09-26"
   style: default
-  cover: 北京_天坛/DSC_2780.6kg17jfmy740.webp
+  cover: BeiJing_tiantan/DSC_2780.6kg17jfmy740.webp
   location:
     - 39.880541
     - 116.404592
 
 北京 · 法源寺:
-  url: 北京_法源寺
+  url: BeiJing_fayuansi
   date: "2024-09-26"
   style: default
-  cover: 北京_法源寺/DSC_2704.47fkpqnkr8e0.webp
+  cover: BeiJing_fayuansi/DSC_2704.47fkpqnkr8e0.webp
   location:
     - 39.884053
     - 116.363685
 
 北京 · 天安门:
-  url: 北京_天安门
+  url: BeiJing_tiananmen
   date: "2024-09-25"
   style: default
-  cover: 北京_天安门/DSC_2555.4rc72l30fkw0.webp
+  cover: BeiJing_tiananmen/DSC_2555.4rc72l30fkw0.webp
   location:
     - 39.907374
     - 116.391349
 
 北京 · 太庙:
-  url: 北京_太庙
+  url: BeiJing_taimiao
   date: "2024-09-25"
   style: default
-  cover: 北京_太庙/DSC_2618.3ryuyh8c1p40.webp
+  cover: BeiJing_taimiao/DSC_2618.3ryuyh8c1p40.webp
   location:
     - 39.910036
     - 116.393624
 
 北京 · 前门大街:
-  url: 北京_前门大街
+  url: BeiJing_qianmendajie
   date: "2024-09-25"
   style: default
-  cover: 北京_前门大街/DSC_2697-已增强-降噪.36dolvt0dz20.webp
+  cover: BeiJing_qianmendajie/DSC_2697-已增强-降噪.36dolvt0dz20.webp
   location:
     - 39.893524
     - 116.393377
 
 北京 · 国家博物馆:
-  url: 北京_国家博物馆
+  url: BeiJing_guojiabowuguan
   date: "2024-09-25"
   style: default
-  cover: 北京_国家博物馆/20240925-DSC_1997-已增强-降噪.5r9wy8ao84w0.webp
+  cover: BeiJing_guojiabowuguan/20240925-DSC_1997-已增强-降噪.5r9wy8ao84w0.webp
   location:
     - 39.904011
     - 116.395145
