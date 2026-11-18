@@ -2172,91 +2172,91 @@
     - 109.576568
 
 重庆 · 山城步道:
-  url: ChongQing_shanchengbudao
+  url: 重庆_山城步道
   date: "2023-08-04"
   style: default
-  cover: ChongQing_shanchengbudao/186_DSC_5362_02F7C259.21sdnj81d2ao.webp
+  cover: 重庆_山城步道/186_DSC_5362_02F7C259.21sdnj81d2ao.webp
   location:
     - 29.553420
     - 106.562886
 
 重庆 · 磁器口:
-  url: ChongQing_ciqikou
+  url: 重庆_磁器口
   date: "2023-08-03"
   style: default
-  cover: ChongQing_ciqikou/165_DSC_5197_25087FDE.rnhl0zpv1fk.webp
+  cover: 重庆_磁器口/165_DSC_5197_25087FDE.rnhl0zpv1fk.webp
   location:
     - 29.583168
     - 106.446214
 
 重庆 · 歌乐山:
-  url: ChongQing_geleshan
+  url: 重庆_歌乐山
   date: "2023-08-03"
   style: default
-  cover: ChongQing_geleshan/151_DSC_5158_1479294E.6ete7i5hrlo0.webp
+  cover: 重庆_歌乐山/151_DSC_5158_1479294E.6ete7i5hrlo0.webp
   location:
     - 29.578679
     - 106.430508
 
 重庆 · 洪崖洞:
-  url: ChongQing_hongyadong
+  url: 重庆_洪崖洞
   date: "2023-08-02"
   style: default
-  cover: ChongQing_hongyadong/VCG111449188689.14igs6sgwvhc.webp
+  cover: 重庆_洪崖洞/VCG111449188689.14igs6sgwvhc.webp
   location:
     - 29.563418
     - 106.574920
 
 重庆 · 解放碑:
-  url: ChongQing_jiefangbei
+  url: 重庆_解放碑
   date: "2023-08-02"
   style: default
-  cover: ChongQing_jiefangbei/117_DSC_4998_D4712794.3c876oewuoo0.webp
+  cover: 重庆_解放碑/117_DSC_4998_D4712794.3c876oewuoo0.webp
   location:
     - 29.560117
     - 106.571638
 
 重庆 · 人民大礼堂:
-  url: ChongQing_renmingdalitang
+  url: 重庆_人民大礼堂
   date: "2023-08-02"
   style: default
-  cover: ChongQing_renmingdalitang/101_DSC_4760_E4082FFC.6ydph6ibp8c0.webp
+  cover: 重庆_人民大礼堂/101_DSC_4760_E4082FFC.6ydph6ibp8c0.webp
   location:
     - 29.564411
     - 106.550007
 
 重庆 · 街道:
-  url: ChongQing_jiedao
+  url: 重庆_街道
   date: "2023-08-02"
   style: default
-  cover: ChongQing_jiedao/181_DSC_5349_66C3FDF4.5pz8r02j0h00.webp
+  cover: 重庆_街道/181_DSC_5349_66C3FDF4.5pz8r02j0h00.webp
   location:
     - 29.537560
     - 106.583277
 
 深圳 · 前海石公园:
-  url: ShenZhen_qianhaishigongyuan
+  url: 深圳_前海石公园
   date: "2023-02-25"
   style: default
-  cover: ShenZhen_qianhaishigongyuan/VCG111449186233.413xd1q8icu0.webp
+  cover: 深圳_前海石公园/VCG111449186233.413xd1q8icu0.webp
   location:
     - 22.529352
     - 113.884696
 
 深圳 · 深圳湾:
-  url: ShenZhen_shenzhenwan1
+  url: 深圳_深圳湾
   date: "2023-02-19"
   style: default
-  cover: ShenZhen_shenzhenwan1/VCG111449183160.6drdyevn6a80.webp
+  cover: 深圳_深圳湾/VCG111449183160.6drdyevn6a80.webp
   location:
     - 22.521530
     - 113.975737
 
 武汉 · 辛亥革命博物馆:
-  url: WuHan_xinhaigemingbowuyuan
+  url: 武汉_辛亥革命博物馆
   date: "2023-01-26"
   style: default
-  cover: WuHan_xinhaigemingbowuyuan/psc-(6).69rtrzbr5q00.webp
+  cover: 武汉_辛亥革命博物馆/psc-(6).69rtrzbr5q00.webp
   location:
     - 30.543981
     - 114.300826
