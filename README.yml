@@ -1901,11 +1901,11 @@
     - 22.474152
     - 114.205796
 
-深圳 · 梧桐山(1):
-  url: 深圳_梧桐山(1)
+深圳 · 梧桐山:
+  url: 深圳_梧桐山
   date: "2024-03-24"
   style: default
-  cover: 深圳_梧桐山(1)/DSC_9405-已增强-降噪.3088kkvt4oy0.webp
+  cover: 深圳_梧桐山/DSC_9405-已增强-降噪.3088kkvt4oy0.webp
   location:
     - 22.582386
     - 114.215126
@@ -1964,20 +1964,20 @@
     - 29.475011
     - 113.449336
 
-香港 · 街道(1):
-  url: 香港_街道(1)
+香港 · 街道:
+  url: 香港_街道
   date: "2024-01-08"
   style: default
-  cover: 香港_街道(1)/DSC_8386.72i3cgxhj280.webp
+  cover: 香港_街道/DSC_8386.72i3cgxhj280.webp
   location:
     - 22.294539
     - 114.242791
 
-香港 · 故宫文化博物馆(1):
-  url: 香港_故宫文化博物馆(1)
+香港 · 故宫文化博物馆:
+  url: 香港_故宫文化博物馆
   date: "2024-01-08"
   style: default
-  cover: 香港_故宫文化博物馆(1)/20240108-DSC_8211.mbabz24rq68.webp
+  cover: 香港_故宫文化博物馆/20240108-DSC_8211.mbabz24rq68.webp
   location:
     - 22.302767
     - 114.156027
@@ -2342,290 +2342,290 @@
     - 29.355312
     - 113.001437
 
-岳阳 · 岳阳楼(1):
-  url: 岳阳_岳阳楼(1)
+岳阳 · 岳阳楼:
+  url: 岳阳_岳阳楼
   date: "2022-07-27"
   style: default
-  cover: 岳阳_岳阳楼(1)/063_DSC_8915_2D884A66.4xq0exqftq40.webp
+  cover: 岳阳_岳阳楼/063_DSC_8915_2D884A66.4xq0exqftq40.webp
   location:
     - 29.380348
     - 113.087858
 
 成都 · 望江楼:
-  url: ChengDu_wangjianglou
+  url: 成都_望江楼
   date: "2021-07-18"
   style: default
-  cover: ChengDu_wangjianglou/DSC_8507.4x9v2vivio00.webp
+  cover: 成都_望江楼/DSC_8507.4x9v2vivio00.webp
   location:
     - 30.631606
     - 104.089698
 
 成都 · 成都博物馆:
-  url: ChengDu_chengdubowuguan
+  url: 成都_成都博物馆
   date: "2021-07-17"
   style: default
-  cover: ChengDu_chengdubowuguan/20210717-DSC_8236.167m1zp092u8.webp
+  cover: 成都_成都博物馆/20210717-DSC_8236.167m1zp092u8.webp
   location:
     - 30.659720
     - 104.061146
 
 成都 · 金沙遗址:
-  url: ChengDu_jinshayizhi
+  url: 成都_金沙遗址
   date: "2021-07-17"
   style: default
-  cover: ChengDu_jinshayizhi/DSC_8189.4o4ehzq6z4w0.webp
+  cover: 成都_金沙遗址/DSC_8189.4o4ehzq6z4w0.webp
   location:
     - 30.684246
     - 104.010301
 
 成都 · 文殊院:
-  url: ChengDu_wenshuyuan
+  url: 成都_文殊院
   date: "2021-07-17"
   style: default
-  cover: ChengDu_wenshuyuan/DSC_8094.25rckazxq9vk.webp
+  cover: 成都_文殊院/DSC_8094.25rckazxq9vk.webp
   location:
     - 30.677807
     - 104.070134
 
 成都 · 锦里:
-  url: ChengDu_jingli
+  url: 成都_锦里
   date: "2021-07-16"
   style: default
-  cover: ChengDu_jingli/DSC_8072.7hr4m74z1ik0.webp
+  cover: 成都_锦里/DSC_8072.7hr4m74z1ik0.webp
   location:
     - 30.649969
     - 104.046501
 
 成都 · 人民公园:
-  url: ChengDu_renmingongyuan
+  url: 成都_人民公园
   date: "2021-07-16"
   style: default
-  cover: ChengDu_renmingongyuan/DSC_8000.5j75ff4csf00.webp
+  cover: 成都_人民公园/DSC_8000.5j75ff4csf00.webp
   location:
     - 30.659538
     - 104.055190
 
 成都 · 武侯祠:
-  url: ChengDu_wuhouci
+  url: 成都_武侯祠
   date: "2021-07-16"
   style: default
-  cover: ChengDu_wuhouci/DSC_7834.5uzmnbpt6qs0.webp
+  cover: 成都_武侯祠/DSC_7834.5uzmnbpt6qs0.webp
   location:
     - 30.648718
     - 104.045487
 
 成都 · 东郊记忆:
-  url: ChengDu_dongjiaojiyi
+  url: 成都_东郊记忆
   date: "2021-07-15"
   style: default
-  cover: ChengDu_dongjiaojiyi/DSC_7721.652v27rd46w0.webp
+  cover: 成都_东郊记忆/DSC_7721.652v27rd46w0.webp
   location:
     - 30.671140
     - 104.120353
 
 成都 · 熊猫基地:
-  url: ChengDu_xiongmaojidi
+  url: 成都_熊猫基地
   date: "2021-07-15"
   style: default
-  cover: ChengDu_xiongmaojidi/DSC_7647.2ir8zxli0p40.webp
+  cover: 成都_熊猫基地/DSC_7647.2ir8zxli0p40.webp
   location:
     - 30.743382
     - 104.136734
 
 成都 · 都江堰:
-  url: ChengDu_dujiangyan
+  url: 成都_都江堰
   date: "2021-07-14"
   style: default
-  cover: ChengDu_dujiangyan/DSC_7548.5b59thttv8s0.webp
+  cover: 成都_都江堰/DSC_7548.5b59thttv8s0.webp
   location:
     - 31.005146
     - 103.607098
 
 成都 · 四川博物院:
-  url: ChengDu_sichuanbowuyuan
+  url: 成都_四川博物院
   date: "2021-07-13"
   style: default
-  cover: ChengDu_sichuanbowuyuan/20210713-DSC_7276.2qyg15x3o0m0.webp
+  cover: 成都_四川博物院/20210713-DSC_7276.2qyg15x3o0m0.webp
   location:
     - 30.663280
     - 104.031698
 
 成都 · 宽窄巷子:
-  url: ChengDu_kuanzhaixiangzi
+  url: 成都_宽窄巷子
   date: "2021-07-13"
   style: default
-  cover: ChengDu_kuanzhaixiangzi/DSC_7376.2gci43gx4h34.webp
+  cover: 成都_宽窄巷子/DSC_7376.2gci43gx4h34.webp
   location:
     - 30.666134
     - 104.051096
 
 成都 · 杜甫草堂:
-  url: ChengDu_dufucaotang
+  url: 成都_杜甫草堂
   date: "2021-07-13"
   style: default
-  cover: ChengDu_dufucaotang/DSC_7112.28gc3ii04idc.webp
+  cover: 成都_杜甫草堂/DSC_7112.28gc3ii04idc.webp
   location:
     - 30.663557
     - 104.025425
 
 成都 · 四川大学:
-  url: ChengDu_sichuandaxue
+  url: 成都_四川大学
   date: "2021-07-12"
   style: default
-  cover: ChengDu_sichuandaxue/DSC_6960.57zqrwy97xs0.webp
+  cover: 成都_四川大学/DSC_6960.57zqrwy97xs0.webp
   location:
     - 30.633105
     - 104.081204
 
 成都 · 街道:
-  url: ChengDu_jiedao
+  url: 成都_街道
   date: "2021-07-12"
   style: default
-  cover: ChengDu_jiedao/DSC_7008.7iabu0ssd600.webp
+  cover: 成都_街道/DSC_7008.7iabu0ssd600.webp
   location:
     - 30.641751
     - 104.085374
 
-深圳 · 大芬油画村(1):
-  url: ShenZhen_dafenyouhuacun1
+深圳 · 大芬油画村:
+  url: 深圳_大芬油画村
   date: "2021-05-01"
   style: default
-  cover: ShenZhen_dafenyouhuacun1/DSC_6853.25xy294tbw5c.webp
+  cover: 深圳_大芬油画村/DSC_6853.25xy294tbw5c.webp
   location:
     - 22.612410
     - 114.131518
 
 深圳 · 莲花山:
-  url: ShenZhen_lianhuashan
+  url: 深圳_莲花山
   date: "2021-05-01"
   style: default
-  cover: ShenZhen_lianhuashan/DSC_6835.3w6lcly4dak0.webp
+  cover: 深圳_莲花山/DSC_6835.3w6lcly4dak0.webp
   location:
     - 22.556324
     - 114.053523
 
 深圳 · 规划展览馆:
-  url: ShenZhen_guihuazhanlanguan
+  url: 深圳_规划展览馆
   date: "2021-05-01"
   style: default
-  cover: ShenZhen_guihuazhanlanguan/DSC_6812.6m0ui9abq8c0.webp
+  cover: 深圳_规划展览馆/DSC_6812.6m0ui9abq8c0.webp
   location:
     - 22.548501
     - 114.056740
 
 广州 · 黄花岗烈士陵园:
-  url: GuangZhou_huanghuagang
+  url: 广州_黄花岗烈士陵园
   date: "2021-04-04"
   style: default
-  cover: GuangZhou_huanghuagang/psc.1pjr3t9ogzpc.webp
+  cover: 广州_黄花岗烈士陵园/psc.1pjr3t9ogzpc.webp
   location:
     - 23.143986
     - 113.294664
 
 珠海 · 横琴大桥:
-  url: ZhuHai_hengqing
+  url: 珠海_横琴大桥
   date: "2021-02-13"
   style: default
-  cover: ZhuHai_hengqing/DSC_6688.1n4belcdusg0.webp
+  cover: 珠海_横琴大桥/DSC_6688.1n4belcdusg0.webp
   location:
     - 22.162809
     - 113.512910
 
 珠海 · 日月贝:
-  url: ZhuHai_riyuebei
+  url: 珠海_日月贝
   date: "2020-08-30"
   style: default
-  cover: ZhuHai_riyuebei/DSC_4499-(2).2psw5me7dpk0.webp
+  cover: 珠海_日月贝/DSC_4499-(2).2psw5me7dpk0.webp
   location:
     - 22.287199
     - 113.583998
 
 肇庆 · 阅江楼:
-  url: Zhaoqing_yuejianglou
+  url: 肇庆_阅江楼
   date: "2020-05-01"
   style: default
-  cover: Zhaoqing_yuejianglou/DSC_4028.2htyvz77bqw0.webp
+  cover: 肇庆_阅江楼/DSC_4028.2htyvz77bqw0.webp
   location:
     - 23.047354
     - 112.466701
 
 肇庆 · 七星岩:
-  url: Zhaoqing_qixingyan
+  url: 肇庆_七星岩
   date: "2020-05-01"
   style: default
-  cover: Zhaoqing_qixingyan/DSC_4011.39sguqx52zm0.webp
+  cover: 肇庆_七星岩/DSC_4011.39sguqx52zm0.webp
   location:
     - 23.076761
     - 112.467108
 
 广州 · 石室圣心大教堂:
-  url: GuangZhou_shishishengxindajiaotang
+  url: 广州_石室圣心大教堂
   date: "2019-08-11"
   style: default
-  cover: GuangZhou_shishishengxindajiaotang/psc.51kcq2e80z40.webp
+  cover: 广州_石室圣心大教堂/psc.51kcq2e80z40.webp
   location:
     - 23.117318
     - 113.254884
 
 武汉 · 江汉路:
-  url: WuHan_jianghanlu
+  url: 武汉_江汉路
   date: "2019-08-05"
   style: default
-  cover: WuHan_jianghanlu/DSC_2268.28iw9d0hps5c.webp
+  cover: 武汉_江汉路/DSC_2268.28iw9d0hps5c.webp
   location:
     - 30.581749
     - 114.288018
 
 武汉 · 长江大桥:
-  url: WuHan_changjiangdaqiao
+  url: 武汉_长江大桥
   date: "2019-08-04"
   style: default
-  cover: WuHan_changjiangdaqiao/DSC_2150.14vyeo3h5h28.webp
+  cover: 武汉_长江大桥/DSC_2150.14vyeo3h5h28.webp
   location:
     - 30.549834
     - 114.287008
 
 武汉 · 黄鹤楼:
-  url: WuHan_huanghelou
+  url: 武汉_黄鹤楼
   date: "2019-08-04"
   style: default
-  cover: WuHan_huanghelou/DSC_1943.5pqvg7gd2ys0.webp
+  cover: 武汉_黄鹤楼/DSC_1943.5pqvg7gd2ys0.webp
   location:
     - 30.547198
     - 114.296981
 
 长沙 · 坡子街:
-  url: Changsha_pozijie
+  url: 长沙_坡子街
   date: "2019-07-22"
   style: default
-  cover: Changsha_pozijie/DSC_1318.7h7turqe5bw0.webp
+  cover: 长沙_坡子街/DSC_1318.7h7turqe5bw0.webp
   location:
     - 28.193965
     - 112.966081
 
 长沙 · 橘子洲:
-  url: Changsha_juzizhou
+  url: 长沙_橘子洲
   date: "2019-07-22"
   style: default
-  cover: Changsha_juzizhou/DSC_1075.8nr5pdm57jc.webp
+  cover: 长沙_橘子洲/DSC_1075.8nr5pdm57jc.webp
   location:
     - 28.171110
     - 112.954906
 
 长沙 · 岳麓山:
-  url: Changsha_yuelushushan
+  url: 长沙_岳麓山
   date: "2019-07-22"
   style: default
-  cover: Changsha_yuelushushan/DSC_1177.7ce4zvlu2xk0.webp
+  cover: 长沙_岳麓山/DSC_1177.7ce4zvlu2xk0.webp
   location:
     - 28.187210
     - 112.930842
 
 阳江 · 海陵岛:
-  url: YangJiang_hailingdao
+  url: 阳江_海陵岛
   date: "2019-07-12"
   style: default
-  cover: YangJiang_hailingdao/DSC_0693.5din2t08n4c0.webp
+  cover: 阳江_海陵岛/DSC_0693.5din2t08n4c0.webp
   location:
     - 21.620890
     - 111.906996
